@@ -40,21 +40,11 @@ TEST_RECIPE = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\recipe
 class FuParser(object):
     def __init__(self):
         self.extractor_recipes = {}
-        self.extractor_sources = defaultdict(list)
         self.friendly_names = {}
-        self.interesting_drops = defaultdict(list)
         self.recipes = nx.DiGraph()
         self.unfriendly_names = {}
         self.xeno_recipes = {}
-        self.xeno_sources = defaultdict(list)
-        
-    def parse_craftables(self):
-        """Parses all the recipes into NetworkX DiGraph object."""
-        for recipe_file in iglob('{0}/**/*.recipe'.format(FU_PATH), recursive=True):
-            pass
-        for recipe_file in iglob('{0}/**/*.recipe'.format(SB_PATH), recursive=True):
-            pass
-        
+
     def parse_centrifuge_data(self):
         # ToDo parse centrifuge data
         pass
@@ -68,7 +58,18 @@ class FuParser(object):
         with open(EXTRACTION_DATA, 'r') as extract:
             # ToDo read extraction data
             pass
-    
+
+    def parse_recipes(self):
+        """Parses all the recipes into NetworkX DiGraph object."""
+        for recipe_file in iglob('{0}/**/*.recipe'.format(FU_PATH), recursive=True):
+            materials, result = read_recipe(recipe_file)
+            for material in materials:
+                self.recipes.add_edge(material, result)
+        for recipe_file in iglob('{0}/**/*.recipe'.format(SB_PATH), recursive=True):
+            materials, result = read_recipe(recipe_file)
+            for material in materials:
+                self.recipes.add_edge(material, result)
+
     def parse_xeno_data(self):
         with open(XENO_DATA, 'r') as xeno:
             # ToDo read xeno data
@@ -118,6 +119,11 @@ def read_friendly_name(input_file):
                 description = line.split(':')[1].split('"')[1]
                 description = filter_description(description)
                 return description
+
+
+def read_recipe(recipe_file):
+    # ToDo Should return input materials and output result
+    return ((None,), None)
 
 
 def main():
