@@ -21,16 +21,20 @@
 
 from collections import defaultdict
 from glob import iglob
+import json
 import networkx as nx
 import wx
 
+CENTRIFUGE_DATA = 'centrifuge_recipes.config'
 DROP_DATA = 'cropharvest.treasurepools.patch'
-EXTRACTION_DATA = 'extractionlab.lua'
+EXTRACTION_DATA = 'extractionlab_recipes.config'
+FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\recipes'
 INTERESTING_DROPS = ['ff_resin', 'silk']
-X_MODIFIER = 3
-X_OFFSET = 1
-XENO_DATA = 'xenolab.lua'
-Y_MODIFIER = 3
+SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
+XENO_DATA = 'xenolab_recipes.config'
+
+# DEBUG TEST DATA
+TEST_RECIPE = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\recipes\anvil1\armor\tier1\aviantier1head.recipe'
 
 
 class FuParser(object):
@@ -46,9 +50,15 @@ class FuParser(object):
         
     def parse_craftables(self):
         """Parses all the recipes into NetworkX DiGraph object."""
-        for recipe_file in iglob('**/*.recipe', recursive=True):
+        for recipe_file in iglob('{0}/**/*.recipe'.format(FU_PATH), recursive=True):
+            pass
+        for recipe_file in iglob('{0}/**/*.recipe'.format(SB_PATH), recursive=True):
             pass
         
+    def parse_centrifuge_data(self):
+        # ToDo parse centrifuge data
+        pass
+
     def parse_drop_data(self):
         """Finds interesting drops from the loot tables."""
         # ToDo
@@ -56,14 +66,17 @@ class FuParser(object):
 
     def parse_extraction_data(self):
         with open(EXTRACTION_DATA, 'r') as extract:
+            # ToDo read extraction data
             pass
     
     def parse_xeno_data(self):
         with open(XENO_DATA, 'r') as xeno:
+            # ToDo read xeno data
             pass
                     
     def read_friendly_names(self):
         """Reads the more friendly names used within the game from the .item files."""
+        # ToDo Can this be refactored to use json module?
         for item_file in iglob('**/*.*item*', recursive=True):
             if '.patch' in item_file:
                 continue
@@ -98,6 +111,7 @@ def filter_description(description):
 
 def read_friendly_name(input_file):
     """Reads the 'shortdescription' from the given Starbound file and returns it"""
+    # ToDo rewrite to use json module
     with open(input_file, 'r') as item_file:
         for line in item_file:
             if 'shortdescription' in line:
