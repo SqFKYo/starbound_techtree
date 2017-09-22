@@ -37,7 +37,7 @@ XENO_DATA = 'xenolab_recipes.config'
 TEST_RECIPE = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\recipes\anvil1\armor\tier1\aviantier1head.recipe'
 
 
-class FuParser(object):
+class SbParser(object):
     def __init__(self):
         self.extractor_recipes = {}
         self.friendly_names = {}
@@ -51,7 +51,7 @@ class FuParser(object):
 
     def parse_drop_data(self):
         """Finds interesting drops from the loot tables."""
-        # ToDo
+        # ToDo parse drop data
         pass
 
     def parse_extraction_data(self):
@@ -77,7 +77,7 @@ class FuParser(object):
                     
     def read_friendly_names(self):
         """Reads the more friendly names used within the game from the .item files."""
-        # ToDo Can this be refactored to use json module?
+        # ToDo Can read_friendly_names be refactored to use json module?
         for item_file in iglob('**/*.*item*', recursive=True):
             if '.patch' in item_file:
                 continue
@@ -101,6 +101,7 @@ def filter_description(description):
     e.g. ^#88e25b;Nuclear Core^white; -> Nuclear Core
          ^red;Arm Cannon -> Arm Cannon
     """
+    # ToDo feature for filter_description
     description = description.strip(';')
     if '^' in description:
         return description.split(';')[1].split('^')[0]
@@ -112,7 +113,7 @@ def filter_description(description):
 
 def read_friendly_name(input_file):
     """Reads the 'shortdescription' from the given Starbound file and returns it"""
-    # ToDo rewrite to use json module
+    # ToDo rewrite read_friendly_name to use json module
     with open(input_file, 'r') as item_file:
         for line in item_file:
             if 'shortdescription' in line:
@@ -122,12 +123,12 @@ def read_friendly_name(input_file):
 
 
 def read_recipe(recipe_file):
-    # ToDo Should return input materials and output result
+    # ToDo read_recipe Should return input materials and output result
     return ((None,), None)
 
 
 def main():
-    parser = FuParser()
+    parser = SbParser()
 
 
 if __name__ == '__main__':
