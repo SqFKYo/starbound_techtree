@@ -1,5 +1,21 @@
 Feature: Recipe materials and outputs are parsed correctly
 
-  @recipe_parsing @vanilla_sb @todo
-  Scenario: Vanilla recipe is parsed correctly
-    # Enter steps here
+  @recipe_finding @todo
+  Scenario: Recipes are found in the data structure
+    Given vanilla Starbound folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets
+    And Farckin' Universe folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU
+    When recipes are parsed
+    Then aviantier1head recipe is found
+    And pettether recipe is found
+    And blastingdynamite recipe is found
+    And avikancactusseed recipe is found
+
+  @recipe_parsing @todo
+  Scenario: Recipes are parsed correctly
+    Given vanilla Starbound folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets
+    And Farckin' Universe folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU
+    When recipes are parsed
+    Then aviantier1head is crafted using ironbar and fabric
+    And pettether is crafted using durasteelbar and diamond and phasematter
+    And blastingdynamite is crafted using ammoniumsulfate and saltpeter and ff_plastic
+    And avikancactusseed is crafted using cacti and gene_immunity and gene_stimulant
