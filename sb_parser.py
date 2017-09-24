@@ -37,7 +37,7 @@ class SbParser(object):
     def __init__(self):
         self.extractor_recipes = {}
         self.friendly_names = {}
-        self.recipes = nx.DiGraph()
+        self.crafting_recipes = nx.DiGraph()
         self.unfriendly_names = {}
         self.xeno_recipes = {}
 
@@ -49,6 +49,17 @@ class SbParser(object):
         # ToDo parse centrifuge data
         pass
 
+    def parse_crafting_recipes(self):
+        """Parses all the recipes into NetworkX DiGraph object."""
+        for recipe_file in iglob('{0}/**/*.recipe'.format(FU_PATH), recursive=True):
+            materials, result = read_recipe(recipe_file)
+            for material in materials:
+                self.crafting_recipes.add_edge(material, result)
+        for recipe_file in iglob('{0}/**/*.recipe'.format(SB_PATH), recursive=True):
+            materials, result = read_recipe(recipe_file)
+            for material in materials:
+                self.crafting_recipes.add_edge(material, result)
+
     def parse_drop_data(self):
         """Finds interesting drops from the loot tables."""
         # ToDo read treasure drop data treasure\cropharvest.treasurepools(.patch)
@@ -58,17 +69,6 @@ class SbParser(object):
         with open(EXTRACTION_DATA, 'r') as extract:
             # ToDo read extraction data
             pass
-
-    def parse_recipes(self):
-        """Parses all the recipes into NetworkX DiGraph object."""
-        for recipe_file in iglob('{0}/**/*.recipe'.format(FU_PATH), recursive=True):
-            materials, result = read_recipe(recipe_file)
-            for material in materials:
-                self.recipes.add_edge(material, result)
-        for recipe_file in iglob('{0}/**/*.recipe'.format(SB_PATH), recursive=True):
-            materials, result = read_recipe(recipe_file)
-            for material in materials:
-                self.recipes.add_edge(material, result)
 
     def parse_xeno_data(self):
         with open(XENO_DATA, 'r') as xeno:
@@ -123,8 +123,12 @@ def read_friendly_name(input_file):
 
 
 def read_recipe(recipe_file):
-    # ToDo read_recipe Should return input materials and output result
-    return ((None,), None)
+    """Reads recipe json file and returns inputs and the output as tuple of generator exp and string"""
+    with open(recipe_file, 'r') as f:
+        loaded_file = json.load(f)
+        output = loaded_file['output']['item']
+        inputs = (x['item'] for x in loaded_file['input'])
+    return (inputs, output)
 
 
 def main():

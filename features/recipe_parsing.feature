@@ -1,6 +1,6 @@
 Feature: Recipe materials and outputs are parsed correctly
 
-  @recipe_finding @todo
+  @recipe_finding
   Scenario: Recipes are found in the data structure
     Given vanilla Starbound folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets
     And Frackin' Universe folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU
@@ -11,7 +11,7 @@ Feature: Recipe materials and outputs are parsed correctly
     And blastingdynamite recipe is found
     And avikancactusseed recipe is found
 
-  @recipe_parsing @todo
+  @recipe_parsing
   Scenario: Recipes are parsed correctly
     Given vanilla Starbound folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets
     And Frackin' Universe folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU
