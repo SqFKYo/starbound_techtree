@@ -106,13 +106,15 @@ def dump_friendly_names(dump_file):
                 friendly_names[unfriendly_name] = friendly_name
                 unfriendly_names[friendly_name] = unfriendly_name
             except json.decoder.JSONDecodeError:
-                print(item_file)
                 if any([armor in item_file for armor in ARMORS]):
-                    read_file = f.readlines()
-                    friendly_name = next(line for line in read_file if 'shortdescription' in line).split(':')[1].strip().strip('",')
-                    unfriendly_name = next(line for line in read_file if 'itemName' in line).split(':')[1].strip().strip('",')
-                    friendly_names[unfriendly_name] = friendly_name
-                    unfriendly_names[friendly_name] = unfriendly_name
+                    with open(item_file, 'r') as f:
+                        read_file = f.readlines()
+                        friendly_line = next(line for line in read_file if 'shortdescription' in line)
+                        friendly_name = friendly_line.split(':')[1].strip().strip('",')
+                        unfriendly_line = next(line for line in read_file if 'itemName' in line)
+                        unfriendly_name = unfriendly_line.split(':')[1].strip().strip('",')
+                        friendly_names[unfriendly_name] = friendly_name
+                        unfriendly_names[friendly_name] = unfriendly_name
                 else:
                     print(item_file)
             except KeyError:
@@ -120,8 +122,8 @@ def dump_friendly_names(dump_file):
     for item_file in iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True):
         pass
     # ToDo ditto for objects folder and FU folders
-    print(friendly_names)
-    print(unfriendly_names)
+    print('apextier1chest' in friendly_names)
+    print("Defector's Chestguard" in unfriendly_names)
     raise NotImplementedError
 
 
