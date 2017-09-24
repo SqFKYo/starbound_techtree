@@ -11,14 +11,14 @@ Feature: Centrifuge, extraction lab and xeno lab recipes are parsed correctly
     And centrifuge extracting toxicwaste produces uraniumore at common and tritium at rarest
     And centrifuge extracting sand2 produces biospore at rarest and sand at common and ff_silicon at rare
 
-  @recipe_parsing @extraction_lab @todo
+  @recipe_parsing @extraction_lab @wip
   Scenario: Extraction lab recipes are read correctly
     Given Frackin' Universe folder is C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU
     When SbParser is initialized
     And extraction recipes are parsed
     Then lab extracting tentacleplant produces geneticmaterial
     And lab extracting poop produces fu_nitrogen
-    And lab extracting ironblock produces ironbar
+    And lab extracting giantfloranpod produces agaranichor and geneticmaterial
     And lab extracting choppedonion produces tissueculture
 
   @recipe_parsing @xeno_lab @todo
@@ -28,5 +28,5 @@ Feature: Centrifuge, extraction lab and xeno lab recipes are parsed correctly
     And xeno recipes are parsed
     Then xeno extracting soakedwheat produces wheatsprout
     And xeno extracting nakatibark produces gene_defense
-    And xeno ignuschiliseed nakatibark produces gene_reactive and gene_pyro
+    And xeno extracting ignuschiliseed nakatibark produces gene_reactive and gene_pyro
     And xeno extracting wildvines produces gene_chloroplast

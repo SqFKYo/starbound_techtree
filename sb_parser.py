@@ -133,7 +133,13 @@ def read_recipe(recipe_file):
 
 def main():
     parser = SbParser()
-
+    parser.read_friendly_names()
+    parser.parse_crafting_recipes()
+    parser.parse_centrifuge_data()
+    parser.parse_extraction_data()
+    parser.parse_xeno_data()
+    parser.parse_drop_data()
+    parser.parse_biome_data()
 
 if __name__ == '__main__':
     main()
