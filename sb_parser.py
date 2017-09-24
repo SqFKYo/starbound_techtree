@@ -19,7 +19,6 @@
 #  
 #  
 
-from collections import defaultdict
 from glob import iglob
 import json
 import networkx as nx
@@ -33,9 +32,6 @@ INTERESTING_DROPS = ['ff_resin', 'silk']
 SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 XENO_DATA = 'xenolab_recipes.config'
 
-# DEBUG TEST DATA
-TEST_RECIPE = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\recipes\anvil1\armor\tier1\aviantier1head.recipe'
-
 
 class SbParser(object):
     def __init__(self):
@@ -45,13 +41,17 @@ class SbParser(object):
         self.unfriendly_names = {}
         self.xeno_recipes = {}
 
+    def parse_biome_data(self):
+        # ToDo read biome data to determine where to get raw ingredients biomes\**\.biome and patch files
+        pass
+
     def parse_centrifuge_data(self):
         # ToDo parse centrifuge data
         pass
 
     def parse_drop_data(self):
         """Finds interesting drops from the loot tables."""
-        # ToDo parse drop data
+        # ToDo read treasure drop data treasure\cropharvest.treasurepools(.patch)
         pass
 
     def parse_extraction_data(self):
