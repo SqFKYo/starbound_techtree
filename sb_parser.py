@@ -22,15 +22,20 @@
 from glob import iglob
 import json
 import networkx as nx
+import os
 import wx
 
+# Not yet used
 CENTRIFUGE_DATA = 'centrifuge_recipes.config'
 DROP_DATA = 'cropharvest.treasurepools.patch'
 EXTRACTION_DATA = 'extractionlab_recipes.config'
-FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\recipes'
+FRIENDLY_NAMES = 'friendly_names.csv'
 INTERESTING_DROPS = ['ff_resin', 'silk']
-SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 XENO_DATA = 'xenolab_recipes.config'
+
+# Currently in use
+FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
+SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 
 
 class SbParser(object):
@@ -51,11 +56,11 @@ class SbParser(object):
 
     def parse_crafting_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
-        for recipe_file in iglob('{0}/**/*.recipe'.format(FU_PATH), recursive=True):
+        for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True):
             materials, result = read_recipe(recipe_file)
             for material in materials:
                 self.crafting_recipes.add_edge(material, result)
-        for recipe_file in iglob('{0}/**/*.recipe'.format(SB_PATH), recursive=True):
+        for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(SB_PATH), recursive=True):
             materials, result = read_recipe(recipe_file)
             for material in materials:
                 self.crafting_recipes.add_edge(material, result)
@@ -76,24 +81,50 @@ class SbParser(object):
             pass
                     
     def read_friendly_names(self):
-        """Reads the more friendly names used within the game from the .item files."""
-        # ToDo Can read_friendly_names be refactored to use json module?
-        for item_file in iglob('**/*.*item*', recursive=True):
-            if '.patch' in item_file:
-                continue
-            key = item_file.split('\\')[-1].split('.')[0]
-            friendly_name = read_friendly_name(item_file)
-            self.friendly_names[key] = friendly_name
-            self.unfriendly_names[friendly_name] = key
-        for item_file in iglob('**/*.object', recursive=True):
-            if '.patch' in item_file:
-                continue
-            key = item_file.split('\\')[-1].split('.')[0]
-            friendly_name = read_friendly_name(item_file)
-            self.friendly_names[key] = friendly_name
-            self.unfriendly_names[friendly_name] = key
+        """Reads the more friendly names used within the game from the previously created file."""
+        with open(FRIENDLY_NAMES, 'r') as f:
+            pass
+        raise NotImplementedError
 
-        
+
+def dump_friendly_names(dump_file):
+    """Reads the friendly names used within the game from the item and object folders and dumps them into a file."""
+    # ToDo Can read_friendly_names be refactored to use json module?
+    ARMORS = ['.back', '.chest', '.head', '.legs']
+    SKIPPABLES = ['.activeitem', '.animation', '.combofinisher', '.config', '.frames', '.inspectiontool',
+                  '.lua', '.patch', '.png', '.unlock', '.weaponability', '.weaponcolors']
+    friendly_names = {}
+    unfriendly_names = {}
+    for item_file in iglob('{0}/items/**/*.*'.format(SB_PATH), recursive=True):
+        if any([to_skip in item_file for to_skip in SKIPPABLES]):
+            continue
+        with open(item_file, 'r') as f:
+            try:
+                loaded_file = json.load(f)
+                friendly_name = loaded_file['shortdescription']
+                unfriendly_name = loaded_file['itemName']
+                friendly_names[unfriendly_name] = friendly_name
+                unfriendly_names[friendly_name] = unfriendly_name
+            except json.decoder.JSONDecodeError:
+                print(item_file)
+                if any([armor in item_file for armor in ARMORS]):
+                    read_file = f.readlines()
+                    friendly_name = next(line for line in read_file if 'shortdescription' in line).split(':')[1].strip().strip('",')
+                    unfriendly_name = next(line for line in read_file if 'itemName' in line).split(':')[1].strip().strip('",')
+                    friendly_names[unfriendly_name] = friendly_name
+                    unfriendly_names[friendly_name] = unfriendly_name
+                else:
+                    print(item_file)
+            except KeyError:
+                print(item_file)
+    for item_file in iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True):
+        pass
+    # ToDo ditto for objects folder and FU folders
+    print(friendly_names)
+    print(unfriendly_names)
+    raise NotImplementedError
+
+
 def filter_description(description):
     """
     Removes color codes from the description and returns the result.
@@ -109,17 +140,6 @@ def filter_description(description):
         return description.split(';')[1]
     else:
         return description
-
-
-def read_friendly_name(input_file):
-    """Reads the 'shortdescription' from the given Starbound file and returns it"""
-    # ToDo rewrite read_friendly_name to use json module
-    with open(input_file, 'r') as item_file:
-        for line in item_file:
-            if 'shortdescription' in line:
-                description = line.split(':')[1].split('"')[1]
-                description = filter_description(description)
-                return description
 
 
 def read_recipe(recipe_file):
@@ -142,4 +162,5 @@ def main():
     parser.parse_biome_data()
 
 if __name__ == '__main__':
+    dump_friendly_names(None)
     main()
