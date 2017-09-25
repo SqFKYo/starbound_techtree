@@ -95,21 +95,38 @@ class SbParser(object):
 
 
 class SbParserGUI(wx.Frame):
-    def __init__(self, parent, title):
+    def __init__(self, parent, title, parser):
         super().__init__(parent, title=title)
+        self.parser = parser
         self._initialize()
 
     def _initialize(self):
+        filtered_choices = []
+        for name in nx.nodes(self.parser.crafting_recipes):
+            try:
+                filtered_choices.append(self.parser.friendly_names[name])
+            except KeyError:
+                filtered_choices.append(name)
+        selector_wx = wx.ComboBox(self, choices=sorted(filtered_choices))
+
         sizer = wx.GridBagSizer(0, 0)
+        sizer.Add(selector_wx, pos=(0,0), flag=wx.EXPAND)
 
         self.SetSizerAndFit(sizer)
         self.Center()
         self.Show()
 
+    def _choose_recipe(self, event):
+        self._update_tree()
+
+    def _update_tree(self):
+        """Updades TreeCtrl based on the combobox selection"""
+        raise NotImplementedError
+
 
 def dump_friendly_names(dump_file):
     """Reads the friendly names used within the game from the item and object folders and dumps them into a file."""
-    skippables = ['.activeitem', '.animation', '.bush', '.combofinisher', '.config', '.db', '.frames',
+    skippables = ['.animation', '.bush', '.combofinisher', '.config', '.db', '.frames',
                   '.inspectiontool', '.lua', '.matmod', '.ogg', '.patch', '.png', '.projectile', '.recipe',
                   '.statuseffect', '.txt', '.unlock', '.wav', '.weaponability', '.weaponcolors']
     friendly_names = {}
@@ -185,9 +202,10 @@ def main():
     #parser.parse_drop_data()
     #parser.parse_biome_data()
     app = wx.App()
-    SbParserGUI(None, title="Rick's SB brain")
+    SbParserGUI(None, title="Rick's SB brain", parser=parser)
     app.MainLoop()
 
 
 if __name__ == '__main__':
+    #dump_friendly_names(FRIENDLY_NAMES)
     main()

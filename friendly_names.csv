@@ -1,3 +1,217 @@
+durablefishingrod;Durable Fishing Rod
+fishingrod;Fishing Rod
+fossilbrushbeginner;Basic Fossil Brush
+fossilbrushmaster;Master Fossil Brush
+fossilbrushstudent;Advanced Fossil Brush
+climbingrope;Rope
+grapplinghook;Grappling Hook
+mechblueprint3;Simple Mech Blueprint
+mechblueprint4;Advanced Mech Blueprint
+mechblueprint5;High-Tech Mech Blueprint
+mechblueprint6;Experimental Mech Blueprint
+commonlargeshield;Large Shield
+commonsmallshield;Small Shield
+eyeshield;Eye Shield
+floranshield;Floran Shield
+frostshield;Frost Shield
+mushroomshield;Mushroom Shield
+riotshield;Riot Shield
+seashellshield;Seashell Shield
+startershield;Basic Shield
+stationtransponder;Station Transponder
+broom;Broom
+bugnet;Bug Net
+filledcapturepod;Filled Capture Pod
+npcpetcapturepod;Filled Capture Pod
+geode;Geode
+cavedetector;Cave Detector
+oredetector;Ore Detector
+parasol;Parasol
+penguincostume;Penguin Costume
+railhook;Rail Hook
+compositerailplatform;Composite Rail Platform
+rustyrailplatform;Rusty Rail Platform
+stationtram;Rail Tram
+relocator;Relocator
+rewardbag;Reward Bag
+superrewardbag;Special Reward
+translocator;Translocator
+wateringcan;Watering Can
+woodenwateringcan;Wooden Watering Can
+boatcontrollergreen;Green Boat Controller
+hoverbikecontrollergreen;Green Hoverbike Controller
+hoverbikecontrollerkhaki;Khaki Hoverbike Controller
+hoverbikecontrollerred;Red Hoverbike Controller
+bruisersword;Bruiser's Broadsword
+flamethrowerblade;Flamethrower Blade
+hunterrifle;Vintage Scoped Rifle
+boomerang;Boomerang
+fireboomerang;Molten Boomerang
+iceboomerang;Frozen Boomerang
+lunarang;Lunarang
+wormerang;Giant Worm
+dragonhead;Dragonhead Pistol
+erchiuseye;Erchius Eye
+ixodoomclaw;Ixodoom Claw
+kluexstaff;Kluex Staff
+miniknoglauncher;Miniknog Launcher
+soluskatana;Solus Katana
+bow;Hunting Bow
+cavebow;Rock Bow
+compoundbow;Compound Bow
+cupidsbow;Cupid's Bow
+frozenbow;Frozen Bow
+harpoongun;Harpoon Gun
+lightbow;Light Bow
+poisonbow;Poison Bow
+pollenpump;Pollen Pump
+tungstenbow;Tungsten Hunting Bow
+chakram;Chakram
+hardchakram;Hard Chakram
+neochakram;Neo Chakram
+sawchakram;Saw Chakram
+boxingglove;Boxing Glove
+brassknuckles;Brass Knuckles
+clawglove;Claw Glove
+gauntlet;Gauntlet
+stunglove;Stun Glove
+supernovaglove;Supernova Gauntlet
+vinefist;Vine Fist
+commonaxe;Common Axe
+fryingpan;Frying Pan
+rareaxe;Rare Axe
+uncommonaxe;Uncommon Axe
+astrosabredeluxe;Asuterosaberu DX
+commonbroadsword;Common Broadsword
+hokucide;Hokucide
+legendblade;Legend Sword
+rarebroadsword;Rare Broadsword
+stoneblade;Stone Sword
+timepierce;Time Pierce
+uncommonbroadsword;Uncommon Broadsword
+commondagger;Common Dagger
+raredagger;Rare Dagger
+uncommondagger;Uncommon Dagger
+commonhammer;Common Hammer
+foldingchair;Folding Chair
+rarehammer;Rare Hammer
+uncommonhammer;Uncommon Hammer
+energypickaxe;Energy Pickaxe
+commonshortsword;Common Shortsword
+rareshortsword;Rare Shortsword
+uncommonshortsword;Uncommon Shortsword
+commonspear;Common Spear
+rarespear;Rare Spear
+uncommonspear;Uncommon Spear
+durasteelassaultrifle;Durasteel Assault Rifle
+durasteelrevolver;Durasteel Revolver
+ironassaultrifle;Iron Assault Rifle
+ironrevolver;Iron Revolver
+titaniummachinepistol;Titanium Machine Pistol
+titaniumsniperrifle;Titanium Sniper Rifle
+tungstenmagnum;Tungsten Magnum
+tungstenshotgun;Tungsten Shotgun
+npcassaultrifle;NPC Assault Rifle
+npcavianbroadsword;NPC Macuahuitl
+npcaxe;NPC Axe
+npcbow;NPC Bow
+npcbroadsword;NPC Broadsword
+npcbruisersword;NPC Bruiser's Broadsword
+npccultistbroadsword;NPC Cultist Broadsword
+npccultistshortsword;NPC Cultist Shortsword
+npcdagger;NPC Dagger
+npcdeadbeatassaultrifle;NPC Deadbeat Assault Rifle
+npcdeadbeataxe;NPC Deadbeat Axe
+npceyesword;NPC Oculus Reaver
+npcfeneroxspear;NPC Fenerox Spear
+npcfirebow;NPC Fire Bow
+npcfloranassaultrifle;NPC Floran Assault Rifle
+npchammer;NPC Hammer
+npcmachinepistol;NPC Machine Pistol
+npcpistol;NPC Semi-Automatic Pistol
+npcrocketlauncher;NPC Rocket Launcher
+npcshortsword;NPC Shortsword
+npcshotgun;NPC Shotgun
+npcsniperrifle;NPC Semi-Automatic Rifle
+npcspear;NPC Spear
+npctungstenbow;NPC Tungsten Bow
+npcwrench;NPC Wrench
+adaptablecrossbow;Adaptable Crossbow
+chargegun;Charge Gun
+drillspear;Drill Spear
+electricrailgun;Tesla's Wrath
+electrobaton;Electro Baton
+evileye;Evil Eye
+exmachina;Ex Machina
+eyesword;Oculus Reaver
+fireworkgun;Zephyr Spark Launcher
+flamingdemonsword;Firestorm's Fury
+gnomegun;Gnome Gun
+gristlegun;Cartilage Gun
+magnorbs;Magnorbs
+nurusspear;Nuru's Spear
+nurusspearmelee;Nuru's Spear
+remotegrenadelauncher;Remote Grenade Launcher
+soulseeker;Soulseeker
+tentaclegun;Alien Appendage
+wormgun;Alien Worm Gun
+brokenprotectoratebroadsword;Broken Broadsword
+durasteelbroadsword;Durasteel Broadsword
+durasteelshortsword;Durasteel Shortsword
+ironbroadsword;Iron Broadsword
+ironshortsword;Iron Shortsword
+titaniumdagger;Titanium Dagger
+titaniumspear;Titanium Spear
+tungstenaxe;Tungsten Axe
+tungstenhammer;Tungsten Hammer
+aegisaltbow;Aegisalt Bow
+aegisaltpistol;Aegisalt Pistol
+feroziumstaff;Ferozium Staff
+feroziumwand;Ferozium Wand
+protectoratebroadsword;Protector's Broadsword
+violiumbroadsword;Violium Broadsword
+violiumshortsword;Violium Shortsword
+commonassaultrifle;Common Assault Rifle
+rareassaultrifle;Rare Assault Rifle
+uncommonassaultrifle;Uncommon Assault Rifle
+flamethrower;Flamethrower
+commongrenadelauncher;Common Grenade Launcher
+raregrenadelauncher;Rare Grenade Launcher
+uncommongrenadelauncher;Uncommon Grenade Launcher
+commonmachinepistol;Common Machine Pistol
+raremachinepistol;Rare Machine Pistol
+uncommonmachinepistol;Uncommon Machine Pistol
+commonpistol;Common Pistol
+rarepistol;Rare Pistol
+uncommonpistol;Uncommon Pistol
+commonrocketlauncher;Common Rocket Launcher
+rarerocketlauncher;Rare Rocket Launcher
+uncommonrocketlauncher;Uncommon Rocket Launcher
+commonshotgun;Common Shotgun
+rareshotgun;Rare Shotgun
+uncommonshotgun;Uncommon Shotgun
+commonsniperrifle;Common Sniper Rifle
+raresniperrifle;Rare Sniper Rifle
+uncommonsniperrifle;Uncommon Sniper Rifle
+bubblegun;Bubble Blaster
+doomcannon;Doomcannon
+paintgunblue;Blue Paintgun
+paintgungreen;Green Paintgun
+paintgunorange;Orange Paintgun
+paintgunpurple;Purple Paintgun
+paintgunred;Red Paintgun
+paintgunyellow;Yellow Paintgun
+raygun;Ray Gun
+snowgun;Snowball Shooter
+spaceplasmarifle;Plasma Assault Rifle
+watergun;Squirt Gun
+rarestaff;Rare Staff
+teslastaff;Tesla's Staff
+rarewand;Rare Wand
+energywhip;Lucaine's Energy Whip
+intestinewhip;Intestine Whip
+ropewhip;Rope Whip
+vinewhip;Vine Whip
 apextier1chest;Defector's Chestguard
 apextier1head;Defector's Mask
 apextier1pants;Defector's Trousers
@@ -1700,6 +1914,758 @@ silverdrill;Silver Drill
 silverpickaxe;Silver Pickaxe
 superfishaxe;Fishaxe
 superfishaxedrop;Fishaxe (Drops)
+crewcontract;Red Shirt Contract
+crewcontract_arctic;Arctic Contract
+crewcontract_biohazard;Biohazard Contract
+crewcontract_bountyhunter;Bounty Contract
+crewcontract_chef;Chef Contract
+crewcontract_chef2;Line Chef Contract
+crewcontract_chef3;Sous Chef Contract
+crewcontract_chemistblue;Chemist-A Contract
+crewcontract_chemistgreen;Chemist-B Contract
+crewcontract_chemistorange;Chemist-C Contract
+crewcontract_chemistyellow;Chemist-D Contract
+crewcontract_collector;Collector Contract
+crewcontract_cultist;Cultist Contract
+crewcontract_cyborg;Cyborg Contract
+crewcontract_engineer;Engineer Contract
+crewcontract_engineer2;Engineer II Contract
+crewcontract_fubees;Beeguy Contract
+crewcontract_fuhunter;Hunter Contract
+crewcontract_fullama;Alpaca Contract
+crewcontract_gas;Gas Specialist Contract
+crewcontract_geologist;Geologist Contract
+crewcontract_hobo;Hobo Contract
+crewcontract_janitor;Custodian Contract
+crewcontract_magicalgirl;Magical Girl Contract
+crewcontract_mechanic;Mechanic Contract
+crewcontract_mechanic2;Mechanic II Contract
+crewcontract_medic;Medic Contract
+crewcontract_metalhead;80s Metalhead Contract
+crewcontract_outlaw;Outlaw Contract
+crewcontract_plur;PLUR Contract
+crewcontract_radien;Radien Explorer Contract
+crewcontract_science;Hobo Contract
+crewcontract_sciencedrug;Drug Specialist Contract
+crewcontract_sciencegas;Toxin Specialist Contract
+crewcontract_scuba;Scuba Contract
+crewcontract_stealth;Assassin Contract
+crewcontract_tailor;Tailor Contract
+crewcontract_volcanologist;Volcanologist Contract
+crewcontract_warrior;Warrior Contract
+crewcontract_warrior2;Veteran Contract
+crewcontract_warrior3;General Contract
+profishingrod;Pro Fishing Rod
+crystallight;Crystal Light
+tacticalmug;Tacti-Cool Mug
+fossilbrushultra;Microparticle Brush
+t;Thing
+eldergrappler;Elder Hook
+iceaxe;Ice Axe
+lasherhook;Lasher Hook
+lasherhook2;Lasher Hook II
+tethersnap;Nano-Tether
+fumementomori;Crystalline Skull
+atropusshield;Fleshrot Shield
+blistershield;Blister Shield
+bubbleshield;Aqua Shield
+densiniumshield;Densinium Shield
+diamondshield;Gishinanki Shield
+durasteelshield;Durasteel Shield
+eldershield;Elder Shield
+fubeeshield;Queen's Shield
+fubeeshield2;Amber Shield
+fuboneshield;Bony Shield
+fupioneershield;Pioneer Shield
+gladiatorshield;Gladiator Shield
+hellfireshield;Hellfire Shield
+ironshield;Iron Shield
+leathershield;Leather Shield
+lunarishield;Lunari Shield
+primitiveshield;Primitive Shield
+quantumshield;Quantum Shield
+reptileshield;Reptilian Shield
+shadowshield;Shadow Shield
+titaniumshield;Titanium Shield
+tritaniumshield;Tritanium Shield
+tungstenshield;Tungsten Shield
+xenoshield;X10 Shield
+botpod;Bot Pod
+npcbotpod;Filled Capture Pod
+bugnet2;Superior Bug Net
+fusuperrewardbag;Space-Time Crystal
+HarvesterBeam;Harvester Beamgun
+HarvesterBeam2;Harvester Beamgun II
+HarvesterBeam3;Harvester Beamgun III
+cavedetector1;Cave Detector
+oredetector1;Ore Detector MK1
+cavedetector2;Cave Detector II
+oredetector2;Ore Detector MKII
+cavedetector3;Cave Detector III
+oredetector3;Ore Detector MKIII
+oredetector3khe;Ore Detector MKIIIk
+furelocator2;Relocator II
+furelocator3;Relocator III
+furelocator4;Relocator IV
+statustablet;Personal Tricorder
+techtablet;Tech Tablet
+translocator2;Translocator II
+apexhoverbikecontroller;Apex Hoverbike
+avianhoverbikecontroller;Avian Hoverbike
+fusubcontroller;Triton Sub Controller
+fusubcontroller2;Reaver Controller
+fusubcontroller3;Sentinel Controller
+fusubcontroller4;Gryphon Controller
+fusubcontroller5;Roc Controller
+hylotlhoverbikecontroller;Hylotl Hoverbike
+bonespur;Bone Spur
+fufrisbee;Stack o' Frisbees
+nooberang;Nooberangz
+quietusboomerang;Quietus Boomerang
+shockarang;Shock Boomerang
+warspinner;Warspinner
+woodenboomerang;Wooden Boomerang
+advalloycrossbow;Alloy Crossbow
+aetheriumcrossbow;Aetherium Crossbow
+autocrossbow;Auto-Crossbow
+bonebow;Bone Bow
+carbonbow;Carbon Hunting Bow
+carnagebow;Carnage Bow
+corruptionpump;Corruption Pump
+elderbow;Elder Bow
+hellfirebow;Hellfire Bow
+irradiumbow;Irradium Bow
+lightningcrossbow;Lightning Crossbow
+lunaribow;Lunari Bow
+penumbrabow;Enigma Bow
+prismaticbow;Prismatic Bow
+protobow;Protocite Bow
+rimewind;Rimewind
+shadowstring;Shadowstring
+woodencrossbow;Wooden Crossbow
+xithricitebow;Xithricite Bow
+zerchesiumcrossbow;Zerchesium Crossbow
+aetheriumdisc;Aether Disc
+funeochakram;Proto Chakram
+fugoldchakram;Golden Chakram
+futitaniumchakram;Titanium Chakram
+fuboneclaws;Bone Claw
+extraclawglove;Zel-Claw
+fuapexclaws;Force Gauntlet
+fupowerglove;Power Glove
+fuhellclaw;Hellion Claw
+fumonsterclaw;Mutaclaw
+stabfists;Iron Fists
+advalloyaxe;Masters Battleaxe
+aetheriumaxe;Aetherium Axe
+bountyaxe;Survival Axe
+carbonaxe;Carbon Hatchet
+deathbringer;Deathbringer
+effigiumaxe;Phantasm Axe
+elderaxe;Elder Axe
+fuatropusaxe;Fleshweave Hatchet
+fuboneaxe;Bone Axe
+fucoralcleaver;Coral Cleaver
+fucultaxe;Cult Axe", //renamed to avoid confusion with actual iron axe
+irradiumaxe;Irradium Axe
+isogenaxe;Isogen Axe
+moltenaxe;Molten Axe
+nomadaxe;Nomad Axe
+poweraxe;Tritanium Axe
+pyreiteaxe;Pyreite Axe
+quietusaxe;Quietus Axe
+stoneaxe;Primitive Axe
+uraniumaxe;Uranium Axe
+xithriciteaxe;Cosmic Axe
+zerchesiumaxe;Zerchesium Axe
+advalloybroadsword;Masters Broadsword
+aetheriumbroadsword;Aetherium Broadsword
+aetheriumcleaver;Aetherium Cleaver
+coralstinger;Coral Stingblade
+coralsword;Coral Broadsword
+curvebroadsword;Breach Plasma Cleaver
+deadbeatbroadsword;Junk Cleaver
+elderbroadsword;Elder Cleaver
+energyblade;Energy Blade
+energyblade2;Antimatter Blade
+fuatropusbroadsword;Fleshweave Broadsword
+fugoldenblade;Golden Honey Blade
+hellfireblade;Hellfire Blade
+hylotlgreatscion;Great Scion
+irradiumsword;Irradium Blade
+isogenbroadsword;Isogen Ruinblade
+metalliccleaver;Metal Cleaver
+metallicsword;Junk Blade
+mineralblade;Particle Blade
+phaseblade;Phase Blade
+pyreitebroadsword;Pyreite Broadsword
+quietusemperor;Emperor Blade
+quietusgeneral;Generals Blade
+quietusknight;Knight Blade
+spikesword;Thornitox Sword
+stonebroadsword;Primitive Broadsword
+uraniumbroadsword;Uranium Blade
+warcleaver;Ferozium Cleaver
+xithricitebroadsword;Cosmic Broadsword
+zerchesiumbroadsword;Zerchesium Broadsword
+dbladelong;Tek Blade
+densiniumsword;Densinium Blade
+negablade;The Negablade
+precursorbroadsword;Precursor Rendblade
+advalloydagger;Masters Knife
+aetheriumdagger;Aetherium Punyal
+bloodyknife;Sacrificial Blade
+fucarbondagger;Carbon Knife
+curvedagger;Breach Knife
+effigiumdagger;Phantasm Knife
+fuatropusdagger;Fleshweave Knife
+fubonepickaxe;Curved Bone Blade
+glowstickgreendagger;Glowstick
+glowstickyellowdagger;Glowstick
+irradiumdagger;Irradium Dagger
+isogendagger;Isogen Knife
+pyreitedagger;Pyreite Dirk
+quietusknave;Knave's Blade
+quietusrogue;Rogue's Blade
+silverseablade;Silver Sea Blade
+stonedagger;Primitive Dagger
+uraniumdagger;Uranium Knife
+xithricitedagger;Cosmic Knife
+zerchesiumdagger;Zerchesium Knife
+durasteelgreataxe;Durasteel Greataxe
+fuatropusgreataxe;Fleshweave Greataxe
+fucommongreataxe;Common Greataxe
+furaregreataxe;Rare Greataxe
+fuuncommongreataxe;Uncommon Greataxe
+irongreataxe;Iron Greataxe
+stonegreataxe;Primitive Greataxe
+titaniumgreataxe;Titanium Greataxe
+tungstengreataxe;Tungsten Greataxe
+zerchesiumgreataxe;Zerchesium Greataxe
+advalloyhammer;Masters Mace
+aetheriumhammer;Aetherium Hammer
+effigiumhammer;Phantasm Hammer
+elderhammer;Elder Hammer
+fishboneheadbasher;Fishbone Basher
+flyingv;Lead Guitar
+fuatropushammer;Fleshweave Mace
+fubonehammer;Bone Cudgel
+fucarbonhammer;Carbon Hammerpick
+fuhoneyhammer;Amber Hammer
+fumegahoneyhammer;Queen Hammer
+fuquantumhammer;Quantum Hammer
+banehammer;Irradium Hammer
+isogenhammer;Isogen Sledge
+kelpsteelhatchet;Kelp Hammer
+metallichammer;Junk Hammer
+mystichammer;mystichammer
+pyreitehammer;Pyreite Hammer
+solarihammer;Lunari Hammer
+soulreader;soulreader
+stonehammer;Primitive Hammer
+uraniumhammer;Uranium Hammer
+xithricitehammer;Cosmic Hammer
+zerchesiumhammer;Zerchesium Mace
+rockethammer;Omega Hammer
+advalloykatana;Masters Katana
+aetheriumkatana;Aetherium Katana
+carbonkatana;Carbon Katana
+coralkatana;Coral Katana
+densiniumkatana;Densinium Katana
+diamondkatana;Diamond Katana
+durasteelkatana;Durasteel Katana
+ironkatana;Iron Katana
+ironkatana2;Kells Flawless Katana
+irradiumkatana;Irradium Katana
+isogenkatana;Isogen Katana
+lunarikatana;Lunari Katana
+pyreitekatana;Pyreite Katana
+quietuskatana;Quietus Katana
+solariumkatana;Solarium Katana
+titaniumkatana;Titanium Katana
+tungstenkatana;Tungsten Katana
+woodenkatana;Practice Katana
+zerchesiumkatana;Zerchesium Katana
+ancientlongsword;Ancient's Warblade
+fucommonlongsword;Common Longsword
+coraldullblade;Coral Longsword
+crystallineblade;Crystal Blade
+deadbeatlongsword;Junk Longsword
+effigiumbroadsword;Phantasm Blade
+fiendefeller;Fiendefeller
+fuambersword;Amber Blade
+fubonesword;Bone Cleaver
+fucellsword;Cell Blade
+fupetalsword;Queen Blade
+klinokrov;Klinokrov
+furarelongsword;Rare Longsword
+solarisword;Lunari Sword
+titaniumbroadsword;Titanium Longsword
+tungstenbroadsword;Tungsten Longsword
+fuuncommonlongsword;Uncommon Longsword
+xithricitelongsword;Cosmic Longsword
+aegisaltmace;Aegisalt Mace
+aetheriummace;Aetherium Mace
+ballmace;Balls of Steel
+bonemace;Bone Mace
+deadbeatmace;Junk Mace
+densealloymace;Dense Mace
+densiniummace;Densinium Mace
+durasteelmace;Durasteel Mace
+effigiummace;Phantasm Mace
+eldermace;Elder Soulhammer
+facebreaker;Facebreaker
+fucommonmace;Common Mace
+furaremace;Rare Mace
+fuuncommonmace;Uncommon Mace
+goldmace;Golden Maul
+hellfiremace;Hellfire Mace
+honeymace;Honeyed Mace
+ironmace;Iron Mace
+irradiummace;Irradium Mace
+isogenmace;Isogen Mace
+pyreitemace;Pyreite Mace
+quantummace;Quantum Mace
+quietusmace;Quietus Mace
+solariummace;Solarium Mace
+stonemace;Stone Club
+titaniummace;Titanium Mace
+triangliummace;Solangrium Mace
+tungstenmace;Tungsten Mace
+uraniummace;Uranium Mace
+woodenmace;Wooden Club
+zerchesiummace;Zerchesium Mace
+carbonquarterstaff;Carbon Quarterstaff
+commonqs;Common Quarterstaff
+copperquarterstaff;Copper Quarterstaff
+curvestaff;Plasma Quarterstaff
+densiniumquarterstaff;Densinium Quarterstaff
+diamondquarterstaff;Diamond Quarterstaff
+goldquarterstaff;Gold Quarterstaff
+rareqs;Rare Quarterstaff
+silverquarterstaff;Silver Quarterstaff
+solariumquarterstaff;Solarium Quarterstaff
+uncommonqs;Uncommon Quarterstaff
+aetheriumrapier;Aetherium Rapier
+diamondrapier;Diamond Rapier
+effigiumrapier;Phantasm Rapier
+fucommonrapier;Common Rapier
+furarerapier;Rare Rapier
+fuuncommonrapier;Uncommon Rapier
+goldrapier;Gold Rapier
+ironrapier;Iron Rapier
+irradiumrapier;Irradium Rapier
+quietusrapier;Scarlet Empress
+silverrapier;Silver Rapier
+aetheriumscythe;Aetherium Scythe
+densiniumscythe;Densinium Scythe
+fuatropusscythe;Fleshweave Scythe
+fubonescythe;Bone Scythe
+goldscythe;Golden Scythe
+honeyscythe;Honey Scythe
+lunariscythe;Lunari Scythe
+quietusscythe;Quellhound Scythe
+stonescythe;Primitive Scythe
+titaniumscythe;Titanium Scythe
+advalloyshortspear;Masters Shortspear
+commonshortspear;Common Shortspear
+durasteelshortspear;Durasteel Shortspear
+fuatropusshortspear;Fleshweave Shortspear
+ironshortspear;Iron Shortspear
+rareshortspear;Rare Shortspear
+stoneshortspear;Primitive Shortspear
+titaniumshortspear;Titanium Shortspear
+tritaniumshortspear;Tritanium Shortspear
+tungstenshortspear;Tungsten Shortspear
+uncommonshortspear;Uncommon Shortspear
+zerchesiumshortspear;Zerchesium Shortspear
+advalloyshortsword;Masters Shortsword
+aetheriumshortsword;Aetherium Sansibar
+blackedge;Blackedge
+boneblade;Bone Sword
+carbonblade;Carbon Shortsword
+coralsword2;Coral Shortsword
+corruptblade;Corrupted Blade
+diamondblade;Diamond Blade
+effigiumshortsword;Phantasm War-Knife
+elderblade;Elder Blade
+frostblade;Frost Blade
+fuatropusshortsword;Fleshweave Sword
+fusavethequeen;Queensguard
+fushroomsword;Mushroom Blade
+goldenseascion;Gold Sea Scion
+greenedge;Greenedge
+hardenedsteelblade;Steel Warblade
+heliosblade;Helios
+hellfire1hand;Hellfire Knife
+hylotllesserscion;Scion Clawblade
+irradiumblade;Irradium War Knife
+isogenshortsword;Isogen Shortsword
+moltenblade;Molten Sword
+obsidianblade;Obsidian Sword
+pyreiteshortsword;Pyreite Shortsword
+quietusassassin;Assassin's Blade
+quietuscaptain;Captains's Blade
+quietusmercenary;Mercenary's Blade
+redwaxsword;Red Wax Sword
+shadowblade;Shadowspike
+shadowburst;Shadow Reaper
+solariblade;Lunari Dagger
+stoneshortsword;Primitive Shortsword
+uraniumshortsword;Uranium War-Knife
+waxsword;Wax Sword
+xithriciteshortsword;Cosmic Shortsword
+zerchesiumsword;Zerchesium Blade
+dblade;Tek Blade
+fuchainsword;Chain Blade
+advalloyspear;Masters Spear
+banespear;Bane Spear
+fubonespear;Bone Spear
+carbonspear;Carbon Spear
+coralspear;Coral Spear
+corruptspear;Corrupted Spear
+cultiststaffmelee;Cultist Battle Staff
+deadbeatspear;Junk Spear
+effigiumspear;Phantasm Spear
+elderspear;Elder Spear
+flightfire;Flightfire
+fuatropusspear;Fleshweave Spear
+fucrystalspear;Crystal Spear
+fuqueenstinger;Queen Stinger
+hellfirespear;Hellfire Spear
+irradiumspear;Irradium Spear
+isogenspear;Isogen Spear
+metallicspear;Junk Spear
+npchuntingspear;Carbon Spear
+pincerspear;Pincer Spear
+pyreitespear;Pyreite Lance
+quietusspear;Quietus Spear
+siliconspear;Tek Lance
+solarispear;Lunari Spear
+stonespear;Primitive Spear
+tristab;Trimark
+tritaniumspear;Tritanium Spear
+uraniumspear;Uranium Spear
+xithricitespear;Cosmic Spear
+zerchesiumspear;Zerchesium Spear
+fudrillspear;Drill Spear
+precursorspear;Precursor Spear
+durasteelmachinepistol;Durasteel Machine Pistol
+durasteelshotgun;Durasteel Shotgun
+durasteelsniperrifle;Durasteel Sniper Rifle
+ironmachinepistol;Iron Machine Pistol
+ironshotgun;Iron Shotgun
+ironsniperrifle;Iron Sniper Rifle
+titaniumassaultrifle;Titanium Assault Rifle
+titaniumrevolver;Titanium Revolver
+titaniumshotgun;Titanium Shotgun
+tungstenassaultrifle;Tungsten Assault Rifle
+tungstenmachinepistol;Tungsten Machine Pistol
+tungstensniperrifle;Tungsten Sniper Rifle
+spiderdroidblast;Spider Blast
+spiderdroidbeam;Spider Beam
+swtjc_ewg_npcantimaterialrifle;NPC Anti-Material Rifle
+swtjc_ewg_npcautoshotgun;NPC Automatic Shotgun
+swtjc_ewg_npcbattlerifle;NPC Battle Rifle
+swtjc_ewg_npcbeampistol;NPC Beam Pistol
+swtjc_ewg_npcbeamrifle;NPC Beam Rifle
+swtjc_ewg_npcflakcannon;NPC Flak Cannon
+swtjc_ewg_npcgrenadelauncher;NPC Handheld Grenade Launcher
+swtjc_ewg_npcminirocketlauncher;NPC Mini-Rocket Launcher
+swtjc_ewg_npcmultigrenadelauncher;NPC Multi-Grenade Launcher
+swtjc_ewg_npcrevolver;NPC High-Caliber Pistol
+swtjc_ewg_npcsaw;NPC Squad Automatic Weapon
+swtjc_ewg_npcsawedoffshotgun;NPC Short-Barreled Shotgun
+swtjc_ewg_npcsubmachinegun;NPC Submachine Gun
+flamingdemonsword2;Fury
+angryrocket;Spankr
+chargegun2;Charge Gun
+fuadaptablecrossbow;Adaptable Crossbow DX
+fugjallarhorn;Gjallarhorn
+fupixelbreaker;Pixelbreaker
+khetastrophae;Khetastrophae
+magnorbatropus;Flesh Bola
+magnorbfrost;Frost Lobber
+magnorbhellfire;Hellfire Orbs
+magnorblunari;Shard Field
+magnorbmoonstone;Telebrium Orbs
+magnorbneutron;Neutron Star Orbs
+magnorbproto;Tauntra Orbs
+magnorbshadow;Shadow Orbs
+magnorbslime;Slime Lobber
+precursorpistol;Precursor Protector
+precursorpistolbeam;Precursor Beamgun
+precursorpistolice;Precursor Freeze Gun
+precursorpistolshock;Precursor Jolt Gun
+precursorpistolxray;Precursor X-Ray Gun
+gregskittlegun;Skittles
+shadowtentaclegun;Shadow Lurch
+durasteelaxe;Durasteel Axe
+durasteeldagger;Durasteel Dagger
+durasteelhammer;Durasteel Hammer
+durasteelspear;Durasteel Spear
+ironaxe;Iron Axe
+irondagger;Iron Dagger
+ironhammer;Iron Hammer
+ironspear;Iron Spear
+titaniumaxe;Titanium Axe
+titaniumhammer;Titanium Hammer
+titaniumshortsword;Titanium Shortsword
+tungstendagger;Tungsten Dagger
+tungstenshortsword;Tungsten Shortsword
+tungstenspear;Tungsten Spear
+swtjc_ewg_commonbattlerifle;Common Battle Rifle
+swtjc_ewg_commonsaw;Common Squad Automatic Weapon
+swtjc_ewg_rarebattlerifle;Rare Battle Rifle
+swtjc_ewg_raresaw;Rare Squad Automatic Weapon
+swtjc_ewg_uncommonbattlerifle;Uncommon Battle Rifle
+swtjc_ewg_uncommonsaw;Uncommon Squad Automatic Weapon
+swtjc_ewg_commonmultigrenadelauncher;Common Multi-Grenade Launcher
+swtjc_ewg_raremultigrenadelauncher;Rare Multi-Grenade Launcher
+swtjc_ewg_uncommonmultigrenadelauncher;Uncommon Multi-Grenade Launcher
+swtjc_ewg_commonsubmachinegun;Common Submachine Gun
+swtjc_ewg_raresubmachinegun;Rare Submachine Gun
+swtjc_ewg_uncommonsubmachinegun;Uncommon Submachine Gun
+swtjc_ewg_commonbeampistol;Common Beam Pistol
+swtjc_ewg_commonrevolver;Common High-Caliber Pistol
+swtjc_ewg_rarebeampistol;Rare Beam Pistol
+swtjc_ewg_rarerevolver;Rare High-Caliber Pistol
+swtjc_ewg_uncommonbeampistol;Uncommon Beam Pistol
+swtjc_ewg_uncommonrevolver;Uncommon High-Caliber Pistol
+swtjc_ewg_commonminirocketlauncher;Common Mini-Rocket Launcher
+swtjc_ewg_rareminirocketlauncher;Rare Mini-Rocket Launcher
+swtjc_ewg_uncommonminirocketlauncher;Uncommon Mini-Rocket Launcher
+swtjc_ewg_commonautoshotgun;Common Automatic Shotgun
+swtjc_ewg_commonflakcannon;Common Flak Cannon
+swtjc_ewg_commonsawedoffshotgun;Common Short-Barreled Shotgun
+swtjc_ewg_rareautoshotgun;Rare Automatic Shotgun
+swtjc_ewg_rareflakcannon;Rare Flak Cannon
+swtjc_ewg_raresawedoffshotgun;Rare Short-Barreled Shotgun
+swtjc_ewg_uncommonautoshotgun;Uncommon Automatic Shotgun
+swtjc_ewg_uncommonflakcannon;Uncommon Flak Cannon
+swtjc_ewg_uncommonsawedoffshotgun;Uncommon Short-Barreled Shotgun
+swtjc_ewg_commonantimaterialrifle;Common Anti-Material Rifle
+swtjc_ewg_commonbeamrifle;Common Beam Rifle
+swtjc_ewg_rareantimaterialrifle;Rare Anti-Material Rifle
+swtjc_ewg_rarebeamrifle;Rare Beam Rifle
+swtjc_ewg_uncommonantimaterialrifle;Uncommon Anti-Material Rifle
+swtjc_ewg_uncommonbeamrifle;Uncommon Beam Rifle
+aegisaltpistol2;Damaged Pistol
+aegisaltpistol3;Protectorate Pistol
+bigdaddy;Instigator
+biogun;Bio Rifle
+biopistol;Poison Ejector
+blastcannon;Blast Cannon
+blistergun;Blister Gun
+blisterpistol;Blister Pistol
+blizzardcannon;Blizzard Cannon
+classiczapper;Classic Zapper
+crystalgun;Crystalline Cannon
+curveblaster;Breach Gun
+curvepistol;Breach Pistol
+curvesmg;Breach Blaster
+densiniumrifle;Densinium Rifle
+eldercarbine;Elder Disruptor
+elderpistol;Disruptor Pistol
+elderrepeater;Dimensional Repeater
+elderripper;Ripper Gun
+energyassault;F4 Energy Rifle
+eyecannon;Ocu Cannon
+farsight;FarSight XR-20
+ff_bubblegun;Bubblegun
+ff_icechucker;Ice Blaster
+flaregun;Flare Gun
+friendmaker;Friendmaker
+fualienlaser;Alien Laser
+fucarbonhandcannon;Blasthammer
+fucellgun;Cellular Rifle
+fucyclone;Cyclone
+fuforcegun;Cage Gun
+fugaussmachinegun;Gauss Machinegun
+fugausspistol;Gauss Pistol
+fugaussrifle;Gauss Rifle
+fugrinder;Grinder
+fuhuntingrifle;Hunting Rifle
+fuhuntingrifle2;Hunting Rifle II
+fuhuntingrifle3;Hunting Rifle III
+fuisogenpistol;Icer
+fuobliterator;Obliterator
+fuplasmacannon;Plasma Eruptor
+fuplasmagun;Plasma Rifle
+fupyreitepistol;Vengeance
+furainbowgun;Prismatic Cannon
+furepairgun;Mech Repair Tool
+fuspawngun;Floran Needler
+fusteampunkgun;Shock Rifle
+fustingergun;Sting Needler
+fustingergun2;Stinger Burstrifle
+futriangliumpistol;Showstopper
+futriangliumsmg;Vagabond
+futritaniumpistol;Wildfire
+fuvaporizer;Precursor Vaporizer
+goregun;Gore Gun
+gravgun;Gravity Gun
+gravitongun;Graviton Gun
+gravitonpistol;Graviton Pistol
+gravitonpistolunique;Kevin
+hellfirecannon;Hellfire Ejector
+hellfiregun;Hellfire Gun
+invisipuke;Invisipuke!
+invisiswarmgun;Swarm Gun
+ionrifle;Ion Rifle
+irradiumrifle;Irradium Rifle
+isn_magmavulcan;Pyre Vulcan
+k3rifle;K3 Double-Tap
+laspistol;Laser Pistol
+lasrifle;Laser Rifle
+longarm;Longarm Shotgun
+longarmpistol;Longarm Pistol
+lunaripistol;Lunari Pistol
+lunaririfle;Lunari Rifle
+mechgun;Precursor Rifle
+mechpistol;Precursor Pistol
+mineralcannon;Particle Rifle
+mineralcannonadv;Particle Cannon
+mineralcannonadv2;Hyperion Particle Cannon
+mineralpistol;Particle Pistol
+minirocketlauncher;Micro-Rocket Launcher
+minirocketlauncher2;Micro-Rocket Cannon
+murdermanipulator;Murder Manipulator
+murdermanipulator2;Slaughter Manipulator
+mushroomgun;Fungal Gun
+napalmcannon;Napalm Launcher
+nitrogengun;Nitrogen Cannon
+nitrogenpistol;Nitrogen Pistol
+npclongarm;Longarm Shotgun
+protogun;Proto Gun
+protopistol;Proto Pistol
+randomharpoongun;Harpoon Gun
+rimecutter;Rime Cutter
+shoggothgun;Biomorphic Cannon
+slimelauncher;Slime Launcher
+sniperknife;Sniper Knife
+snubber;Snub Gun
+spawngun;Spike-Bug Launcher
+swarmgun;Swarm Gun
+swarmgun2;Swarm Gun MKII
+tentabane;Frostbringer
+teslagun;Tesla Gun
+thornrifle;Thorn Rifle
+thornslinger;Thorn Slinger
+futinydancer;Tiny Dancer
+vashtagun;Vashta Cutter
+verdantcarbine;Verdant Carbine
+verdantrailgun;Verdant Rifle
+atomsmasher;Atom Smasher
+biooozegun;Ooze Gun
+healingliquidgun;Healing Water Gun
+honeygun;Honey Gun
+liquidacidgun;Acid Gun
+liquidpoisongun;Poison Gun
+basicminer;Mining Laser
+hybridminer;B-97 Miner
+hybridminer2;C-7 Miner
+hybridminer3;D4-B Miner
+hybridminer4;KX-1 Miner
+hybridminer5;CT-4 Mining Cannon
+penumbriteminer;A-7C Miner
+protominer;P-7 Miner
+chargeshotgun;Scorch Burstgun
+chargecannon;Charge Blaster
+chargesmg;Precursor Crippler
+chargemachinegun;Crippler Machinegun
+fufreezecannon;Coldsnap
+fufreezecannonKhe;Snow Cannon
+frostcannonarm;Mistral Icethrower
+fubeamgun;Beam Gun
+fucloudgun;Boom Cannon
+fuenergyblaster;Energy Lobber
+fuenergymachinegun;Thresher
+fuminelayer;Mine Launcher
+furailgun;Railgun
+fushocklance;Shocklance
+chargepistol;Glacial Pistol
+fuaegisaltminigun;Imperius Minigun
+fuaegisaltminigunnpc;Imperius Minigun
+irradiumpistol;Irradium Pistol
+irradiumshotgun;Irradium Burstgun
+splittergun;Fissure Splitrifle
+precursorcannonnew;Precursor Annihilator
+isn_annihilator;Wave Gun
+isn_flamethrower4;Inferno
+isn_flamethrower;Incinerator
+isn_fusioncannon;Fusion Cannon
+isn_irradiator;Irradiator
+fugoldengun;Scaramanga
+isn_flintlock;.45 Revolver
+kineticrifle;Redirector
+isn_microwaveray;Sonic Cannon
+isn_napalmsprayer;Scorchburst
+isn_plasmabeam;Plasma Beam Cannon
+isn_plasmapistol;Plasma Pistol
+isn_sunstream;Polaris
+isn_terawattlaser;XT-3 Laser Cannon
+armcannon;Arm Cannon
+armcannonbroken;Arm Cannon [Broken] 
+armcannonexplosive;Arm Cannon (Missile)
+armcannonfire;Arm Cannon (Fire)
+armcannonice;Arm Cannon (Ice)
+armcannonproto;Arm Cannon (Fusion)
+armcannonshock;Arm Cannon (Shock)
+hailstrike;Hail Strike
+razorneedler;Crystalline Needler
+scorchneedler;Scorch Needler
+shockneedler;Shock Needler
+toxicneedler;Toxic Needler
+mobiusrifle;Sentry Rifle
+mobiusrifle2;Sentry Rifle
+mobiuspistol;Sentry Pistol
+mobiusrailgun;Sentry Railgun
+capturegun;Capture Gun
+cultiststaff1;Cultist's Staff
+cultiststaff2;Eldritch Staff
+cultiststaff3;Staff of Madness
+druidstaff;Druid Staff
+druidstaff2;Nature's Wrath
+gravitystaff;Matter Staff
+fu_lasereyestaff;Cane of Eyes
+corruptstaff;Corrupt Staff
+effigiumstaff;Effigium Staff
+irradiumstaff;Irradium Staff
+isogenstaff;Isogen Staff
+lunaristaff;Lunari Staff
+penumbrastaff;Penumbra Staff
+plutoniumstaff;Plutonium Staff
+prismaticstaff;Prismatic Staff
+protocitestaff;Protocite Staff
+pyreitestaff;Pyreite Staff
+quietusstaff;Quietus Staff
+tritaniumstaff;Tritanium Staff
+xithricitestaff;Xithricite Staff
+shadowstaff;Shadow Staff
+floatstaff;Gravity Wand
+fubiowand;Bio Wand
+fuflamewand;Bone Wand
+fuicewand;Frost Wand
+fupoisonwand;Toxic Wand
+corruptwand;Corrupt Wand
+effigiumwand;Effigium Wand
+irradiumwand;Irradium Wand
+isogenwand;Isogen Wand
+lunariwand;Lunari Wand
+penumbrawand;Penumbra Wand
+plutoniumwand;Plutonium Wand
+prismaticwand;Prismatic Wand
+protocitewand;Protocite Wand
+pyreitewand;Pyreite Wand
+quietuswand;Quietus Wand
+tritaniumwand;Tritanium Wand
+xithricitewand;Xithricite Wand
+teslastaff1;Tesla's Wand
+corewhip;Fiery Whip
+elderwhip;Elder Whip
+gorgolithtail;Gorgorlith Tail
+lasherwhip;Lasher Whip
 acidprotectionback;Acid EPP
 battlepack;Battle Pack
 battlepack2;Battle Pack II
@@ -3165,6 +4131,9 @@ bloodstonepickaxe;Blood Diamond Pickaxe
 carbonpickaxe;Carbon Pickaxe
 hellhammer;Hellhammer
 obsidianpickaxe;Ebonshard Pickaxe
+extrachargebeam;Charge Beam
+extralightbeam;Light Beam
+extramissile;Avian Missiles
 adultpoptopaf;Adult Poptop Figurine
 agrobataf;Agrobat Figurine
 anglureaf;Anglure Figurine
