@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 #  Copyright 2016 SqFKYo
 #  
 #  This program is free software; you can redistribute it and/or modify
@@ -20,9 +21,10 @@
 #  
 
 from glob import iglob
+import io
+from itertools import chain
 import json
 import networkx as nx
-import os
 import wx
 
 # Not yet used
@@ -89,13 +91,16 @@ class SbParser(object):
 
 def dump_friendly_names(dump_file):
     """Reads the friendly names used within the game from the item and object folders and dumps them into a file."""
-    # ToDo Can read_friendly_names be refactored to use json module?
     ARMORS = ['.back', '.chest', '.head', '.legs']
-    SKIPPABLES = ['.activeitem', '.animation', '.combofinisher', '.config', '.frames', '.inspectiontool',
-                  '.lua', '.patch', '.png', '.unlock', '.weaponability', '.weaponcolors']
+    SKIPPABLES = ['.activeitem', '.animation', '.combofinisher', '.config', '.db', '.frames', '.inspectiontool',
+                  '.lua', '.ogg', '.patch', '.png', '.projectile', '.statuseffect', '.txt', '.unlock', '.wav',
+                  '.weaponability', '.weaponcolors']
     friendly_names = {}
     unfriendly_names = {}
-    for item_file in iglob('{0}/items/**/*.*'.format(SB_PATH), recursive=True):
+    for item_file in chain(iglob('{0}/items/**/*.*'.format(SB_PATH), recursive=True),
+                           iglob('{0}/items/**/*.*'.format(FU_PATH), recursive=True),
+                           iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True),
+                           iglob('{0}/objects/**/*.*'.format(FU_PATH), recursive=True)):
         if any([to_skip in item_file for to_skip in SKIPPABLES]):
             continue
         with open(item_file, 'r') as f:
@@ -105,26 +110,28 @@ def dump_friendly_names(dump_file):
                 unfriendly_name = loaded_file['itemName']
                 friendly_names[unfriendly_name] = friendly_name
                 unfriendly_names[friendly_name] = unfriendly_name
-            except json.decoder.JSONDecodeError:
-                if any([armor in item_file for armor in ARMORS]):
-                    with open(item_file, 'r') as f:
-                        read_file = f.readlines()
-                        friendly_line = next(line for line in read_file if 'shortdescription' in line)
-                        friendly_name = friendly_line.split(':')[1].strip().strip('",')
+            except (json.decoder.JSONDecodeError, UnicodeDecodeError):#
+                with open(item_file, 'r') as f:
+                    read_file = f.readlines()
+                    friendly_line = next(line for line in read_file if 'shortdescription' in line)
+                    friendly_name = friendly_line.split(':')[1].strip().strip('",')
+                    try:
                         unfriendly_line = next(line for line in read_file if 'itemName' in line)
-                        unfriendly_name = unfriendly_line.split(':')[1].strip().strip('",')
-                        friendly_names[unfriendly_name] = friendly_name
-                        unfriendly_names[friendly_name] = unfriendly_name
-                else:
-                    print(item_file)
+                    except StopIteration:
+                        unfriendly_line = next(line for line in read_file if 'objectName' in line)
+                    unfriendly_name = unfriendly_line.split(':')[1].strip().strip('",')
+                    friendly_names[unfriendly_name] = friendly_name
+                    unfriendly_names[friendly_name] = unfriendly_name
             except KeyError:
-                print(item_file)
-    for item_file in iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True):
-        pass
-    # ToDo ditto for objects folder and FU folders
+                print('KeyError at {0}'.format(item_file))
+            except UnicodeDecodeError:
+                print('UnicodeDecodeError at {0}'.format(item_file))
+
+    # ToDo ditto for objects folders
     print('apextier1chest' in friendly_names)
+    print('blastingdynamite' in friendly_names)
     print("Defector's Chestguard" in unfriendly_names)
-    raise NotImplementedError
+    print("Resin" in unfriendly_names)
 
 
 def filter_description(description):
@@ -165,4 +172,4 @@ def main():
 
 if __name__ == '__main__':
     dump_friendly_names(None)
-    main()
+    #main()
