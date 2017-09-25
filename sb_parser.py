@@ -30,11 +30,11 @@ import wx
 CENTRIFUGE_DATA = 'centrifuge_recipes.config'
 DROP_DATA = 'cropharvest.treasurepools.patch'
 EXTRACTION_DATA = 'extractionlab_recipes.config'
-FRIENDLY_NAMES = 'friendly_names.csv'
 INTERESTING_DROPS = ['ff_resin', 'silk']
 XENO_DATA = 'xenolab_recipes.config'
 
 # Currently in use
+FRIENDLY_NAMES = 'friendly_names.csv'
 FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
 SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 
@@ -127,7 +127,7 @@ def dump_friendly_names(dump_file):
 
     with open(dump_file, 'w') as f:
         for key, value in friendly_names.items():
-            f.write(f'{key},{value}\n')
+            f.write(f'{key};{value}\n')
 
 
 def filter_description(description):
@@ -137,7 +137,6 @@ def filter_description(description):
     e.g. ^#88e25b;Nuclear Core^white; -> Nuclear Core
          ^red;Arm Cannon -> Arm Cannon
     """
-    # ToDo feature for filter_description
     description = description.strip(';')
     if '^' in description:
         return description.split(';')[1].split('^')[0]
