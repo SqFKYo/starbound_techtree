@@ -41,11 +41,13 @@ SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 
 class SbParser(object):
     def __init__(self):
-        self.extractor_recipes = {}
+        self.biome_data = {}
+        self.centrifuge_data = {}
+        self.extractor_data = {}
         self.friendly_names = {}
         self.crafting_recipes = nx.DiGraph()
         self.unfriendly_names = {}
-        self.xeno_recipes = {}
+        self.xeno_data = {}
 
     def parse_biome_data(self):
         # ToDo read biome data to determine where to get raw ingredients biomes\**\.biome and patch files
@@ -84,12 +86,17 @@ class SbParser(object):
     def read_friendly_names(self):
         """Reads the more friendly names used within the game from the previously created file."""
         with open(FRIENDLY_NAMES, 'r') as f:
-            pass
+            for line in f:
+                unfriendly_name, friendly_name = line.split(';')
+                # stripping trailing whitespace
+                friendly_name = friendly_name.strip()
+                self.friendly_names[unfriendly_name] = friendly_name
+                self.unfriendly_names[friendly_name] = unfriendly_name
 
 
 def dump_friendly_names(dump_file):
     """Reads the friendly names used within the game from the item and object folders and dumps them into a file."""
-    SKIPPABLES = ['.activeitem', '.animation', '.bush', '.combofinisher', '.config', '.db', '.frames',
+    skippables = ['.activeitem', '.animation', '.bush', '.combofinisher', '.config', '.db', '.frames',
                   '.inspectiontool', '.lua', '.matmod', '.ogg', '.patch', '.png', '.projectile', '.recipe',
                   '.statuseffect', '.txt', '.unlock', '.wav', '.weaponability', '.weaponcolors']
     friendly_names = {}
@@ -98,7 +105,7 @@ def dump_friendly_names(dump_file):
                            iglob('{0}/items/**/*.*'.format(FU_PATH), recursive=True),
                            iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True),
                            iglob('{0}/objects/**/*.*'.format(FU_PATH), recursive=True)):
-        if any([to_skip in item_file for to_skip in SKIPPABLES]):
+        if any([to_skip in item_file for to_skip in skippables]):
             continue
         with open(item_file, 'r') as f:
             try:
@@ -110,9 +117,9 @@ def dump_friendly_names(dump_file):
                     unfriendly_name = loaded_file['objectName']
                 friendly_names[unfriendly_name] = filter_description(friendly_name)
                 unfriendly_names[friendly_name] = unfriendly_name
-            except (json.decoder.JSONDecodeError, UnicodeDecodeError):#
-                with open(item_file, 'r') as f:
-                    read_file = f.readlines()
+            except (json.decoder.JSONDecodeError, UnicodeDecodeError):
+                with open(item_file, 'r') as f2:
+                    read_file = f2.readlines()
                     friendly_line = next(line for line in read_file if 'shortdescription' in line)
                     friendly_name = friendly_line.split(':')[1].strip().strip('",')
                     try:
@@ -152,7 +159,7 @@ def read_recipe(recipe_file):
         loaded_file = json.load(f)
         output = loaded_file['output']['item']
         inputs = (x['item'] for x in loaded_file['input'])
-    return (inputs, output)
+    return inputs, output
 
 
 def main():
@@ -164,6 +171,7 @@ def main():
     parser.parse_xeno_data()
     parser.parse_drop_data()
     parser.parse_biome_data()
+
 
 if __name__ == '__main__':
     main()
