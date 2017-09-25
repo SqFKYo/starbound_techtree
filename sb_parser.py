@@ -94,6 +94,19 @@ class SbParser(object):
                 self.unfriendly_names[friendly_name] = unfriendly_name
 
 
+class SbParserGUI(wx.Frame):
+    def __init__(self, parent, title):
+        super().__init__(parent, title=title)
+        self._initialize()
+
+    def _initialize(self):
+        sizer = wx.GridBagSizer(0, 0)
+
+        self.SetSizerAndFit(sizer)
+        self.Center()
+        self.Show()
+
+
 def dump_friendly_names(dump_file):
     """Reads the friendly names used within the game from the item and object folders and dumps them into a file."""
     skippables = ['.activeitem', '.animation', '.bush', '.combofinisher', '.config', '.db', '.frames',
@@ -166,11 +179,14 @@ def main():
     parser = SbParser()
     parser.read_friendly_names()
     parser.parse_crafting_recipes()
-    parser.parse_centrifuge_data()
-    parser.parse_extraction_data()
-    parser.parse_xeno_data()
-    parser.parse_drop_data()
-    parser.parse_biome_data()
+    #parser.parse_centrifuge_data()
+    #parser.parse_extraction_data()
+    #parser.parse_xeno_data()
+    #parser.parse_drop_data()
+    #parser.parse_biome_data()
+    app = wx.App()
+    SbParserGUI(None, title="Rick's SB brain")
+    app.MainLoop()
 
 
 if __name__ == '__main__':
