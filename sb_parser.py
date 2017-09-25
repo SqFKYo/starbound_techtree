@@ -21,7 +21,6 @@
 #  
 
 from glob import iglob
-import io
 from itertools import chain
 import json
 import networkx as nx
@@ -86,15 +85,13 @@ class SbParser(object):
         """Reads the more friendly names used within the game from the previously created file."""
         with open(FRIENDLY_NAMES, 'r') as f:
             pass
-        raise NotImplementedError
 
 
 def dump_friendly_names(dump_file):
     """Reads the friendly names used within the game from the item and object folders and dumps them into a file."""
-    ARMORS = ['.back', '.chest', '.head', '.legs']
-    SKIPPABLES = ['.activeitem', '.animation', '.combofinisher', '.config', '.db', '.frames', '.inspectiontool',
-                  '.lua', '.ogg', '.patch', '.png', '.projectile', '.statuseffect', '.txt', '.unlock', '.wav',
-                  '.weaponability', '.weaponcolors']
+    SKIPPABLES = ['.activeitem', '.animation', '.bush', '.combofinisher', '.config', '.db', '.frames',
+                  '.inspectiontool', '.lua', '.matmod', '.ogg', '.patch', '.png', '.projectile', '.recipe',
+                  '.statuseffect', '.txt', '.unlock', '.wav', '.weaponability', '.weaponcolors']
     friendly_names = {}
     unfriendly_names = {}
     for item_file in chain(iglob('{0}/items/**/*.*'.format(SB_PATH), recursive=True),
@@ -107,8 +104,11 @@ def dump_friendly_names(dump_file):
             try:
                 loaded_file = json.load(f)
                 friendly_name = loaded_file['shortdescription']
-                unfriendly_name = loaded_file['itemName']
-                friendly_names[unfriendly_name] = friendly_name
+                try:
+                    unfriendly_name = loaded_file['itemName']
+                except KeyError:
+                    unfriendly_name = loaded_file['objectName']
+                friendly_names[unfriendly_name] = filter_description(friendly_name)
                 unfriendly_names[friendly_name] = unfriendly_name
             except (json.decoder.JSONDecodeError, UnicodeDecodeError):#
                 with open(item_file, 'r') as f:
@@ -120,18 +120,14 @@ def dump_friendly_names(dump_file):
                     except StopIteration:
                         unfriendly_line = next(line for line in read_file if 'objectName' in line)
                     unfriendly_name = unfriendly_line.split(':')[1].strip().strip('",')
-                    friendly_names[unfriendly_name] = friendly_name
+                    friendly_names[unfriendly_name] = filter_description(friendly_name)
                     unfriendly_names[friendly_name] = unfriendly_name
             except KeyError:
                 print('KeyError at {0}'.format(item_file))
-            except UnicodeDecodeError:
-                print('UnicodeDecodeError at {0}'.format(item_file))
 
-    # ToDo ditto for objects folders
-    print('apextier1chest' in friendly_names)
-    print('blastingdynamite' in friendly_names)
-    print("Defector's Chestguard" in unfriendly_names)
-    print("Resin" in unfriendly_names)
+    with open(dump_file, 'w') as f:
+        for key, value in friendly_names.items():
+            f.write(f'{key},{value}\n')
 
 
 def filter_description(description):
@@ -171,5 +167,4 @@ def main():
     parser.parse_biome_data()
 
 if __name__ == '__main__':
-    dump_friendly_names(None)
-    #main()
+    main()
