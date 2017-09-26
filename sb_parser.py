@@ -27,16 +27,17 @@ import networkx as nx
 import wx
 
 # Not yet used
-CENTRIFUGE_DATA = 'centrifuge_recipes.config'
-DROP_DATA = 'cropharvest.treasurepools.patch'
-EXTRACTION_DATA = 'extractionlab_recipes.config'
+DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\treasure\cropharvest.treasurepools.patch'
+DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treasure\cropharvest.treasurepools'
 INTERESTING_DROPS = ['ff_resin', 'silk']
-XENO_DATA = 'xenolab_recipes.config'
 
 # Currently in use
+CENTRIFUGE_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\centrifuge_recipes.config'
+EXTRACTION_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\extractionlab_recipes.config'
 FRIENDLY_NAMES = 'friendly_names.csv'
 FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
 SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
+XENO_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\xenostation_recipes.config'
 
 
 class SbParser(object):
@@ -45,7 +46,7 @@ class SbParser(object):
         self.centrifuge_data = {}
         self.extractor_data = {}
         self.friendly_names = {}
-        self.crafting_recipes = nx.DiGraph()
+        self.recipes = nx.DiGraph()
         self.unfriendly_names = {}
         self.xeno_data = {}
 
@@ -57,16 +58,16 @@ class SbParser(object):
         # ToDo parse centrifuge data
         pass
 
-    def parse_crafting_recipes(self):
+    def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
         for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True):
             materials, result = read_recipe(recipe_file)
             for material in materials:
-                self.crafting_recipes.add_edge(material, result)
+                self.recipes.add_edge(material, result)
         for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(SB_PATH), recursive=True):
             materials, result = read_recipe(recipe_file)
             for material in materials:
-                self.crafting_recipes.add_edge(material, result)
+                self.recipes.add_edge(material, result)
 
     def parse_drop_data(self):
         """Finds interesting drops from the loot tables."""
@@ -102,7 +103,7 @@ class SbParserGUI(wx.Frame):
 
     def _initialize(self):
         filtered_choices = []
-        for name in nx.nodes(self.parser.crafting_recipes):
+        for name in nx.nodes(self.parser.recipes):
             try:
                 filtered_choices.append(self.parser.friendly_names[name])
             except KeyError:
@@ -138,7 +139,7 @@ class SbParserGUI(wx.Frame):
         self._update_parent(parent=root, node=next_node)
 
     def _update_parent(self, parent, node):
-        previous_nodes = self.parser.crafting_recipes.predecessors(node)
+        previous_nodes = self.parser.recipes.predecessors(node)
         for new_node in previous_nodes:
             try:
                 new_text = self.parser.friendly_names[new_node]
@@ -226,7 +227,7 @@ def main():
     #parser.parse_drop_data()
     #parser.parse_biome_data()
     app = wx.App()
-    SbParserGUI(None, title="Rick's SB brain", parser=parser)
+    SbParserGUI(None, title="Rick's brain on Starbound", parser=parser)
     app.MainLoop()
 
 
