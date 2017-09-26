@@ -27,6 +27,8 @@ import networkx as nx
 import wx
 
 # Not yet used
+BIOME_FOLDER_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\biomes'
+BIOME_FOLDER_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\biomes'
 DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\treasure\cropharvest.treasurepools.patch'
 DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treasure\cropharvest.treasurepools'
 INTERESTING_DROPS = ['ff_resin', 'silk']
@@ -42,13 +44,9 @@ XENO_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\gene
 
 class SbParser(object):
     def __init__(self):
-        self.biome_data = {}
-        self.centrifuge_data = {}
-        self.extractor_data = {}
         self.friendly_names = {}
         self.recipes = nx.DiGraph()
         self.unfriendly_names = {}
-        self.xeno_data = {}
 
     def parse_biome_data(self):
         # ToDo read biome data to determine where to get raw ingredients biomes\**\.biome and patch files
