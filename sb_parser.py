@@ -75,18 +75,32 @@ class SbParser(object):
         pass
 
     def parse_extraction_data(self):
-        with open(EXTRACTION_DATA, 'r') as extract:
-            # ToDo read extraction data
-            pass
+        with open(EXTRACTION_DATA, 'r') as f:
+            loaded_data = json.load(f)
+            for recipe in loaded_data:
+                # There's always just one input, but can be multiple outputs
+                input_unfriendly = next(iter(recipe['inputs'].keys()))
+                try:
+                    input_friendly = self.friendly_names[input_unfriendly]
+                except KeyError:
+                    input_friendly = input_unfriendly
+                input_print = '{0} (E)'.format(input_friendly)
+                for output in recipe['outputs']:
+                    self.recipes.add_edge(input_print, output)
 
     def parse_xeno_data(self):
         with open(XENO_DATA, 'r') as f:
             loaded_data = json.load(f)
             for recipe in loaded_data:
                 # There's always just one input, but can be multiple outputs
-                input_value = '{0} (X)'.format(next(iter(recipe['inputs'].keys())))
+                input_unfriendly = next(iter(recipe['inputs'].keys()))
+                try:
+                    input_friendly = self.friendly_names[input_unfriendly]
+                except KeyError:
+                    input_friendly = input_unfriendly
+                input_print = '{0} (X)'.format(input_friendly)
                 for output in recipe['outputs']:
-                    self.recipes.add_edge(input_value, output)
+                    self.recipes.add_edge(input_print, output)
 
     def read_friendly_names(self):
         """Reads the more friendly names used within the game from the previously created file."""
@@ -226,7 +240,7 @@ def main():
     parser.read_friendly_names()
     parser.parse_recipes()
     #parser.parse_centrifuge_data()
-    #parser.parse_extraction_data()
+    parser.parse_extraction_data()
     parser.parse_xeno_data()
     #parser.parse_drop_data()
     #parser.parse_biome_data()
