@@ -55,8 +55,11 @@ class SbParser(object):
         pass
 
     def parse_centrifuge_data(self):
-        # ToDo parse centrifuge data
-        pass
+        with open(CENTRIFUGE_DATA, 'r') as f:
+            loaded_data = json.load(f)
+            for group in loaded_data.values():
+                 # ToDo parse each group of centrifuge extractions
+                pass
 
     def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
