@@ -58,8 +58,20 @@ class SbParser(object):
         with open(CENTRIFUGE_DATA, 'r') as f:
             loaded_data = json.load(f)
             for group in loaded_data.values():
-                 # ToDo parse each group of centrifuge extractions
-                pass
+                for material, end_results in group.items():
+                    # One material, possibly multiple end results
+                    try:
+                        try:
+                            material_friendly = self.friendly_names[material]
+                        except KeyError:
+                            material_friendly =  material
+                        for result, rarity_list in end_results.items():
+                            rarity = rarity_list[0]
+                            material_print = '{0} (Cent.) ({1})'.format(material_friendly, rarity)
+                            self.recipes.add_edge(material_print, result)
+                    except AttributeError:
+                        # Some lists exist that need to be skipped.
+                        pass
 
     def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
@@ -87,7 +99,7 @@ class SbParser(object):
                     input_friendly = self.friendly_names[input_unfriendly]
                 except KeyError:
                     input_friendly = input_unfriendly
-                input_print = '{0} (E)'.format(input_friendly)
+                input_print = '{0} (Extr.)'.format(input_friendly)
                 for output in recipe['outputs']:
                     self.recipes.add_edge(input_print, output)
 
@@ -101,7 +113,7 @@ class SbParser(object):
                     input_friendly = self.friendly_names[input_unfriendly]
                 except KeyError:
                     input_friendly = input_unfriendly
-                input_print = '{0} (X)'.format(input_friendly)
+                input_print = '{0} (Xeno)'.format(input_friendly)
                 for output in recipe['outputs']:
                     self.recipes.add_edge(input_print, output)
 
@@ -242,7 +254,7 @@ def main():
     parser = SbParser()
     parser.read_friendly_names()
     parser.parse_recipes()
-    #parser.parse_centrifuge_data()
+    parser.parse_centrifuge_data()
     parser.parse_extraction_data()
     parser.parse_xeno_data()
     #parser.parse_drop_data()
