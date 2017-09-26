@@ -107,21 +107,45 @@ class SbParserGUI(wx.Frame):
                 filtered_choices.append(self.parser.friendly_names[name])
             except KeyError:
                 filtered_choices.append(name)
-        selector_wx = wx.ComboBox(self, choices=sorted(filtered_choices))
+        self.selector_wx = wx.ComboBox(self, choices=sorted(filtered_choices))
+        self.tree_wx = wx.TreeCtrl(self)
+        self.tree_wx.AddRoot(text='Select an item!')
+
+        self.Bind(event=wx.EVT_COMBOBOX, handler=self._update_tree, source=self.selector_wx)
 
         sizer = wx.GridBagSizer(0, 0)
-        sizer.Add(selector_wx, pos=(0,0), flag=wx.EXPAND)
+        sizer.Add(self.selector_wx, pos=(0,0), flag=wx.EXPAND)
+        sizer.Add(self.tree_wx, pos=(1,0), flag=wx.EXPAND)
+
+        sizer.AddGrowableCol(idx=0)
+        sizer.AddGrowableRow(idx=1)
 
         self.SetSizerAndFit(sizer)
         self.Center()
         self.Show()
 
-    def _choose_recipe(self, event):
-        self._update_tree()
+    def _update_tree(self, event):
+        """Updates TreeCtrl based on the combobox selection"""
+        selected = self.selector_wx.GetStringSelection()
+        self.tree_wx.DeleteAllItems()
+        root = self.tree_wx.AddRoot(selected)
 
-    def _update_tree(self):
-        """Updades TreeCtrl based on the combobox selection"""
-        raise NotImplementedError
+        # Going back to find all the prerequisites
+        try:
+            next_node = self.parser.unfriendly_names[selected]
+        except KeyError:
+            next_node = selected
+        self._update_parent(parent=root, node=next_node)
+
+    def _update_parent(self, parent, node):
+        previous_nodes = self.parser.crafting_recipes.predecessors(node)
+        for new_node in previous_nodes:
+            try:
+                new_text = self.parser.friendly_names[new_node]
+            except KeyError:
+                new_text = new_node
+            new_parent = self.tree_wx.AppendItem(parent=parent, text=new_text)
+            self._update_parent(parent=new_parent, node=new_node)
 
 
 def dump_friendly_names(dump_file):
