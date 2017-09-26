@@ -80,10 +80,14 @@ class SbParser(object):
             pass
 
     def parse_xeno_data(self):
-        with open(XENO_DATA, 'r') as xeno:
-            # ToDo read xeno data
-            pass
-                    
+        with open(XENO_DATA, 'r') as f:
+            loaded_data = json.load(f)
+            for recipe in loaded_data:
+                # There's always just one input, but can be multiple outputs
+                input_value = '{0} (X)'.format(next(iter(recipe['inputs'].keys())))
+                for output in recipe['outputs']:
+                    self.recipes.add_edge(input_value, output)
+
     def read_friendly_names(self):
         """Reads the more friendly names used within the game from the previously created file."""
         with open(FRIENDLY_NAMES, 'r') as f:
@@ -220,10 +224,10 @@ def read_recipe(recipe_file):
 def main():
     parser = SbParser()
     parser.read_friendly_names()
-    parser.parse_crafting_recipes()
+    parser.parse_recipes()
     #parser.parse_centrifuge_data()
     #parser.parse_extraction_data()
-    #parser.parse_xeno_data()
+    parser.parse_xeno_data()
     #parser.parse_drop_data()
     #parser.parse_biome_data()
     app = wx.App()
