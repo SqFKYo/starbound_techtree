@@ -29,12 +29,13 @@ import wx
 # Not yet used
 BIOME_FOLDER_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\biomes'
 BIOME_FOLDER_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\biomes'
-DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\treasure\cropharvest.treasurepools.patch'
-DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treasure\cropharvest.treasurepools'
 INTERESTING_DROPS = ['ff_resin', 'silk']
 
 # Currently in use
 CENTRIFUGE_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\centrifuge_recipes.config'
+# Note: Comments have been removed from the drop data files to facilitate json loading
+DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\treasure\cropharvest.treasurepools.patch'
+DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treasure\cropharvest.treasurepools'
 EXTRACTION_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\extractionlab_recipes.config'
 FRIENDLY_NAMES = 'friendly_names.csv'
 FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
@@ -83,7 +84,42 @@ class SbParser(object):
                 self.recipes.add_edge(material, result)
 
     def parse_drop_data(self):
-        """Finds interesting drops from the loot tables."""
+        """
+        Finds interesting drops from the farming loot tables. Interesting loot is defined as something else
+        than the plant itself, its seed or plantfibre.
+        """
+        with open(DROP_DATA_SB, 'r') as f:
+            data = json.load(f)
+            for harvest, results in data.items():
+                skippables = ['plantfibre']
+                harvest_name = harvest.split('Harvest')[0]
+                skippables.append(harvest_name)
+                skippables.append(f'{harvest_name}seed')
+                result_pool = results[0][1]['pool']
+                for pool in result_pool:
+                    if pool['item'] not in skippables:
+                        try:
+                            friendly_harvest = self.friendly_names[harvest_name]
+                        except KeyError:
+                            friendly_harvest = harvest_name
+                        self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
+        #with open(DROP_DATA_FU, 'r') as f:
+        #    # ToDo: Fu structure is different!
+        #    data = json.load(f)
+        #    for harvest, results in data.items():
+        #        skippables = ['plantfibre']
+        #        harvest_name = harvest.split('Harvest')[0]
+        #        skippables.append(harvest_name)
+        #        skippables.append(f'{harvest_name}seed')
+        #        result_pool = results[0][1]['pool']
+        #        for pool in result_pool:
+        #            if pool['item'] not in skippables:
+        #                try:
+        #                    yielded = pool['item']
+        #                    friendly_result = self.friendly_names[yielded]
+        #                except KeyError:
+        #                    friendly_result = yielded
+        #                self.recipes.add_edge(f'{friendly_result} (Harv.)', harvest_name)
         # ToDo read treasure drop data treasure\cropharvest.treasurepools(.patch)
         pass
 
@@ -255,8 +291,8 @@ def main():
     parser.parse_centrifuge_data()
     parser.parse_extraction_data()
     parser.parse_xeno_data()
-    #parser.parse_drop_data()
-    #parser.parse_biome_data()
+    parser.parse_drop_data()
+    parser.parse_biome_data()
     app = wx.App()
     SbParserGUI(None, title="Rick's brain on Starbound", parser=parser)
     app.MainLoop()
