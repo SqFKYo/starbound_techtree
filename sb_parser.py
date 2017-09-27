@@ -72,18 +72,7 @@ class SbParser(object):
                         # Some lists exist that need to be skipped.
                         pass
 
-    def parse_recipes(self):
-        """Parses all the recipes into NetworkX DiGraph object."""
-        for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True):
-            materials, result = read_recipe(recipe_file)
-            for material in materials:
-                self.recipes.add_edge(material, result)
-        for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(SB_PATH), recursive=True):
-            materials, result = read_recipe(recipe_file)
-            for material in materials:
-                self.recipes.add_edge(material, result)
-
-    def parse_drop_data(self):
+    def parse_harvest_data(self):
         """
         Finds interesting drops from the farming loot tables. Interesting loot is defined as something else
         than the plant itself, its seed or plantfibre.
@@ -103,25 +92,25 @@ class SbParser(object):
                         except KeyError:
                             friendly_harvest = harvest_name
                         self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
-        #with open(DROP_DATA_FU, 'r') as f:
-        #    # ToDo: Fu structure is different!
-        #    data = json.load(f)
-        #    for harvest, results in data.items():
-        #        skippables = ['plantfibre']
-        #        harvest_name = harvest.split('Harvest')[0]
-        #        skippables.append(harvest_name)
-        #        skippables.append(f'{harvest_name}seed')
-        #        result_pool = results[0][1]['pool']
-        #        for pool in result_pool:
-        #            if pool['item'] not in skippables:
-        #                try:
-        #                    yielded = pool['item']
-        #                    friendly_result = self.friendly_names[yielded]
-        #                except KeyError:
-        #                    friendly_result = yielded
-        #                self.recipes.add_edge(f'{friendly_result} (Harv.)', harvest_name)
-        # ToDo read treasure drop data treasure\cropharvest.treasurepools(.patch)
-        pass
+        with open(DROP_DATA_FU, 'r') as f:
+           data = json.load(f)
+           for group in data:
+               skippables = ['plantfibre']
+               harvest_name = group['path'].split('Harvest')[0].strip('/')
+               skippables.append(harvest_name)
+               skippables.append(f'{harvest_name}seed')
+               result_pool = group['value'][0][1]['pool']
+               for pool in result_pool:
+                   if pool['item'] not in skippables:
+                       try:
+                           friendly_harvest = self.friendly_names[harvest_name]
+                       except KeyError:
+                           friendly_harvest = harvest_name
+                       try:
+                           self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
+                       except TypeError:
+                           self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'][0])
+
 
     def parse_extraction_data(self):
         with open(EXTRACTION_DATA, 'r') as f:
@@ -136,6 +125,17 @@ class SbParser(object):
                 input_print = '{0} (Extr.)'.format(input_friendly)
                 for output in recipe['outputs']:
                     self.recipes.add_edge(input_print, output)
+
+    def parse_recipes(self):
+        """Parses all the recipes into NetworkX DiGraph object."""
+        for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True):
+            materials, result = read_recipe(recipe_file)
+            for material in materials:
+                self.recipes.add_edge(material, result)
+        for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(SB_PATH), recursive=True):
+            materials, result = read_recipe(recipe_file)
+            for material in materials:
+                self.recipes.add_edge(material, result)
 
     def parse_xeno_data(self):
         with open(XENO_DATA, 'r') as f:
@@ -206,14 +206,18 @@ class SbParserGUI(wx.Frame):
         self._update_parent(parent=root, node=next_node)
 
     def _update_parent(self, parent, node):
-        previous_nodes = self.parser.recipes.predecessors(node)
-        for new_node in previous_nodes:
-            try:
-                new_text = self.parser.friendly_names[new_node]
-            except KeyError:
-                new_text = new_node
-            new_parent = self.tree_wx.AppendItem(parent=parent, text=new_text)
-            self._update_parent(parent=new_parent, node=new_node)
+        try:
+            previous_nodes = self.parser.recipes.predecessors(node)
+            for new_node in previous_nodes:
+                try:
+                    new_text = self.parser.friendly_names[new_node]
+                except KeyError:
+                    new_text = new_node
+                new_parent = self.tree_wx.AppendItem(parent=parent, text=new_text)
+                self._update_parent(parent=new_parent, node=new_node)
+        except nx.exception.NetworkXError:
+            # Item that can't be obtained by crafting encountered
+            pass
 
 
 def dump_friendly_names(dump_file):
@@ -254,6 +258,8 @@ def dump_friendly_names(dump_file):
             except KeyError:
                 print('KeyError at {0}'.format(item_file))
 
+    # ToDo if multiple unfriendly names point to the same friendly name, distinguish them!
+
     with open(dump_file, 'w') as f:
         for key, value in friendly_names.items():
             f.write(f'{key};{value}\n')
@@ -291,7 +297,7 @@ def main():
     parser.parse_centrifuge_data()
     parser.parse_extraction_data()
     parser.parse_xeno_data()
-    parser.parse_drop_data()
+    parser.parse_harvest_data()
     parser.parse_biome_data()
     app = wx.App()
     SbParserGUI(None, title="Rick's brain on Starbound", parser=parser)
