@@ -20,6 +20,7 @@
 #  
 #  
 
+from collections import defaultdict
 from glob import iglob
 from itertools import chain
 import json
@@ -110,7 +111,6 @@ class SbParser(object):
                            self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
                        except TypeError:
                            self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'][0])
-
 
     def parse_extraction_data(self):
         with open(EXTRACTION_DATA, 'r') as f:
@@ -226,7 +226,6 @@ def dump_friendly_names(dump_file):
                   '.inspectiontool', '.lua', '.matmod', '.ogg', '.patch', '.png', '.projectile', '.recipe',
                   '.statuseffect', '.txt', '.unlock', '.wav', '.weaponability', '.weaponcolors']
     friendly_names = {}
-    unfriendly_names = {}
     for item_file in chain(iglob('{0}/items/**/*.*'.format(SB_PATH), recursive=True),
                            iglob('{0}/items/**/*.*'.format(FU_PATH), recursive=True),
                            iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True),
@@ -242,7 +241,6 @@ def dump_friendly_names(dump_file):
                 except KeyError:
                     unfriendly_name = loaded_file['objectName']
                 friendly_names[unfriendly_name] = filter_description(friendly_name)
-                unfriendly_names[friendly_name] = unfriendly_name
             except (json.decoder.JSONDecodeError, UnicodeDecodeError):
                 with open(item_file, 'r') as f2:
                     read_file = f2.readlines()
@@ -254,11 +252,21 @@ def dump_friendly_names(dump_file):
                         unfriendly_line = next(line for line in read_file if 'objectName' in line)
                     unfriendly_name = unfriendly_line.split(':')[1].strip().strip('",')
                     friendly_names[unfriendly_name] = filter_description(friendly_name)
-                    unfriendly_names[friendly_name] = unfriendly_name
             except KeyError:
                 print('KeyError at {0}'.format(item_file))
 
-    # ToDo if multiple unfriendly names point to the same friendly name, distinguish them!
+    # If multiple unfriendly names point to the same friendly name, we need to distinguish them!
+    unfriendly_names = defaultdict(list)
+    for unfriendly, friendly in friendly_names.items():
+        unfriendly_names[friendly].append(unfriendly)
+
+    friendly_names = {}
+    for friendly, unfriendlies in unfriendly_names.items():
+        if len(unfriendlies) > 1:
+            for i, unfriendly in enumerate(unfriendlies, start=1):
+                friendly_names[unfriendly] = f'{friendly} ({i})'
+        else:
+            friendly_names[unfriendlies[0]] = friendly
 
     with open(dump_file, 'w') as f:
         for key, value in friendly_names.items():

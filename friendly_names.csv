@@ -21,10 +21,12 @@ startershield;Basic Shield
 stationtransponder;Station Transponder
 broom;Broom
 bugnet;Bug Net
-filledcapturepod;Filled Capture Pod
-npcpetcapturepod;Filled Capture Pod
+filledcapturepod;Filled Capture Pod (1)
+npcpetcapturepod;Filled Capture Pod (2)
+npcbotpod;Filled Capture Pod (3)
 geode;Geode
-cavedetector;Cave Detector
+cavedetector;Cave Detector (1)
+cavedetector1;Cave Detector (2)
 oredetector;Ore Detector
 parasol;Parasol
 penguincostume;Penguin Costume
@@ -61,7 +63,8 @@ cavebow;Rock Bow
 compoundbow;Compound Bow
 cupidsbow;Cupid's Bow
 frozenbow;Frozen Bow
-harpoongun;Harpoon Gun
+harpoongun;Harpoon Gun (1)
+randomharpoongun;Harpoon Gun (2)
 lightbow;Light Bow
 poisonbow;Poison Bow
 pollenpump;Pollen Pump
@@ -137,8 +140,10 @@ npcspear;NPC Spear
 npctungstenbow;NPC Tungsten Bow
 npcwrench;NPC Wrench
 adaptablecrossbow;Adaptable Crossbow
-chargegun;Charge Gun
-drillspear;Drill Spear
+chargegun;Charge Gun (1)
+chargegun2;Charge Gun (2)
+drillspear;Drill Spear (1)
+fudrillspear;Drill Spear (2)
 electricrailgun;Tesla's Wrath
 electrobaton;Electro Baton
 evileye;Evil Eye
@@ -149,8 +154,8 @@ flamingdemonsword;Firestorm's Fury
 gnomegun;Gnome Gun
 gristlegun;Cartilage Gun
 magnorbs;Magnorbs
-nurusspear;Nuru's Spear
-nurusspearmelee;Nuru's Spear
+nurusspear;Nuru's Spear (1)
+nurusspearmelee;Nuru's Spear (2)
 remotegrenadelauncher;Remote Grenade Launcher
 soulseeker;Soulseeker
 tentaclegun;Alien Appendage
@@ -310,7 +315,9 @@ stargazer;Stargazer Hood
 thehrodgardhead;The Hrodgard
 tricornhat;Horned Tricorn
 uncathat;The Un-Cat Hat
-valkyriehelm;Valkyrie Helm
+valkyriehelm;Valkyrie Helm (1)
+kirhostier5ahead;Valkyrie Helm (2)
+kirhostier5ahead2;Valkyrie Helm (3)
 aviangodwingsback;Avian God Wings
 baroncapeback;Baron's Cape
 batterypackAAback;AA Battery Pack
@@ -337,7 +344,8 @@ shortcapeback;Short Cape
 simplecapeback;Simple Cape
 tigertailback;Tiger Tail
 toxicflowerback;Toxic Flower Backpack
-toxicwasteback;Toxic Waste
+toxicwasteback;Toxic Waste (1)
+toxicwaste;Toxic Waste (2)
 tribalfeathersback;Tribal Feathers
 tribalwingsback;Stargazer Acolyte Wings
 turtleshellback;Turtle Shell
@@ -404,12 +412,12 @@ buildinghathead;Building Hat
 gnomehead;Gnome Hat
 gnomecaphead;Gnome Cap
 househathead;House Hat
-larvachest;Larva Chest
-larvahead;Larva Mask
-larvalegs;Larva Legs
-larvanpcchest;Larva Chest
-larvanpchead;Larva Mask
-larvanpclegs;Larva Legs
+larvachest;Larva Chest (1)
+larvanpcchest;Larva Chest (2)
+larvahead;Larva Mask (1)
+larvanpchead;Larva Mask (2)
+larvalegs;Larva Legs (1)
+larvanpclegs;Larva Legs (2)
 cyclopsyetichest;Cyclops Yeti Shirt
 cyclopsyetihead;Cyclops Yeti Mask
 cyclopsyetilegs;Cyclops Yeti Trousers
@@ -469,12 +477,13 @@ flowerylegs;Flowery Trousers
 neckruffle;Neck Ruffle Jacket
 steamgreylegs;Warm Grey Trousers
 pipehat;Pipe Hat
-froggmerchantchest;Frogg Chest
-froggmerchanthead;Frogg Head
+froggmerchantchest;Frogg Chest (1)
+froggchest;Frogg Chest (2)
+froggmerchanthead;Frogg Head (1)
+frogghead;Frogg Head (2)
 froggmerchantlegs;Frogg Merchant Legs
-froggchest;Frogg Chest
-frogghead;Frogg Head
-frogglegs;Frogg Legs
+frogglegs;Frogg Legs (1)
+froggfossil3;Frogg Legs (2)
 lagoonchest;Lagoon Chestpiece
 lagoonhead;Lagoon Mask
 lagoonpants;Lagoon Trousers
@@ -590,7 +599,8 @@ premierpants;Premier Greaves
 rainbowwoodchest;Rainbow Wood Shirt
 rainbowwoodhead;Rainbow Wood Helmet
 rainbowwoodlegs;Rainbow Wood Trousers
-rockchest;Rock Chest
+rockchest;Rock Chest (1)
+cavechest;Rock Chest (2)
 rockhead;Rock Head
 rocklegs;Rock Trousers
 scientistchest;Scientist Coat
@@ -631,7 +641,8 @@ clocktophathead;Clock Tophat
 coolfezhead;Cool Fez
 devhead;Hard Hat
 dinosaurhead;Dinosaur Hat
-divingmaskhead;Diving Mask
+divingmaskhead;Diving Mask (1)
+ff_divingmaskhead;Diving Mask (2)
 ethnichead;Tribal Mask
 eyehead;All-Seeing Helmet
 eyehead2;Terrifying Eye Hat
@@ -672,7 +683,8 @@ mininghathead;Mining Helmet
 phrygiancaphead;Phrygian Cap
 plaguedoctorhead;Plague Doctor Mask
 plainhoodhead;Plain Hood
-protectorateflowerhead;Protectorate Flower
+protectorateflowerhead;Protectorate Flower (1)
+protectorateflower;Protectorate Flower (2)
 pyramidhead;Pyramid Head
 rainbowhoodhead;Rainbow Hood
 reedhead;Reed Hat
@@ -681,9 +693,9 @@ safetyhelmethead;Safety Helmet
 sharkhead;Shark Hat
 shroomdisguisehead;Shroom Disguise Mask
 shroomhead;Agaran Waxcap Hat
-shroomhead2;Agaran Gilled Hat
+shroomhead2;Agaran Gilled Hat (1)
+shroomhead4;Agaran Gilled Hat (2)
 shroomhead3;Agaran Agaric Hat
-shroomhead4;Agaran Gilled Hat
 skullmaskhead;Skull Mask
 sombrerohead;Sombrero
 spacebirdhead;Spacebird Helmet
@@ -912,7 +924,8 @@ camohead;Camo Helmet
 camolegs;Camo Trousers
 caretakerchest;Caretaker Robes
 caretakerhead;Caretaker Hood
-caretakerlegs;Caretaker Trousers
+caretakerlegs;Caretaker Trousers (1)
+caretaker2legs;Caretaker Trousers (2)
 cultistchest;Cultist Chestpiece
 cultisthead;Cultist Hood
 cultistlegs;Cultist Leg Armour
@@ -992,7 +1005,8 @@ energyaugment1;Energy I Augment
 energyaugment2;Energy II Augment
 energyaugment3;Energy III Augment
 fireblockaugment;Fire Resist Augment
-gravityaugment;Gravity Augment
+gravityaugment;Gravity Augment (1)
+extragravityaugment;Gravity Augment (2)
 healingaugment1;Healing I Augment
 healingaugment2;Healing II Augment
 healingaugment3;Healing III Augment
@@ -1051,7 +1065,6 @@ floranfossil2;Floran Torso
 floranfossil3;Floran Legs
 froggfossil1;Frogg Skull
 froggfossil2;Frogg Torso
-froggfossil3;Frogg Legs
 glitchfossil1;Glitch Head
 glitchfossil2;Glitch Torso
 glitchfossil3;Glitch Legs
@@ -1094,7 +1107,8 @@ alienweirdwood;Alien Weird Wood
 alienwoodsap;Alien Wood Sap
 ancientbones;Ancient Bones
 artificialbrain;Artificial Brain
-basic;Pelt
+basic;Pelt (1)
+pelt;Pelt (2)
 battery;Battery
 biosample;Bio Sample
 bolt;Bolt
@@ -1132,7 +1146,11 @@ glowfibre;Glow Fibre
 gnome;Gnome
 goldbar;Gold Bar
 goldore;Gold Ore
-greenslime;Slime Blob
+greenslime;Slime Blob (1)
+slimeblob1;Slime Blob (2)
+slimeblob2;Slime Blob (3)
+slimeblob3;Slime Blob (4)
+slimeblob5;Slime Blob (5)
 hinge;Iron Hinge
 holidayspirit;Holiday Spirit
 icecrystal;Ice Crystal
@@ -1144,7 +1162,8 @@ laserdiode;Laser Diode
 lead;Lead
 leather;Leather
 lightbulb3;Lightbulb
-matteritem;Matter Block
+matteritem;Matter Block (1)
+matterblock;Matter Block (2)
 metallic;Metal Coated Wood
 moltencore;Molten Core
 monsterplating;Hardened Monster Plate
@@ -1174,7 +1193,8 @@ robotlegs;Robot Legs
 screws;Screws
 seaweed;Alien Seaweed
 siliconboard;Silicon Board
-silk;Silk
+silk;Silk (1)
+silkold;Silk (2)
 silkfibre;Silk Fibre
 silverbar;Silver Bar
 silverore;Silver Ore
@@ -1190,7 +1210,6 @@ teleportercore;Teleporter Core
 thread;Thread
 titaniumbar;Titanium Bar
 titaniumore;Titanium Ore
-toxicwaste;Toxic Waste
 triangliumore;Trianglium Ore
 tungstenbar;Tungsten Bar
 tungstenore;Tungsten Ore
@@ -1604,7 +1623,8 @@ harmonica;Harmonica
 harp;Harp
 keyboard;The Model M
 koto;Koto
-leadguitar;Lead Guitar
+leadguitar;Lead Guitar (1)
+flyingv;Lead Guitar (2)
 microphone;Low-Pitch Microphone
 microphonefem;High-Pitch Microphone
 musicbox;Music Box
@@ -1653,7 +1673,8 @@ blackblock;...
 blackglass;Black Glass
 blaststone;Blaststone
 blueneonsymbol;Blue Neon Block
-bonematerial;Packed Bones
+bonematerial;Packed Bones (1)
+charredbonematerial;Packed Bones (2)
 bookpiles;Pile of Books
 brainsblock;Brains
 brickmaterial;Bricks
@@ -1679,7 +1700,8 @@ copperplatform;Copper Platform
 copperroofing;Copper Roofing
 copperwindow;Copper Window
 corruptdirtmaterial;Corrupt Dirt
-crosshatch;Window Lattice
+crosshatch;Window Lattice (1)
+shojilattice;Window Lattice (2)
 crystalblock;Crystal Block
 darksmoothstonematerial;Dark Smooth Stone
 darkwoodmaterial;Timber
@@ -1713,7 +1735,12 @@ heavypipe;Heavy Pipe
 hellstonematerial;Flesh Pile
 hive;Hive Block
 homewalls1;Painted Brick
-ice;Ice
+ice;Ice (1)
+iceblock1material;Ice (2)
+iceblock2material;Ice (3)
+iceblock3material;Ice (4)
+iceblock4material;Ice (5)
+castlevaniaice;Ice (6)
 iceblock;Ice Block
 ironblock;Iron Block
 jellyblock;Jelly Blob
@@ -1726,8 +1753,8 @@ logblock;Wooden Log
 lunarbaseblock;Lunar Base Block
 lunarbaseplatform;Lunar Base Platform
 magmarock;Magmarock
-matterblock;Matter Block
-mediummetal;Tungsten Block
+mediummetal;Tungsten Block (1)
+retexironblock;Tungsten Block (2)
 metallicmaterial;Hi-tech Block
 meteoriterock;Meteorite Rock
 mirror;Mirror Block
@@ -1756,8 +1783,8 @@ plantblock;Plant Block
 plantmatter;Plant Matter
 plantplatform;Mossy Platform
 platematerial;Smooth Plated Block
-platform;Wood Platform
-platform2;Wood Platform
+platform;Wood Platform (1)
+platform2;Wood Platform (2)
 platinumblock;Platinum Block
 pressurisedbeam;Pressurised Beam
 pressuriseddurasteel;Pressurised Durasteel
@@ -1769,16 +1796,17 @@ rainbowwoodblock;Rainbow Wood Planks
 redtoyblock;Red Toy Block
 reedblock;Reed Block
 ridgebrick;Ridged Block
-rock01;Rough Stone
-rock02;Rough Stone
-rock03;Rough Stone
-rock04;Rough Stone
-rock12;Rough Stone
+rock01;Rough Stone (1)
+rock02;Rough Stone (2)
+rock03;Rough Stone (3)
+rock04;Rough Stone (4)
+rock12;Rough Stone (5)
+rock15;Rough Stone (6)
+rock17;Rough Stone (7)
+rock19;Rough Stone (8)
+rock20;Rough Stone (9)
+harrowstone;Rough Stone (10)
 rock14;Granite Rock
-rock15;Rough Stone
-rock17;Rough Stone
-rock19;Rough Stone
-rock20;Rough Stone
 rockbrickmaterial;Rock Bricks
 rooftiles;Roof Tiles
 ruinsplatform;Ruins Platform
@@ -1808,7 +1836,8 @@ slush;Slush
 smoothmetal;Smooth Metal
 snow;Snow
 spidersilkblock;Spider Silk
-stomachblock;Stomach Lining
+stomachblock;Stomach Lining (1)
+fustomachblock;Stomach Lining (2)
 stoneplatform;Stone Platform
 stonerubble;Stone Rubble
 stonetiles;Stone Tiles
@@ -1848,7 +1877,8 @@ bouncyball;Bouncy Ball
 bowlingball;Bowling Ball
 capturepod;Capture Pod
 coconut;Coconut
-energyjavelin;Energy Javelin
+energyjavelin;Energy Javelin (1)
+energylance;Energy Javelin (2)
 firework;Red Firework
 fireworkblue;Blue Firework
 fireworkgreen;Green Firework
@@ -1888,21 +1918,23 @@ throwingspear;Iron Hunting Spear
 throwingstar;Throwing Star
 waterballoon;Water Balloon
 chainsaw;Chainsaw
-flashlight;Flashlight
-greenflashlight;Flashlight
+flashlight;Flashlight (1)
+greenflashlight;Flashlight (2)
+redflashlight;Flashlight (3)
+yellowflashlight;Flashlight (4)
 hoe;Hoe
 mininglantern;Explorer's Lantern
 painttool;Paint Mode
-redflashlight;Flashlight
 wiretool;Wire Mode
-yellowflashlight;Flashlight
-beamaxe;Matter Manipulator
-beamaxeX;Matter Manipulator
+beamaxe;Matter Manipulator (1)
+beamaxeX;Matter Manipulator (2)
+protectoratebeamaxe;Matter Manipulator (3)
 copperdrill;Copper Drill
 copperpickaxe;Copper Pickaxe
 diamonddrill;Diamond Drill
 diamondpickaxe;Diamond Pickaxe
-fishaxe;Fishaxe
+fishaxe;Fishaxe (1)
+superfishaxe;Fishaxe (2)
 fossiltool;Fossil Extractor
 golddrill;Gold Drill
 goldpickaxe;Gold Pickaxe
@@ -1912,7 +1944,6 @@ platinumdrill;Platinum Drill
 platinumpickaxe;Platinum Pickaxe
 silverdrill;Silver Drill
 silverpickaxe;Silver Pickaxe
-superfishaxe;Fishaxe
 superfishaxedrop;Fishaxe (Drops)
 crewcontract;Red Shirt Contract
 crewcontract_arctic;Arctic Contract
@@ -1935,7 +1966,8 @@ crewcontract_fuhunter;Hunter Contract
 crewcontract_fullama;Alpaca Contract
 crewcontract_gas;Gas Specialist Contract
 crewcontract_geologist;Geologist Contract
-crewcontract_hobo;Hobo Contract
+crewcontract_hobo;Hobo Contract (1)
+crewcontract_science;Hobo Contract (2)
 crewcontract_janitor;Custodian Contract
 crewcontract_magicalgirl;Magical Girl Contract
 crewcontract_mechanic;Mechanic Contract
@@ -1945,7 +1977,6 @@ crewcontract_metalhead;80s Metalhead Contract
 crewcontract_outlaw;Outlaw Contract
 crewcontract_plur;PLUR Contract
 crewcontract_radien;Radien Explorer Contract
-crewcontract_science;Hobo Contract
 crewcontract_sciencedrug;Drug Specialist Contract
 crewcontract_sciencegas;Toxin Specialist Contract
 crewcontract_scuba;Scuba Contract
@@ -1956,7 +1987,8 @@ crewcontract_warrior;Warrior Contract
 crewcontract_warrior2;Veteran Contract
 crewcontract_warrior3;General Contract
 profishingrod;Pro Fishing Rod
-crystallight;Crystal Light
+crystallight;Crystal Light (1)
+avianwaterlight;Crystal Light (2)
 tacticalmug;Tacti-Cool Mug
 fossilbrushultra;Microparticle Brush
 t;Thing
@@ -1985,19 +2017,19 @@ lunarishield;Lunari Shield
 primitiveshield;Primitive Shield
 quantumshield;Quantum Shield
 reptileshield;Reptilian Shield
-shadowshield;Shadow Shield
+shadowshield;Shadow Shield (1)
+eviltester;Shadow Shield (2)
+shadowimmunity1;Shadow Shield (3)
 titaniumshield;Titanium Shield
 tritaniumshield;Tritanium Shield
 tungstenshield;Tungsten Shield
 xenoshield;X10 Shield
 botpod;Bot Pod
-npcbotpod;Filled Capture Pod
 bugnet2;Superior Bug Net
 fusuperrewardbag;Space-Time Crystal
 HarvesterBeam;Harvester Beamgun
 HarvesterBeam2;Harvester Beamgun II
 HarvesterBeam3;Harvester Beamgun III
-cavedetector1;Cave Detector
 oredetector1;Ore Detector MK1
 cavedetector2;Cave Detector II
 oredetector2;Ore Detector MKII
@@ -2108,7 +2140,8 @@ uraniumbroadsword;Uranium Blade
 warcleaver;Ferozium Cleaver
 xithricitebroadsword;Cosmic Broadsword
 zerchesiumbroadsword;Zerchesium Broadsword
-dbladelong;Tek Blade
+dbladelong;Tek Blade (1)
+dblade;Tek Blade (2)
 densiniumsword;Densinium Blade
 negablade;The Negablade
 precursorbroadsword;Precursor Rendblade
@@ -2120,8 +2153,8 @@ curvedagger;Breach Knife
 effigiumdagger;Phantasm Knife
 fuatropusdagger;Fleshweave Knife
 fubonepickaxe;Curved Bone Blade
-glowstickgreendagger;Glowstick
-glowstickyellowdagger;Glowstick
+glowstickgreendagger;Glowstick (1)
+glowstickyellowdagger;Glowstick (2)
 irradiumdagger;Irradium Dagger
 isogendagger;Isogen Knife
 pyreitedagger;Pyreite Dirk
@@ -2147,7 +2180,6 @@ aetheriumhammer;Aetherium Hammer
 effigiumhammer;Phantasm Hammer
 elderhammer;Elder Hammer
 fishboneheadbasher;Fishbone Basher
-flyingv;Lead Guitar
 fuatropushammer;Fleshweave Mace
 fubonehammer;Bone Cudgel
 fucarbonhammer;Carbon Hammerpick
@@ -2165,7 +2197,8 @@ soulreader;soulreader
 stonehammer;Primitive Hammer
 uraniumhammer;Uranium Hammer
 xithricitehammer;Cosmic Hammer
-zerchesiumhammer;Zerchesium Mace
+zerchesiumhammer;Zerchesium Mace (1)
+zerchesiummace;Zerchesium Mace (2)
 rockethammer;Omega Hammer
 advalloykatana;Masters Katana
 aetheriumkatana;Aetherium Katana
@@ -2234,7 +2267,6 @@ triangliummace;Solangrium Mace
 tungstenmace;Tungsten Mace
 uraniummace;Uranium Mace
 woodenmace;Wooden Club
-zerchesiummace;Zerchesium Mace
 carbonquarterstaff;Carbon Quarterstaff
 commonqs;Common Quarterstaff
 copperquarterstaff;Copper Quarterstaff
@@ -2316,16 +2348,17 @@ uraniumshortsword;Uranium War-Knife
 waxsword;Wax Sword
 xithriciteshortsword;Cosmic Shortsword
 zerchesiumsword;Zerchesium Blade
-dblade;Tek Blade
 fuchainsword;Chain Blade
 advalloyspear;Masters Spear
 banespear;Bane Spear
 fubonespear;Bone Spear
-carbonspear;Carbon Spear
+carbonspear;Carbon Spear (1)
+npchuntingspear;Carbon Spear (2)
 coralspear;Coral Spear
 corruptspear;Corrupted Spear
 cultiststaffmelee;Cultist Battle Staff
-deadbeatspear;Junk Spear
+deadbeatspear;Junk Spear (1)
+metallicspear;Junk Spear (2)
 effigiumspear;Phantasm Spear
 elderspear;Elder Spear
 flightfire;Flightfire
@@ -2335,8 +2368,6 @@ fuqueenstinger;Queen Stinger
 hellfirespear;Hellfire Spear
 irradiumspear;Irradium Spear
 isogenspear;Isogen Spear
-metallicspear;Junk Spear
-npchuntingspear;Carbon Spear
 pincerspear;Pincer Spear
 pyreitespear;Pyreite Lance
 quietusspear;Quietus Spear
@@ -2348,7 +2379,6 @@ tritaniumspear;Tritanium Spear
 uraniumspear;Uranium Spear
 xithricitespear;Cosmic Spear
 zerchesiumspear;Zerchesium Spear
-fudrillspear;Drill Spear
 precursorspear;Precursor Spear
 durasteelmachinepistol;Durasteel Machine Pistol
 durasteelshotgun;Durasteel Shotgun
@@ -2379,7 +2409,6 @@ swtjc_ewg_npcsawedoffshotgun;NPC Short-Barreled Shotgun
 swtjc_ewg_npcsubmachinegun;NPC Submachine Gun
 flamingdemonsword2;Fury
 angryrocket;Spankr
-chargegun2;Charge Gun
 fuadaptablecrossbow;Adaptable Crossbow DX
 fugjallarhorn;Gjallarhorn
 fupixelbreaker;Pixelbreaker
@@ -2511,14 +2540,16 @@ gravitonpistolunique;Kevin
 hellfirecannon;Hellfire Ejector
 hellfiregun;Hellfire Gun
 invisipuke;Invisipuke!
-invisiswarmgun;Swarm Gun
+invisiswarmgun;Swarm Gun (1)
+swarmgun;Swarm Gun (2)
 ionrifle;Ion Rifle
 irradiumrifle;Irradium Rifle
 isn_magmavulcan;Pyre Vulcan
 k3rifle;K3 Double-Tap
 laspistol;Laser Pistol
 lasrifle;Laser Rifle
-longarm;Longarm Shotgun
+longarm;Longarm Shotgun (1)
+npclongarm;Longarm Shotgun (2)
 longarmpistol;Longarm Pistol
 lunaripistol;Lunari Pistol
 lunaririfle;Lunari Rifle
@@ -2536,17 +2567,14 @@ mushroomgun;Fungal Gun
 napalmcannon;Napalm Launcher
 nitrogengun;Nitrogen Cannon
 nitrogenpistol;Nitrogen Pistol
-npclongarm;Longarm Shotgun
 protogun;Proto Gun
 protopistol;Proto Pistol
-randomharpoongun;Harpoon Gun
 rimecutter;Rime Cutter
 shoggothgun;Biomorphic Cannon
 slimelauncher;Slime Launcher
 sniperknife;Sniper Knife
 snubber;Snub Gun
 spawngun;Spike-Bug Launcher
-swarmgun;Swarm Gun
 swarmgun2;Swarm Gun MKII
 tentabane;Frostbringer
 teslagun;Tesla Gun
@@ -2562,7 +2590,8 @@ healingliquidgun;Healing Water Gun
 honeygun;Honey Gun
 liquidacidgun;Acid Gun
 liquidpoisongun;Poison Gun
-basicminer;Mining Laser
+basicminer;Mining Laser (1)
+lunarbaselaser;Mining Laser (2)
 hybridminer;B-97 Miner
 hybridminer2;C-7 Miner
 hybridminer3;D4-B Miner
@@ -2585,15 +2614,16 @@ fuminelayer;Mine Launcher
 furailgun;Railgun
 fushocklance;Shocklance
 chargepistol;Glacial Pistol
-fuaegisaltminigun;Imperius Minigun
-fuaegisaltminigunnpc;Imperius Minigun
+fuaegisaltminigun;Imperius Minigun (1)
+fuaegisaltminigunnpc;Imperius Minigun (2)
 irradiumpistol;Irradium Pistol
 irradiumshotgun;Irradium Burstgun
 splittergun;Fissure Splitrifle
 precursorcannonnew;Precursor Annihilator
 isn_annihilator;Wave Gun
 isn_flamethrower4;Inferno
-isn_flamethrower;Incinerator
+isn_flamethrower;Incinerator (1)
+isn_incinerator;Incinerator (2)
 isn_fusioncannon;Fusion Cannon
 isn_irradiator;Irradiator
 fugoldengun;Scaramanga
@@ -2617,8 +2647,8 @@ razorneedler;Crystalline Needler
 scorchneedler;Scorch Needler
 shockneedler;Shock Needler
 toxicneedler;Toxic Needler
-mobiusrifle;Sentry Rifle
-mobiusrifle2;Sentry Rifle
+mobiusrifle;Sentry Rifle (1)
+mobiusrifle2;Sentry Rifle (2)
 mobiuspistol;Sentry Pistol
 mobiusrailgun;Sentry Railgun
 capturegun;Capture Gun
@@ -2674,16 +2704,17 @@ coldprotectionback2;Heating EPP II
 coldprotectionback3;Heating EPP III
 diamondlantern;Diamond Lantern
 batterypack_erithian;Erithian Energy Pack
-fieldgenerator;Field Generator
+fieldgenerator;Field Generator (1)
+fieldgen;Field Generator (2)
 flexcape;Flexx Cape
 fufallenangelwings;Fallen Wings
 fufireangelwings;Burning Wings
 fuicaruswings;Icarus Wings
 fusurvivorback;Type-S Survival Pack
-blueguardianback;Guardian Wings
-greenguardianback;Guardian Wings
-pinkguardianback;Guardian Wings
-yellowguardianback;Guardian Wings
+blueguardianback;Guardian Wings (1)
+greenguardianback;Guardian Wings (2)
+pinkguardianback;Guardian Wings (3)
+yellowguardianback;Guardian Wings (4)
 heatprotectionback2;Cooling EPP II
 heatprotectionback3;Cooling EPP III
 isn_heatshell;Thermal Shell
@@ -2708,26 +2739,36 @@ fugoldenlegs;Amber Leg Plates
 fuqueenchest;Queen's Dress
 fuqueenhead;Queen's Head
 fuqueenlegs;Queen's Skirt
-colourfulchest;Replace
-colourfulhead;Replace
-colourfullegs;Replace
-colourful2head;Replace
+colourfulchest;Replace (1)
+colourfulhead;Replace (2)
+colourfullegs;Replace (3)
+colourful2head;Replace (4)
 fuearphones;Hi-Fi Earphones
-herocowl;Joke Glasses
-jokeglasses;Joke Glasses
+herocowl;Joke Glasses (1)
+jokeglasses;Joke Glasses (2)
 metalheadhead;Metalhead Hair
 sharkmask;Shark Mask
-fuoperativechestnpc;Operative Chest Armor
-fuoperativelegsnpc;Operative Leg Armor
-fudarkrobeschestnpc;Stalker's Robe
+fuoperativechestnpc;Operative Chest Armor (1)
+fuoperativechest;Operative Chest Armor (2)
+fuoperativelegsnpc;Operative Leg Armor (1)
+fuoperativelegs;Operative Leg Armor (2)
+fudarkrobeschestnpc;Stalker's Robe (1)
+fudarkrobeschest;Stalker's Robe (2)
 fudarkrobeshelmetnpc;Stealker's Hood
-fudarkrobespantsnpc;Stalker's Legs
-fuinfernochestnpc;Inferno Chest
-fuinfernoheadnpc;Inferno Helm
-fuinfernopantsnpc;Inferno Pants
-sciencefuchestnpc;Arctic Parka
-sciencefuheadnpc;Arctic Hood
-sciencefulegsnpc;Arctic Snowpants
+fudarkrobespantsnpc;Stalker's Legs (1)
+fudarkrobespants;Stalker's Legs (2)
+fuinfernochestnpc;Inferno Chest (1)
+fuinfernochest;Inferno Chest (2)
+fuinfernoheadnpc;Inferno Helm (1)
+fuinfernohead;Inferno Helm (2)
+fuinfernopantsnpc;Inferno Pants (1)
+fuinfernopants;Inferno Pants (2)
+sciencefuchestnpc;Arctic Parka (1)
+sciencefuchest;Arctic Parka (2)
+sciencefuheadnpc;Arctic Hood (1)
+sciencefuhead;Arctic Hood (2)
+sciencefulegsnpc;Arctic Snowpants (1)
+sciencefulegs;Arctic Snowpants (2)
 mutachitinchest;Muta-Chitin Chest
 mutachitinhead;Muta-Chitin Helm
 mutachitinpants;Muta-Chitin Greaves
@@ -2737,7 +2778,6 @@ shellplatepants;Shellplate Greaves
 vilechest;Vile Plate
 vilehead;Vile Helm
 vilepants;Vile Greaves
-caretaker2legs;Caretaker Trousers
 bmcglowscoutvisor;Glow Scout Visor
 bmcjumpscoutvisor;Jump Scout Visor
 bmcspeedscoutvisor;Speed Scout Visor
@@ -2751,8 +2791,8 @@ celestaruniform4chest;Elite Shirt
 celestaruniform4pants;Elite Pants
 glitterfolkchest;Elite Top
 glitterfolklegs;Elite Dress
-goggles1;Mad Science Goggles
-goggles2;Mad Science Goggles
+goggles1;Mad Science Goggles (1)
+goggles2;Mad Science Goggles (2)
 gutterpunkchest;Elite Jacket
 gutterpunklegs;Elite Shorts
 hiddenevachest;Charred E.V.A Suit
@@ -2776,7 +2816,8 @@ zaibatsulegs;Zaibatsu Skirt
 armoredsnowpants;Reinforced Snowpants
 boosterchest;Booster Croptop
 boosterlegs;Booster Pants
-fubonearmorchest;Bone Chest
+fubonearmorchest;Bone Chest (1)
+bonechest;Bone Chest (2)
 fubonearmorhead;Bone Mask
 fubonearmorlegs;Bone Legs
 leatherchest;Leather Jerkin
@@ -2800,7 +2841,8 @@ blisterpants;Blister Greaves
 fuwolfchest;Fang Shaman Coat
 fuwolfhead;Fang Shaman Hood
 fuwolflegs;Fang Shaman Leggings
-ff_slimechest;Slime Chest
+ff_slimechest;Slime Chest (1)
+slimehide;Slime Chest (2)
 ff_slimehead;Slime Helm
 ff_slimelegs;Slime Greaves
 fubonearmor2chest;Bone-Steel Chest
@@ -2827,9 +2869,7 @@ fumantizitier2pants;Militia Skirt
 fudesertwalkerchest;Nomad Robes
 fudesertwalkerhead;Nomad Hood
 fudesertwalkerpants;Nomad Pants
-fuoperativechest;Operative Chest Armor
 fuoperativehead;Operative Cap
-fuoperativelegs;Operative Leg Armor
 fusamuraichest;Samurai Breastplate
 fusamuraihead;Samurai Helmet
 fusamurailegs;Samurai Pants
@@ -2923,9 +2963,7 @@ fumantizitier3pants;Slayer Boots
 spacefarerchest;Spacefarer Chest
 spacefarerhead;Spacefarer Helm
 spacefarerpants;Spacefarer Greaves
-fudarkrobeschest;Stalker's Robe
 fudarkrobeshelmet;Stalker's Hood
-fudarkrobespants;Stalker's Legs
 fusteampunkchest;Steampunk Coat
 fusteampunkhead;Steampunk Mask
 fusteampunklegs;Steampunk Slacks
@@ -2975,9 +3013,6 @@ fudiverlegs2;Kraken Leggings
 fuguardianchest;Guardian Carapace
 fuguardianhead;Guardian Visor
 fuguardianpants;Guardian Greaves
-fuinfernochest;Inferno Chest
-fuinfernohead;Inferno Helm
-fuinfernopants;Inferno Pants
 fuinvaderchest;Invader Armor
 fuinvaderhead;Invader Visor
 fuinvaderpants;Invader Greaves
@@ -3038,9 +3073,6 @@ wastelandlegs;Survivor's Pants
 xenochest;X10 Power Armor
 xenohead;X10 Power Helm
 xenolegs;X10 Power Legs
-sciencefuchest;Arctic Parka
-sciencefuhead;Arctic Hood
-sciencefulegs;Arctic Snowpants
 fubonusarmorchest;Dark Matter Chestpiece
 fubonusarmorhead;Dark Matter Helmet
 fubonusarmorpants;Dark Matter Greaves
@@ -3065,7 +3097,9 @@ fuprecursorpants;Precursor Robes
 fuwarphunterchest;Warp Miner Techjacket
 fuwarphunterhead;Warp Miner Helm
 fuwarphunterpants;Warp Miner Techpants
-hellfirechest;Hellfire Chest
+hellfirechest;Hellfire Chest (1)
+hellfirechest1;Hellfire Chest (2)
+hellfirechest2;Hellfire Chest (3)
 hellfirelegs;Hellfire Greaves
 hellfirehelm;Hellfire Helm
 fumantizitier5mchest;Legionii Segmentorum
@@ -3084,9 +3118,7 @@ mobiuschest;Sentry Plate
 mobiushead;Sentry Helmet
 mobiuspants;Sentry Pants
 kirhostier5achest;Valkyrie Hardsuit
-kirhostier5ahead;Valkyrie Helm
 kirhostier5apants;Valkyrie Greaves
-kirhostier5ahead2;Valkyrie Helm
 fumantizitier5achest;Warframe Armor
 fumantizitier5ahead;Warframe Helmet
 fumantizitier5apants;Warframe Pants
@@ -3158,14 +3190,13 @@ warangellegs;War Angel Greaves
 shoggothchest;Shoggoth Chestguard
 shoggothhead;Shoggoth Mask
 shoggothpants;Shoggoth Greaves
-beammasterhelm;Tek-Knight Helm
-beammasterhelm2;Tek-Knight Helm
+beammasterhelm;Tek-Knight Helm (1)
+beammasterhelm2;Tek-Knight Helm (2)
 brainslug;Brain Slug
 duncecap;Dunce Cap
 enforcerhelm;Mark VI Enforcer Helm
 ffskullcap;Skullcap
 ffwizardhat;Wizards Cap
-ff_divingmaskhead;Diving Mask
 ff_gasmask;Mark VI Gasmask
 fubeekeeperhead;Beekeeper's Hat
 fuhoodedmask;Hooded Survival Mask
@@ -3173,24 +3204,23 @@ kungfuheadband;Headband of Warriors
 powerhelm;Cyborg Assassin Helm
 randolphcarterhat;Randolph Carter Hat
 seekerhelm;Seeker Helm
-skullreaperhelm10;Mask of Nekron
-skullreaperhelm4;Mask of Nekron
-skullreaperhelm5;Mask of Nekron
-skullreaperhelm6;Mask of Nekron
-skullreaperhelm7;Mask of Nekron
-skullreaperhelm8;Mask of Nekron
-skullreaperhelm9;Mask of Nekron
-skullreaperhelm;Mask of Nekron
-skullreaperhelm2;Mask of Nekron
-skullreaperhelm3;Mask of Nekron
+skullreaperhelm10;Mask of Nekron (1)
+skullreaperhelm4;Mask of Nekron (2)
+skullreaperhelm5;Mask of Nekron (3)
+skullreaperhelm6;Mask of Nekron (4)
+skullreaperhelm7;Mask of Nekron (5)
+skullreaperhelm8;Mask of Nekron (6)
+skullreaperhelm9;Mask of Nekron (7)
+skullreaperhelm;Mask of Nekron (8)
+skullreaperhelm2;Mask of Nekron (9)
+skullreaperhelm3;Mask of Nekron (10)
 starmasterhelm;Star Master Helm
 targetinggoggles;Targeting Goggles
-trooperhead;Tactical Combat Helm
-trooperhead2;Tactical Combat Helm
+trooperhead;Tactical Combat Helm (1)
+trooperhead2;Tactical Combat Helm (2)
 woodenmask;Wood Mask
 yogsotothhat;Yog-Sothoth Mask
 extraenergisingaugment;Energising Augment
-extragravityaugment;Gravity Augment
 extraresistanceaugment;Resistance Augment
 extraspringaugment;Spring Augment
 fuacidaugment1;Acid Shield
@@ -3201,7 +3231,6 @@ fucoldaugment1;Cold Shield I
 fucoldaugment2;Cold Shield II
 fucosmicresistanceaugment;Cosmic Resist I
 fuelectricresistanceaugment;Electric Resist I
-eviltester;Shadow Shield
 fufireresistanceaugment;Fire Resist I
 fuheataugment1;Heat Shield I
 fuheataugment2;Heat Shield II
@@ -3213,7 +3242,6 @@ furadaugment1;Radiation Shield I
 furadaugment2;Radiation Shield II
 furadioactiveresistanceaugment;Radioactive Resist I
 fushadowresistanceaugment;Shadow Resist I
-shadowimmunity1;Shadow Shield
 futotalimmunity1;Immunity I
 futotalimmunity2;Immunity Field
 feedaugment1;Feeding I
@@ -3232,7 +3260,8 @@ fudefenseaugment1;Kinetic Field
 fudefenseaugment2;Kinetic Field II
 fudefenseaugment3;Kinetic Field III
 fudefenseaugment4;Kinetic Field IV
-aaa;Shadow Barrier
+aaa;Shadow Barrier (1)
+shadowresistanceaugment;Shadow Barrier (2)
 cosmicresistanceaugment;Cosmic Barrier
 electricresistanceaugment;Electric Barrier
 fireresistanceaugment;Fire Barrier
@@ -3240,7 +3269,6 @@ iceresistanceaugment;Ice Barrier
 physicalresistanceaugment;Physical Barrier
 poisonresistanceaugment;Poison Barrier
 radioactiveresistanceaugment;Radioactive Barrier
-shadowresistanceaugment;Shadow Barrier
 cosmicauracollar;Cosmic Aura Collar
 electricauracollar;Shock Aura Collar
 fireauracollar;Fire Aura Collar
@@ -3258,7 +3286,8 @@ apexartifactaugment;The Genesis Coil
 avianartifactaugment;The Wheel of Kluex
 floranartifactaugment;The Bone Trophy
 glitchartifactaugment;The Royal Medallion
-humanartifactaugment;Master Manipulator
+humanartifactaugment;Master Manipulator (1)
+fumastermanipulator;Master Manipulator (2)
 hylotlartifactaugment;The Mirror of Wisdom
 novakidartifactaugment;The Dawn Sigil
 roadkillaugment;A Dead Animal
@@ -3430,18 +3459,17 @@ mineralsample;Mineral Sample
 mutavisksilk;Mutavisk Silk
 mutaviskthread;Mutavisk Nanofibre
 nutrientpaste;Nutrient Paste
-pelt;Pelt
 penumbriteore;Penumbrite Ore
 pesticide;Pesticide
 phosphorus;Phosphorus
 protociteore;Protocite
 pyreiteore;Pyreite Ore
 quietusore;Quietus Ore
-raptoregg;Dinosaur Egg
-raptoregg2;Dinosaur Egg
-raptoregg3;Dinosaur Egg
-raptoregg4;Dinosaur Egg
-raptoregg5;Dinosaur Egg
+raptoregg;Dinosaur Egg (1)
+raptoregg2;Dinosaur Egg (2)
+raptoregg3;Dinosaur Egg (3)
+raptoregg4;Dinosaur Egg (4)
+raptoregg5;Dinosaur Egg (5)
 rawminerals;Raw Minerals
 reptilescales;Reptile Scales
 saltpeter;Saltpeter
@@ -3450,7 +3478,6 @@ servitorbehaviorchip;Behavior Module
 servitorchassis;Servitor Chassis
 servitorlaser;Weapon System Parts
 shoggothflesh;Shoggoth Flesh
-silkold;Silk
 solarishard;Lunari Shard
 solvent;Solvent
 tissueculture;Tissue Culture
@@ -3515,7 +3542,8 @@ microchip;Microchip
 nuclearcore;Nuclear Core
 particlecore;Particle Core
 powercore;Power Core
-cthulureward;Elder Artifact
+cthulureward;Elder Artifact (1)
+cthulurewardstatue;Elder Artifact (2)
 elderrelic1;Unknown Technology
 elderrelic10;Akashic Stone
 elderrelic11;Elder Core
@@ -3692,11 +3720,11 @@ thesauce;The Sauce
 uberstim;Uber-Stim
 ultrastim;X-Stim
 waterstim;Deepwater Stim
-artifact1;Ancient Artifact
-artifact2;Ancient Artifact
-artifact3;Ancient Artifact
-artifact4;Ancient Artifact
-artifact5;Ancient Artifact
+artifact1;Ancient Artifact (1)
+artifact2;Ancient Artifact (2)
+artifact3;Ancient Artifact (3)
+artifact4;Ancient Artifact (4)
+artifact5;Ancient Artifact (5)
 bouncewrap;Bounce Wrap
 corvexputty;Corvex Putty
 crunchychick;Crunchy Chick
@@ -3756,16 +3784,22 @@ diodiahybrid;Diodia Hybrid Fruit
 dragonsbeard;Dragons Beard Herb
 dunestalk;Dunestalk
 energiflower;Energiflower
-erithianalgae;Erithian Algae
+erithianalgae;Erithian Algae (1)
+erithianalgaeseed;Erithian Algae (2)
+wilderithianalgaeseed;Erithian Algae (3)
 fayshroom;Fayshroom
 floralytcandy;Floralyt Candy
-fusnowberry;Snowberry
+fusnowberry;Snowberry (1)
+fusnowberryseed;Snowberry (2)
+wildfusnowberryseed;Snowberry (3)
 fuspongeweed;Spongeweed Slice
 garpberry;Garp Berry
 gazelemon;Gaze Lemon
 gemglow;Gemglow
 genesiberry;Genesiberry
-ghostmushroom;Ghost Mushroom
+ghostmushroom;Ghost Mushroom (1)
+ghostmushroomseed;Ghost Mushroom (2)
+wildghostmushroomseed;Ghost Mushroom (3)
 ginseng;Heartroot
 glarestalkeye;Glarestalk Eye
 goldenglowleaf;Goldenglow Petal
@@ -3795,10 +3829,13 @@ nailery;Nailery
 neuropod;Neuropod Bulb
 nisscap;Niss Cap
 nyanifruit;Nyani String
-onion;Gurn Onion
+onion;Gurn Onion (1)
+onionseed;Gurn Onion (2)
 pasaka;Pasaka Bulb
 pearlfruit;Pearlfruit
-pekkit;Pekkit
+pekkit;Pekkit (1)
+pekkitseed;Pekkit (2)
+wildpekkitseed;Pekkit (3)
 petrifiedroot;Shadow Stalk
 pinkloom;Pinkloom Herb
 porphisblossom;Porphis Blossom
@@ -3857,7 +3894,13 @@ liquidaether;Aether
 liquidbeer;Beer
 liquidbioooze;Bio-Ooze
 liquidblacktar;Black Tar
-liquidblood;Blood
+liquidblood;Blood (1)
+elderblood1;Blood (2)
+elderblood2;Blood (3)
+elderblood3;Blood (4)
+elderblood4;Blood (5)
+elderblood5;Blood (6)
+elderblood6;Blood (7)
 liquidcrystal;Liquified Crystal
 liquiddeuterium;Liquid Deuterium
 liquidelderfluid;Elder Fluid
@@ -3880,11 +3923,12 @@ amberplatform;Amber Platform
 andesite;Andesite
 avaliaeroponics;Aeroponic Tubing
 avalicable;Avali Hull Plating
-avalichits;Data Storage
-avalidarkmetal;Dark Metal Support
+avalichits;Data Storage (1)
+metallicmachine3;Data Storage (2)
+avalidarkmetal;Dark Metal Support (1)
+avalidarkplatform;Dark Metal Support (2)
 avalidarkmetal2;Dark Metal Panels
 avalidarkmetal3;Dark Metal Beam
-avalidarkplatform;Dark Metal Support
 avalidisplay;LED Display
 avaliglass;Avali Glass
 avalihexagons1;Hexagonal Plating
@@ -3905,9 +3949,9 @@ blackslimematerial;Black Slime
 blacksteelblock;Iron Gear Block
 bleachedbonematerial;Bleached Bones
 bloodsandmaterial;Blood Sand
-bloodstonematerial;Blood Stone
+bloodstonematerial;Blood Stone (1)
+bloodstonewall2;Blood Stone (2)
 bloodstonewall;Blood Crystal
-bloodstonewall2;Blood Stone
 bonemealmaterial;Bonemeal
 boneyflesh;Boney Flesh
 brittlejunk;Brittle Junk
@@ -3918,11 +3962,11 @@ campcanvas;Nanocanvas
 camppole;Nanofibre Pole
 camptapestry1;Soft Tapestry
 camptapestry2;Fabric Trim
-charredbonematerial;Packed Bones
 charredfleshmaterial;Charred Flesh
 chromadirtmaterial;Chromatic Dirt
 coral2material;Delicate Coral
-coralmaterial;Coral
+coralmaterial;Coral (1)
+livecoral;Coral (2)
 corruptslimematerial;Corruption
 crystalsandmaterial;Crystal Sand
 darknessmaterial;Block of Darkness
@@ -3948,8 +3992,8 @@ energywood;Energy Wood
 erchiuspillar;Erchius Pillar
 fancywoodstairs;Fancy Wood Platform
 flowerybars;Flowered Iron Bars
-frozensand2material;Frozen Sand
-frozensandmaterial;Frozen Sand
+frozensand2material;Frozen Sand (1)
+frozensandmaterial;Frozen Sand (2)
 frozenstonematerial;Frozen Stone
 fualiengrass;Alien Grasses
 fujellyblock;Jelly Block
@@ -3962,28 +4006,23 @@ fumonasteryflooring;Shoji Flooring
 fumonasteryroofing;Shoji Roof
 fumonasterytile;Shoji Tile
 fumonasterywall;Shoji Wall
-fumossyrock;Mossy Rock
-fumossyrock2;Mossy Rock
+fumossyrock;Mossy Rock (1)
+fumossyrock2;Mossy Rock (2)
 fungalstonematerial;Fungal Stone
 fusavannahgrass;Dry Grasses
 fusteelgirdirmaterial;Steel Girder
-fustomachblock;Stomach Lining
 genetile;Cell
 glasssandmaterial;Glass Sand
 glowglassmaterial;Glow-Glass Block
 glowsandmaterial;Glowing Sand
 greyslate;Gray Slate Stone
-harrowstone;Rough Stone
 hivebeestonematerial;Hive
-hiveold;Living Stone
-hiveoldmaterial;Living Stone
-honeycombmaterial;Honey Material
+hiveold;Living Stone (1)
+hiveoldmaterial;Living Stone (2)
+honeycombmaterial;Honey Material (1)
+redhoneycombmaterial;Honey Material (2)
 honeyplatform;Honey Platform
 hydrotubematerial;Hydroponic Tubing
-iceblock1material;Ice
-iceblock2material;Ice
-iceblock3material;Ice
-iceblock4material;Ice
 irradiatedwall;Radioactive Soil
 irradiatedwall2;Radioactive Stone
 irradiatedwall3;Radioactive Rock
@@ -3992,8 +4031,22 @@ jumpblockmaterial;Jump Block
 jungledirt1material;Jungle Soil
 jungledirt2material;Jungle Dirt
 junglestonematerial;Jungle Stone
-livecoral;Coral
-magmawall1;Volcanic Rock
+magmawall1;Volcanic Rock (1)
+iceball_rock;Volcanic Rock (2)
+volcanicrockseed;Volcanic Rock (3)
+volcanicrockseed2;Volcanic Rock (4)
+volcanicrockseed3;Volcanic Rock (5)
+volcanicrockseed4;Volcanic Rock (6)
+volcanicrockseed5;Volcanic Rock (7)
+volcanicrockseed6;Volcanic Rock (8)
+volcanicrockseed7;Volcanic Rock (9)
+volcanicrockseed8;Volcanic Rock (10)
+volcanicrock2seed;Volcanic Rock (11)
+volcanicrock2seed2;Volcanic Rock (12)
+volcanicrock2seed3;Volcanic Rock (13)
+volcanicrock2seed4;Volcanic Rock (14)
+volcanicrock2seed5;Volcanic Rock (15)
+volcanicrock2seed6;Volcanic Rock (16)
 magmawall2;Burning Volcanic Rock
 magmawall3;Volcanic Ash
 magmawall4;Cooled Volcanic Rock
@@ -4026,15 +4079,15 @@ penumbriteblockmaterial;Penumbrite Block
 precursorchain;Precursor Chain
 precursordecorative;Precursor Rune Panel
 precursordetail;Precursor Metal
-precursorfloor;Precursor Floor
-precursorfloor2;Precursor Floor
+precursorfloor;Precursor Floor (1)
+precursorfloor2;Precursor Floor (2)
 precursorgirder;Precursor girder
 precursorgirdir;Precursor Girder
 precursorglasswall;Precursor Glass
-precursorpanel;Precursor Panel
+precursorpanel;Precursor Panel (1)
+precursorsloped;Precursor Panel (2)
+precursorwall;Precursor Panel (3)
 precursorpillar;Precursor Pillar
-precursorsloped;Precursor Panel
-precursorwall;Precursor Panel
 protoblockmaterial;Protocite Block
 protorockmaterial;Elder Stone
 purpleconsolematerial;Console
@@ -4042,7 +4095,6 @@ rainbowsandmaterial;Rainbow Sand
 raincloudmat;Cloud Block
 rainforestfloor;Rainforest Floor
 rainforestfloorflowers;Rainforest Flowers
-redhoneycombmaterial;Honey Material
 redhoneyplatform;Red Honey Platform
 redhotcobblestone;Red-Hot Cobblestone
 redsand;Fine Sand
@@ -4053,17 +4105,25 @@ retexaetherdustpillar;Aether Dust Pillar
 retexcobblestone;Smoothe Stone
 retexdirt;Rough Dirt
 retexgreenhouse;Greenhouse Wall
-retexironblock;Tungsten Block
 retexironpipe;Metal pipe
 retexredsandstone;Red Sandstone Block
 retexsandstone;Sandstone Block
 retexwallcables;Wall Cables
 rostonematerial;Rostone
 rottingfleshmaterial;Rotting Flesh
-sandpillar1;Sand Pillar
-sandpillar2;Sand Pillar
-shojilattice;Window Lattice
-shroomblockglow;Glowing Mushroom
+sandpillar1;Sand Pillar (1)
+sandpillar2;Sand Pillar (2)
+shroomblockglow;Glowing Mushroom (1)
+fubioshroomblue;Glowing Mushroom (2)
+fubioshroomgreen;Glowing Mushroom (3)
+fubioshroompurple;Glowing Mushroom (4)
+fubioshroomred;Glowing Mushroom (5)
+fubioshroomyellow;Glowing Mushroom (6)
+wildfubioshroomblue;Glowing Mushroom (7)
+wildfubioshroomgreen;Glowing Mushroom (8)
+wildfubioshroompurple;Glowing Mushroom (9)
+wildfubioshroomred;Glowing Mushroom (10)
+wildfubioshroomyellow;Glowing Mushroom (11)
 shroomblockmaterial;Shroom Wall
 slime2material;Slime Block
 slimedirtmaterial;Slimey Soil
@@ -4095,7 +4155,6 @@ warttile;Warts
 wastestone;Wastestone Block
 whitemeteorite;Gleaming Meteorite
 deathblossom;Deathblossom Mushroom
-energylance;Energy Javelin
 fucopperbomb;Copper Bomb
 fuironbomb;Iron Bomb
 ignuschili;Ignus Chili Pepper
@@ -4115,13 +4174,12 @@ bellamortecore;Bella Morte Bomb
 bladetreeblade;Blade Tree Dart
 crystalliteshard;Crystallite Shard
 tinselbushsprout;Tinselbush Dart
-antigravgrenade;Anti-Gravity Bomb
-gravgrenade;Anti-Gravity Bomb
+antigravgrenade;Anti-Gravity Bomb (1)
+gravgrenade;Anti-Gravity Bomb (2)
 pekkitfreeze_freezegrenade;Pekkit Bomb
 waterbucket;Water Bucket
 flashlight_new;Faulty Flashlight
 fuflashlight;Flashlight II
-fumastermanipulator;Master Manipulator
 handhoe;Hand Hoe
 mmgravgun;Morphite Manipulator
 mmgravgun2;Quantum Manipulator
@@ -4200,19 +4258,22 @@ alpacaruinrune;Ruin Rune
 airbooster;Air Booster
 ancientbust;Ancient Bust
 ancientchest;Ancient Chest
-ancientconsole;Ancient Console
-returnconsole;Ancient Console
+ancientconsole;Ancient Console (1)
+returnconsole;Ancient Console (2)
+ancientsmallconsole;Ancient Console (3)
 ancientdoor;Ancient Door
 ancientgate;Ancient Gate
 ancienthiddenplatform;Ancient Hidden Platform
 ancientlight;Ancient Wall Light
-ancientlightplatform;Ancient Light Platform
+ancientlightplatform;Ancient Light Platform (1)
+waterwalkplatform;Ancient Light Platform (2)
+waterwalkplatform2;Ancient Light Platform (3)
 ancientlightround;Round Ancient Wall Light
-ancientmural1;Ancient Mural
-ancientmural2;Ancient Mural
-ancientmural3;Ancient Mural
-ancientmural4;Ancient Mural
-ancientmural5;Ancient Mural
+ancientmural1;Ancient Mural (1)
+ancientmural2;Ancient Mural (2)
+ancientmural3;Ancient Mural (3)
+ancientmural4;Ancient Mural (4)
+ancientmural5;Ancient Mural (5)
 ancientpillar;Ancient Pillar
 ancientplaque1;Ancient Plaque
 ancientpot1;Ornamental Ancient Pot
@@ -4223,33 +4284,32 @@ ancientpot5;Tall Ancient Pot
 ancientpot6;Small Ancient Pot
 ancientpressureplate;Ancient Pressure Plate
 ancientprop;TODO - Ancient Prop
-ancientsmallconsole;Ancient Console
-ancientstriplight1;Ancient Strip Light
-ancientstriplight10;Ancient Strip Light
-ancientstriplight11;Ancient Strip Light
-ancientstriplight12;Ancient Strip Light
-ancientstriplight13;Ancient Strip Light
-ancientstriplight2;Ancient Strip Light
-ancientstriplight4;Ancient Strip Light
-ancientstriplight5;Ancient Strip Light
-ancientstriplight6;Ancient Strip Light
-ancientstriplight7;Ancient Strip Light
-ancientstriplight8;Ancient Strip Light
-ancientstriplight9;Ancient Strip Light
+ancientstriplight1;Ancient Strip Light (1)
+ancientstriplight10;Ancient Strip Light (2)
+ancientstriplight11;Ancient Strip Light (3)
+ancientstriplight12;Ancient Strip Light (4)
+ancientstriplight13;Ancient Strip Light (5)
+ancientstriplight2;Ancient Strip Light (6)
+ancientstriplight4;Ancient Strip Light (7)
+ancientstriplight5;Ancient Strip Light (8)
+ancientstriplight6;Ancient Strip Light (9)
+ancientstriplight7;Ancient Strip Light (10)
+ancientstriplight8;Ancient Strip Light (11)
+ancientstriplight9;Ancient Strip Light (12)
 ancientswitchhidden;Ancient Hidden Switch
 ancienttorch;Ancient Torch
 challengedoor;Challenge Door
 essencechest;Ancient Essence Chest
-hologram1;Ancient Hologram
-hologram2;Ancient Hologram
-hologram3;Ancient Hologram
-hologram4;Ancient Hologram
-hologramgalaxy;Ancient Hologram
+hologram1;Ancient Hologram (1)
+hologram2;Ancient Hologram (2)
+hologram3;Ancient Hologram (3)
+hologram4;Ancient Hologram (4)
+hologramgalaxy;Ancient Hologram (5)
 jumpbooster;Jump Booster
 largetentacleprop;Huge Tentacle Statue
 monolithgate;Monolith Gate
-monolithstatue1;Monolith Statue
-monolithstatue2;Monolith Statue
+monolithstatue1;Monolith Statue (1)
+monolithstatue2;Monolith Statue (2)
 powerbooster;Power Booster
 sawblade2;Ancient Saw Trap
 speedbooster;Speed Booster
@@ -4257,7 +4317,8 @@ gasdispenser;Gas Dispenser
 largefloorspike;Large Floor Spike
 smallfloorspike;Small Floor Spike
 terraforge;Terraforge
-wallbuttontrigger;Small Wall Button
+wallbuttontrigger;Small Wall Button (1)
+smallwallbutton;Small Wall Button (2)
 weaponupgradeanvil;Weapon Upgrade Anvil
 apexapesign;Big Ape Poster
 apexaquarium1;Wooden Aquarium
@@ -4357,10 +4418,10 @@ classicplate;Classic Plate
 classictable;Classic Table
 electricsign;Electricity Warning Sign
 fantasyboardgame;Fantasy Board Game
-flowerbasket1;Hanging Basket
-flowerbasket2;Hanging Basket
-flowerbed1;Flower Bed
-flowerbed2;Flower Bed
+flowerbasket1;Hanging Basket (1)
+flowerbasket2;Hanging Basket (2)
+flowerbed1;Flower Bed (1)
+flowerbed2;Flower Bed (2)
 grandfatherclock;Grandfather Clock
 microscope;Microscope
 plasmadisc;Plasma Disc
@@ -4424,7 +4485,6 @@ avianbench2;Village Bench
 avianpressureplate;Crystal Pressure Plate
 avianstoragelocker;Avian Storage Locker
 avianswitchhidden2;Blue Hidden Switch
-avianwaterlight;Crystal Light
 bardoor2;Portcullis
 bardoor2sideways;Horizontal Portcullis
 bardoor3;Large Portcullis
@@ -4472,8 +4532,8 @@ propeller;Propeller
 sacrificialaltar;Sacrificial Altar
 sarcoavian1;Avian Sarcophagus
 sarcoavian2;Grand Avian Sarcophagus
-sarcohuman;Human Sarcophagus
-sarcohumanalive;Human Sarcophagus
+sarcohuman;Human Sarcophagus (1)
+sarcohumanalive;Human Sarcophagus (2)
 sawblade;Sawblade Trap
 screen1;Data Screen
 screen2;Spaceship screen
@@ -4520,108 +4580,137 @@ alienglowplant1;Glowing Alien Plant
 alientable;Alien Table
 stonebed;Stone Bed
 stonechair;Stone Chair
-stonechest;Stone Chest
+stonechest;Stone Chest (1)
+ff_stonechest;Stone Chest (2)
+ff_stonechest2;Stone Chest (3)
 stonetable;Stone Table
-glowbush2;Glow Flower Bush
-glowbush3;Glow Flower Bush
-glowbush4;Glow Flower Bush
-glowbush5;Glow Flower Bush
+glowbush2;Glow Flower Bush (1)
+glowbush3;Glow Flower Bush (2)
+glowbush4;Glow Flower Bush (3)
+glowbush5;Glow Flower Bush (4)
 glowbushlamp;Glow Bush Lamp
 glowchest;Glow Chest
-glowflower1;Glow Flower Pod
-glowflower2;Glow Flower Pod
-glowflower3;Glow Flower Pod
-glowflower4;Glow Flower Pod
-glowflower5;Glow Flower Pod
+glowflower1;Glow Flower Pod (1)
+glowflower2;Glow Flower Pod (2)
+glowflower3;Glow Flower Pod (3)
+glowflower4;Glow Flower Pod (4)
+glowflower5;Glow Flower Pod (5)
 glowflowerlamp;Glow Flower Lamp
-glowroot1;Roots
-glowroot2;Roots
-glowroot3;Roots
-glowroot4;Roots
-glowtree1;Glow Tree
-glowtree3;Glow Tree
-glowtree4;Glow Tree
-glowtree5;Glow Tree
-glowvine2;Glow Vine
-glowvine3;Glow Vine
-glowvine4;Glowing Vine
-glowvine5;Glowing Vine
+glowroot1;Roots (1)
+glowroot2;Roots (2)
+glowroot3;Roots (3)
+glowroot4;Roots (4)
+root5;Roots (5)
+glowtree1;Glow Tree (1)
+glowtree3;Glow Tree (2)
+glowtree4;Glow Tree (3)
+glowtree5;Glow Tree (4)
+glowvine2;Glow Vine (1)
+glowvine3;Glow Vine (2)
+biovine1;Glow Vine (3)
+biovine3;Glow Vine (4)
+biovine4;Glow Vine (5)
+biovine5;Glow Vine (6)
+glowvine4;Glowing Vine (1)
+glowvine5;Glowing Vine (2)
 glowvinelamp;Glow Vine Lamp
-bioshroom1;Glow Mushrooms
-bioshroom2;Glow Mushrooms
-bioshroom3;Glow Mushrooms
-bioshroom5;Glow Mushrooms
+bioshroom1;Glow Mushrooms (1)
+bioshroom2;Glow Mushrooms (2)
+bioshroom3;Glow Mushrooms (3)
+bioshroom5;Glow Mushrooms (4)
 bioshroomtable;Glow Table
-biovine1;Glow Vine
-biovine3;Glow Vine
-biovine4;Glow Vine
-biovine5;Glow Vine
 bonebed;Bone Coffin Bed
 bonechair;Bone Chair
-bonechest;Bone Chest
 bonedoor;Bone Door
-bonetable;Bone Table
-smashbones1;Bone Pile
-smashbones2;Bone Pile
-smashbones3;Bone Pile
-smashbones4;Bone Pile
+bonetable;Bone Table (1)
+fudragontable;Bone Table (2)
+smashbones1;Bone Pile (1)
+smashbones2;Bone Pile (2)
+smashbones3;Bone Pile (3)
+smashbones4;Bone Pile (4)
 brainsynapse1;Synapse
-buglike1;Hive Bush
-buglike10;Hive Bush
-buglike2;Hive Bush
-buglike3;Hive Bush
-buglike4;Hive Bush
-buglike5;Hive Bush
-buglike6;Hive Bush
-buglike7;Hive Bush
-buglike8;Hive Bush
-buglike9;Hive Bush
+buglike1;Hive Bush (1)
+buglike10;Hive Bush (2)
+buglike2;Hive Bush (3)
+buglike3;Hive Bush (4)
+buglike4;Hive Bush (5)
+buglike5;Hive Bush (6)
+buglike6;Hive Bush (7)
+buglike7;Hive Bush (8)
+buglike8;Hive Bush (9)
+buglike9;Hive Bush (10)
 cellchair;Cell Chair
 cellchest;Cell Chest
 celltable;Cell Table
-cellstructure1;Cell Structure
-cellstructure2;Cell Structure
-cellstructure3;Cell Structure
-cellstructure4;Cell Structure
-cellstructure5;Cell Structure
-dnaplant1;DNA Plant
-dnaplant3;DNA Plant
-dnaplant4;DNA Plant
-colourfulbush1;Colourful Bush
-colourfulbush2;Colourful Bush
-colourfulbush3;Colourful Bush
-colourfulbush4;Colourful Bush
+cellstructure1;Cell Structure (1)
+cellstructure2;Cell Structure (2)
+cellstructure3;Cell Structure (3)
+cellstructure4;Cell Structure (4)
+cellstructure5;Cell Structure (5)
+dnaplant1;DNA Plant (1)
+dnaplant3;DNA Plant (2)
+dnaplant4;DNA Plant (3)
+colourfulbush1;Colourful Bush (1)
+colourfulbush2;Colourful Bush (2)
+colourfulbush3;Colourful Bush (3)
+colourfulbush4;Colourful Bush (4)
+junglebush1;Colourful Bush (5)
+junglebush10;Colourful Bush (6)
+junglebush11;Colourful Bush (7)
+junglebush2;Colourful Bush (8)
+junglebush3;Colourful Bush (9)
+junglebush4;Colourful Bush (10)
+junglebush5;Colourful Bush (11)
+junglebush6;Colourful Bush (12)
+junglebush7;Colourful Bush (13)
+junglebush8;Colourful Bush (14)
 rainbowbed;Rainbow Bed
 rainbowchest;Rainbow Chest
 rainbowtable;Rainbow Table
-embercoral1;Ember Coral
-embercoral2;Ember Coral
-embercoral3;Ember Coral
-embercoral4;Ember Coral
-embercoral5;Ember Coral
-crystalcavebush1;Crystalline Bush
-crystalcavebush2;Crystalline Bush
-crystalcavebush3;Crystalline Bush
-crystalcavebush4;Crystalline Bush
+embercoral1;Ember Coral (1)
+embercoral2;Ember Coral (2)
+embercoral3;Ember Coral (3)
+embercoral4;Ember Coral (4)
+embercoral5;Ember Coral (5)
+crystalcavebush1;Crystalline Bush (1)
+crystalcavebush2;Crystalline Bush (2)
+crystalcavebush3;Crystalline Bush (3)
+crystalcavebush4;Crystalline Bush (4)
+crystallinebush1;Crystalline Bush (5)
+crystallinebush2;Crystalline Bush (6)
+crystallinebush3;Crystalline Bush (7)
+crystallinebush4;Crystalline Bush (8)
+crystalcavebush10;Crystalline Bush (9)
+crystalcavebush11;Crystalline Bush (10)
+crystalcavebush12;Crystalline Bush (11)
+crystalcavebush13;Crystalline Bush (12)
+crystalcavebush14;Crystalline Bush (13)
+crystalcavebush15;Crystalline Bush (14)
+crystalcavebush16;Crystalline Bush (15)
+crystalcavebush17;Crystalline Bush (16)
+crystalcavebush5;Crystalline Bush (17)
+crystalcavebush6;Crystalline Bush (18)
+crystalcavebush7;Crystalline Bush (19)
+crystalcavebush8;Crystalline Bush (20)
+crystalcavebush9;Crystalline Bush (21)
+crystallarge1;Crystalline Bush (22)
+crystallarge2;Crystalline Bush (23)
+crystallarge3;Crystalline Bush (24)
 crystalbed;Crystal Bed
 crystalchest;Crystal Chest
 crystallamp;Crystal Lamp
-crystallinebush1;Crystalline Bush
-crystallinebush2;Crystalline Bush
-crystallinebush3;Crystalline Bush
-crystallinebush4;Crystalline Bush
 crystaltable;Crystal Table
 shadowchimes;Wind Chimes
 shadowmarker;Shadow Marker
-shadowrock1;Dark rock
-shadowrock2;Dark rock
-shadowshrine;Shadow Shrine
-shadowshrine2;Shadow Shrine
-shadowshrine3;Shadow Shrine
-shadowurnlarge1;Large Shadow Urn
-shadowurnlarge2;Large Shadow Urn
-shadowurnmedium1;Medium Shadow Urn
-shadowurnmedium2;Medium Shadow Urn
+shadowrock1;Dark rock (1)
+shadowrock2;Dark rock (2)
+shadowshrine;Shadow Shrine (1)
+shadowshrine2;Shadow Shrine (2)
+shadowshrine3;Shadow Shrine (3)
+shadowurnlarge1;Large Shadow Urn (1)
+shadowurnlarge2;Large Shadow Urn (2)
+shadowurnmedium1;Medium Shadow Urn (1)
+shadowurnmedium2;Medium Shadow Urn (2)
 shadowurnsmall1;Small Shadow Urn
 shadowurnsmall2;Small Dark Vase
 sandstonebed;Sandstone Bed
@@ -4633,16 +4722,22 @@ sandstonetorch;Sandstone Torch
 eyechair;Eye Chair
 eyechest;Eye Chest
 dripblood1;Blood Drop Source
-fleshbed;Flesh Bed
-fleshbush1;Flesh Bush
-fleshbush2;Flesh Bush
-fleshbush4;Flesh Bush
-fleshbush5;Flesh Bush
-fleshbush6;Flesh Bush
-fleshchair;Flesh Chair
+fleshbed;Flesh Bed (1)
+fuunderworldbed;Flesh Bed (2)
+fleshbush1;Flesh Bush (1)
+fleshbush2;Flesh Bush (2)
+fleshbush4;Flesh Bush (3)
+fleshbush5;Flesh Bush (4)
+fleshbush6;Flesh Bush (5)
+fleshchair;Flesh Chair (1)
+fuunderworldchair;Flesh Chair (2)
 fleshchest;Flesh Chest
-fleshdoor;Flesh Door
-fleshtable;Flesh Table
+fleshdoor;Flesh Door (1)
+fuunderworlddoor;Flesh Door (2)
+fuunderworlddoor2;Flesh Door (3)
+fleshtable;Flesh Table (1)
+fuunderworldtable1;Flesh Table (2)
+fuunderworldtable2;Flesh Table (3)
 foundrychair;Heavy Chair
 foundryconsole;Foundry Console
 foundrydoor;Heavy Door
@@ -4664,11 +4759,15 @@ ladlesmall;Small Ladle
 lavatankcascade;Cascading Lava Tank
 lavatanklarge;Large Lava tank
 lavatanksmall;Small Lava Tank
-frozenmistprimer;Chunk of Ice
-geometricshard2;Chunk of Ice
-geometricshard3;Chunk of Ice
-geometricshard4;Chunk of Ice
-geometricshard5;Chunk of Ice
+frozenmistprimer;Chunk of Ice (1)
+geometricshard2;Chunk of Ice (2)
+geometricshard3;Chunk of Ice (3)
+geometricshard4;Chunk of Ice (4)
+geometricshard5;Chunk of Ice (5)
+iceshard1;Chunk of Ice (6)
+iceshard2;Chunk of Ice (7)
+iceshard3;Chunk of Ice (8)
+iceshard4;Chunk of Ice (9)
 frozenfirechair;Frozen Fire Chair
 geodebed;Geode Bed
 geodedoor;Geode Door
@@ -4705,9 +4804,9 @@ titaniumsample;Titanium Sample
 tungstensample;Tungsten Sample
 uraniumsample;Uranium Sample
 violiumsample;Violium Sample
-giantflower1;Giant Flower
-giantflower2;Giant Flower
-giantflower4;Giant Flower
+giantflower1;Giant Flower (1)
+giantflower2;Giant Flower (2)
+giantflower4;Giant Flower (3)
 giantflowerbed;Giant Flower Bed
 giantflowerchair;Giant Flower Chair
 giantflowerdoor;Giant Flower Door
@@ -4715,24 +4814,24 @@ giantflowerlamp;Giant Flower Lamp
 giantflowertable;Giant Flower Table
 smallchurch;Tiny Building
 smallclocktower;Tiny Clock Tower
-smallhouse1;Tiny House
-smallhouse10;Tiny Flats
-smallhouse11;Tiny House
-smallhouse2;Tiny House
-smallhouse3;Tiny House
-smallhouse4;Tiny Flats
-smallhouse5;Tiny Flats
-smallhouse6;Tiny House
-smallhouse7;Tiny House
-smallhouse8;Tiny House
-smallhouse9;Tiny Flats
-smallinn;Tiny House
+smallhouse1;Tiny House (1)
+smallhouse11;Tiny House (2)
+smallhouse2;Tiny House (3)
+smallhouse3;Tiny House (4)
+smallhouse6;Tiny House (5)
+smallhouse7;Tiny House (6)
+smallhouse8;Tiny House (7)
+smallinn;Tiny House (8)
+smallwindmill;Tiny House (9)
+smallhouse10;Tiny Flats (1)
+smallhouse4;Tiny Flats (2)
+smallhouse5;Tiny Flats (3)
+smallhouse9;Tiny Flats (4)
 smalllamppost;Tiny Lamppost
-smallwindmill;Tiny House
-hivebush1;Hive Eggs
-hivebush2;Hive Egg Sac
-hivebush3;Hive Eggs
-hivebush4;Hive Egg Sac
+hivebush1;Hive Eggs (1)
+hivebush3;Hive Eggs (2)
+hivebush2;Hive Egg Sac (1)
+hivebush4;Hive Egg Sac (2)
 hivechair;Hive Chair
 hivechest;Hive Chest
 hivedoor;Hive Door
@@ -4741,34 +4840,20 @@ hivelight2;Small Hive Light
 hivetable;Hive Table
 icedoor;Ice Door
 icemachine;Ice Machine
-iceshard1;Chunk of Ice
-iceshard2;Chunk of Ice
-iceshard3;Chunk of Ice
-iceshard4;Chunk of Ice
 icetable;Ice Table
 snowglobe1;Snowman Snowglobe
 snowglobe2;Penguin Snowglobe
-icesphere1;Ice Sphere
-icesphere2;Ice Sphere
-icesphere3;Ice Sphere
-icesphere4;Ice Sphere
+icesphere1;Ice Sphere (1)
+icesphere2;Ice Sphere (2)
+icesphere3;Ice Sphere (3)
+icesphere4;Ice Sphere (4)
 icespherechest;Ice Sphere Chest
 beanstalk;Beanstalk
-junglebush1;Colourful Bush
-junglebush10;Colourful Bush
-junglebush11;Colourful Bush
-junglebush13;Leafy Plant
-junglebush14;Leafy Plant
-junglebush15;Leafy Plant
-junglebush17;Putrid Flower
-junglebush18;Putrid Flower
-junglebush2;Colourful Bush
-junglebush3;Colourful Bush
-junglebush4;Colourful Bush
-junglebush5;Colourful Bush
-junglebush6;Colourful Bush
-junglebush7;Colourful Bush
-junglebush8;Colourful Bush
+junglebush13;Leafy Plant (1)
+junglebush14;Leafy Plant (2)
+junglebush15;Leafy Plant (3)
+junglebush17;Putrid Flower (1)
+junglebush18;Putrid Flower (2)
 shroombed;Shroom Bed
 shroomchair;Shroom Chair
 shroomdoor;Shroom Door
@@ -4782,49 +4867,49 @@ reedchest;Reed Chest
 reedclock;Reed Wall Clock
 reeddesk;Reed Desk
 reedlamp;Reed Lamp
-reedseed1;Reed Seed
-reedseed2;Reed Seed
-reedseed3;Reed Seed
-reedseed5;Reed Seed
+reedseed1;Reed Seed (1)
+reedseed2;Reed Seed (2)
+reedseed3;Reed Seed (3)
+reedseed5;Reed Seed (4)
 reedshelf;Reed Shelf
-tallgrass1;Tall Grass
-tallgrass3;Tall Grass
-tallgrass4;Tall Grass
+tallgrass1;Tall Grass (1)
+tallgrass3;Tall Grass (2)
+tallgrass4;Tall Grass (3)
 brokenanchor;Broken Anchor
-oshroom1;Glowing Oshroom
-oshroom2;Glowing Oshroom
-oshroom3;Glowing Oshroom
-oshroom4;Glowing Oshroom
-oshroom5;Glowing Oshroom
-seashell1;Seashell
-seashell3;Seashell
-seashell4;Seashell
-seashell5;Seashell
-seashell6;Seashell
-seashell7;Seashell
+oshroom1;Glowing Oshroom (1)
+oshroom2;Glowing Oshroom (2)
+oshroom3;Glowing Oshroom (3)
+oshroom4;Glowing Oshroom (4)
+oshroom5;Glowing Oshroom (5)
+seashell1;Seashell (1)
+seashell3;Seashell (2)
+seashell4;Seashell (3)
+seashell5;Seashell (4)
+seashell6;Seashell (5)
+seashell7;Seashell (6)
 prismchair;Prism Chair
 prismlamp1;Prism Magenta Lamp
 prismlamp2;Prism Emerald Lamp
 prismlamp3;Prism Cyan Lamp
-prismrock1;Prism Crystal
-prismrock2;Prism Crystal
-prismrock3;Prism Crystal
-prismrock4;Prism Crystal
-prismrock5;Prism Crystal
-prismrock7;Prism Crystal
-prismrock8;Prism Crystal
-prismrockhumanoid;Prism Crystal
-prismrockpenguin;Prism Crystal
-prismrockrunes;Prism Crystal
+prismrock1;Prism Crystal (1)
+prismrock2;Prism Crystal (2)
+prismrock3;Prism Crystal (3)
+prismrock4;Prism Crystal (4)
+prismrock5;Prism Crystal (5)
+prismrock7;Prism Crystal (6)
+prismrock8;Prism Crystal (7)
+prismrockhumanoid;Prism Crystal (8)
+prismrockpenguin;Prism Crystal (9)
+prismrockrunes;Prism Crystal (10)
 rainbowwoodbed;Rainbow Wood Bed
 rainbowwoodchair;Rainbow Wood Chair
 rainbowwooddoor;Rainbow Wood Door
 rainbowwoodsafe;Rainbow Wood Chest
 rainbowwoodtable;Rainbow Wood Table
 rustbed;Rusty Bed
-rustbush2;Rusty Bush
-rustbush3;Rusty Bush
-rustbush4;Rusty Bush
+rustbush2;Rusty Bush (1)
+rustbush3;Rusty Bush (2)
+rustbush4;Rusty Bush (3)
 rustchair;Rusty Chair
 rustchest;Rusty Chest
 rusttable;Rusty Table
@@ -4861,19 +4946,17 @@ scorchedcitytable;Round Table
 scorchedcitytv;Stylish TV
 vrheadset;VR Headset
 woodenutilitypole1;Wooden Utility Pole
-ceilingslime1;Dripping Slime
-ceilingslime2;Dripping Slime
-ceilingslime3;Dripping Slime
+ceilingslime1;Dripping Slime (1)
+ceilingslime2;Dripping Slime (2)
+ceilingslime3;Dripping Slime (3)
+dripslime1;Dripping Slime (4)
+ceilinghive1;Dripping Slime (5)
+ceilinghive2;Dripping Slime (6)
+ceilinghive3;Dripping Slime (7)
 slimebed;Slime Bed
 slimechair;Slime Chair
-slimehide;Slime Chest
 slimetorch;Slime Torch
 blueprintblob;Blueprint Blob
-dripslime1;Dripping Slime
-slimeblob1;Slime Blob
-slimeblob2;Slime Blob
-slimeblob3;Slime Blob
-slimeblob5;Slime Blob
 diamondrocksmall;Small Diamond Rock
 goldrock;Gold Rock
 goldrocksmall;Small Gold Rock
@@ -4881,25 +4964,25 @@ platinumrock;Platinum Rock
 platinumrocksmall;Small Platinum Rock
 silverrocksmall;Small Silver Rock
 beaconsnow;Distress Beacon
-snowdrift1;Snowdrift
-snowdrift2;Snowdrift
-snowdrift4;Snowdrift
+snowdrift1;Snowdrift (1)
+snowdrift2;Snowdrift (2)
+snowdrift4;Snowdrift (3)
 snowman;Snowman
 flowerbox;Strange Flower Box
 movingsunflower;Moving Sunflower
 splendidplant;Splendid Flower
-springbush1;Flowery Bush
-springbush2;Flowery Bush
-springbush3;Flowery Bush
-springbush4;Flowery Bush
-springbush5;Flowery Bush
-springbush6;Flowery Bush
+springbush1;Flowery Bush (1)
+springbush2;Flowery Bush (2)
+springbush3;Flowery Bush (3)
+springbush4;Flowery Bush (4)
+springbush5;Flowery Bush (5)
+springbush6;Flowery Bush (6)
 springchest;Spring Chest
 vibrantplant;Vibrant Plant
 floorgear1;Floor Gear
-floorpipe1;Floor Pipe
-floorpipe2;Floor Pipe
-floorpipe3;Floor Pipe
+floorpipe1;Floor Pipe (1)
+floorpipe2;Floor Pipe (2)
+floorpipe3;Floor Pipe (3)
 steamboiler1;Small Steam Boiler
 steamboiler2;Medium Steam Boiler
 steamclock;Steam Clock Face
@@ -4909,30 +4992,30 @@ steamspringdoor;Steamspring Door
 steamspringlamp;Steamspring Lamp
 steamspringtable;Steamspring Table
 cavechair;Rock Chair
-cavechest;Rock Chest
 cavelamp;Stalactite Lamp
-ceilingstalactite3;Rock Stalactite
-ceilingstalactite4;Rock Stalactite
-ceilingstalactite5;Rock Stalactite
-rootbush1;Root
-rootbush2;Root
-rootbush3;Root
-rootbush4;Root
+ceilingstalactite3;Rock Stalactite (1)
+ceilingstalactite4;Rock Stalactite (2)
+ceilingstalactite5;Rock Stalactite (3)
+rootbush1;Root (1)
+rootbush2;Root (2)
+rootbush3;Root (3)
+rootbush4;Root (4)
+swamproot1;Root (5)
+swamproot2;Root (6)
+swamproot5;Root (7)
+toxicgasprimer;Root (8)
 swampchair;Swamp Chair
 swampchest;Swamp Chest
-swamproot1;Root
-swamproot2;Root
-swamproot5;Root
 swamptable;Swamp Table
 swampybed;Swamp Cot
 tarbed;Tar Bed
 tarchair;Tar Chair
 tarconsole;Tar Console
-tarcrystal1;Tar Shard
-tarcrystal2;Tar Shard
-tarcrystal3;Tar Shard
-tarcrystal4;Tar Shard
-tarcrystal5;Tar Shard
+tarcrystal1;Tar Shard (1)
+tarcrystal2;Tar Shard (2)
+tarcrystal3;Tar Shard (3)
+tarcrystal4;Tar Shard (4)
+tarcrystal5;Tar Shard (5)
 tarlight;Tar Lantern
 tarman;Tarman
 bosstentacle;Boss Tentacle
@@ -4940,19 +5023,20 @@ rightorgans;Right Organs
 bossrightspawner;Boss Right Spawner
 tentacleegg;Tentacle Monster Egg
 tentaclepart1;Tentacle part
-tentaclepopmed;Medium Tentacle Capsule
-tentaclepopsmall;Medium Tentacle Capsule
+tentaclepopmed;Medium Tentacle Capsule (1)
+tentaclepopsmall;Medium Tentacle Capsule (2)
 tentaclespawner1;Tentacle Egg
 toxicchair;Toxic Chair
 toxicchest;Toxic Chest
 toxiclamp1;Toxic Lamp
-toxicoshroom1;Toxic Glowing Oshroom
-toxicoshroom4;Toxic Glowing Oshroom
-toxicoshroom5;Toxic Glowing Oshroom
+toxicoshroom1;Toxic Glowing Oshroom (1)
+toxicoshroom4;Toxic Glowing Oshroom (2)
+toxicoshroom5;Toxic Glowing Oshroom (3)
 toxictable;Toxic Table
-smokegen;Smoke
+smokegen;Smoke (1)
+smokeprimer;Smoke (2)
+protectoratesmokegen;Smoke (3)
 smokemachine;Smoke Machine
-smokeprimer;Smoke
 volcanictrap;Natural Volcanic Geyser
 devstatuegeorge;GeorgeV Dev Statue
 tallchair;Tall Chair
@@ -5024,29 +5108,30 @@ inventorstable;Inventor's Table
 wiringstation;Wiring Station
 woodencookingtable;Kitchen Counter
 wildautomatoseed;Automato Seed
-avesmingoseed;Avesmingo Seed
-wildavesmingoseed;Avesmingo Seed
-bananaseed;Banana Seed
-wildbananaseed;Banana Seed
-beakseedseed;Beakseed Seed
-wildbeakseedseed;Beakseed Seed
-boltbulbseed;Boltbulb Seed
-wildboltbulbseed;Boltbulb Seed
-bonebooseed;Boneboo Seed
-wildbonebooseed;Boneboo Seed
-carrotseed;Carrot Seed
-wildcarrotseed;Carrot Seed
+avesmingoseed;Avesmingo Seed (1)
+wildavesmingoseed;Avesmingo Seed (2)
+bananaseed;Banana Seed (1)
+wildbananaseed;Banana Seed (2)
+beakseedseed;Beakseed Seed (1)
+wildbeakseedseed;Beakseed Seed (2)
+boltbulbseed;Boltbulb Seed (1)
+wildboltbulbseed;Boltbulb Seed (2)
+bonebooseed;Boneboo Seed (1)
+wildbonebooseed;Boneboo Seed (2)
+carrotseed;Carrot Seed (1)
+wildcarrotseed;Carrot Seed (2)
 cocoaseed;Cocoa Seed
-coffeeseed;Coffee Seed
-wildcoffeeseed;Coffee Seed
+coffeeseed;Coffee Seed (1)
+wildcoffeeseed;Coffee Seed (2)
 wildcornseed;Corn Seed
-cottonseed;Cotton Seed
-wildcottonseed;Cotton Seed
-wildcrystalplantseed;Crystal Plant Seed
-currentcornseed;Currentcorn Seed
-wildcurrentcornseed;Currentcorn Seed
-diodiaseed;Diodia Seed
-wilddiodiaseed;Diodia Seed
+cottonseed;Cotton Seed (1)
+wildcottonseed;Cotton Seed (2)
+wildcrystalplantseed;Crystal Plant Seed (1)
+crystalplantseed;Crystal Plant Seed (2)
+currentcornseed;Currentcorn Seed (1)
+wildcurrentcornseed;Currentcorn Seed (2)
+diodiaseed;Diodia Seed (1)
+wilddiodiaseed;Diodia Seed (2)
 dirturchinseed;Dirturchin Seed
 electricfluffaloegg;Electric Fluffalo Egg
 firefluffaloegg;Fire Fluffalo Egg
@@ -5057,40 +5142,42 @@ eggshootseed;Eggshoot Seed
 wildfeathercrownseed;Feathercrown Seed
 flowerblue;Blue Flower
 floweryellow;Yellow Flower
-grapesseed;Grape Seed
-wildgrapesseed;Grape Seed
-kiwiseed;Kiwi Seed
-wildkiwiseed;Kiwi Seed
+grapesseed;Grape Seed (1)
+wildgrapesseed;Grape Seed (2)
+kiwiseed;Kiwi Seed (1)
+wildkiwiseed;Kiwi Seed (2)
 mushroomseed;Mushroom Seed
-neonmelonseed;Neonmelon Seed
-wildneonmelonseed;Neonmelon Seed
+neonmelonseed;Neonmelon Seed (1)
+wildneonmelonseed;Neonmelon Seed (2)
 oculemonseed;Oculemon Seed
-pearlpeaseed;Pearlpea Seed
-wildpearlpeaseed;Pearlpea Seed
-pineappleseed;Pineapple Seed
-wildpineappleseed;Pineapple Seed
-potatoseed;Potato Seed
-wildpotatoseed;Potato Seed
-pussplumseed;Pussplum Seed
-wildpussplumseed;Pussplum Seed
-reefpodseed;Reefpod Seed
-wildreefpodseed;Reefpod Seed
-riceseed;Rice Seed
-wildriceseed;Rice Seed
-sugarcaneseed;Sugarcane Seed
-wildsugarcaneseed;Sugarcane Seed
+pearlpeaseed;Pearlpea Seed (1)
+wildpearlpeaseed;Pearlpea Seed (2)
+pineappleseed;Pineapple Seed (1)
+wildpineappleseed;Pineapple Seed (2)
+potatoseed;Potato Seed (1)
+wildpotatoseed;Potato Seed (2)
+pussplumseed;Pussplum Seed (1)
+wildpussplumseed;Pussplum Seed (2)
+reefpodseed;Reefpod Seed (1)
+wildreefpodseed;Reefpod Seed (2)
+riceseed;Rice Seed (1)
+wildriceseed;Rice Seed (2)
+sugarcaneseed;Sugarcane Seed (1)
+wildsugarcaneseed;Sugarcane Seed (2)
 thornplant;Thorny Plant
 toxictopseed;Toxictop Seed
 wartweedseed;Wartweed Seed
 wheatseed;Wheat Seed
 agaranmushroom;Giant Agaran Mushroom
-bamboodoor;Bamboo Door
+bamboodoor;Bamboo Door (1)
+huntingdoor1;Bamboo Door (2)
 chestfloran1;Small Primitive Chest
 chestfloran2;Large Primitive Chest
 chestplant1;Small Overgrown Chest
 floranbed;Primitive Bed
 floranbench;Primitive Bench
-floranbonedisplay1;Bone Trophy
+floranbonedisplay1;Bone Trophy (1)
+fudragontrophy;Bone Trophy (2)
 floranbonedisplay2;Bone Carving
 floranbonestool;Primitive Stool
 floranbookcase;Primitive Bookcase
@@ -5111,8 +5198,8 @@ florandrum4;Tiny Bongo
 giantfloranpod;Giant Fungal Pod
 floranlamp1;Vine Pod Lamp
 floranlight;Vine Wall Light
-floranopenpod1;Open Fungal Pod
-floranopenpod2;Open Fungal Pod
+floranopenpod1;Open Fungal Pod (1)
+floranopenpod2;Open Fungal Pod (2)
 floranpainting1;Primitive Fire Art
 floranpainting3;Primitive Chart Art
 floranpainting5;Primitive Abstract Art
@@ -5121,8 +5208,8 @@ floranpelt2;Small Black Pelt
 floranpelt3;Long Black Pelt
 floranpelt4;Large Snowy Pelt
 floranpelt5;Small Snowy Pelt
-floranpod1;Fungal Pod
-floranpod2;Fungal Pod
+floranpod1;Fungal Pod (1)
+floranpod2;Fungal Pod (2)
 floranpodapex;Trapped Apex Pod
 floranscreen1;Wooden Dressing Screen
 floranscreen2;Leather Dressing Screen
@@ -5136,7 +5223,6 @@ florantanningrack;Primitive Tanning Rack
 huntingbigstatue;Large Floran Statue
 huntingdisplay1;Spear on a Plaque
 huntingdisplay2;Empty Plaque
-huntingdoor1;Bamboo Door
 huntinggroundtorch;Sturdy Torch Stand
 huntingpike1;Bones on a Pike
 huntingpike2;Skull on a Pike
@@ -5173,13 +5259,15 @@ planturn1;Wide Urn
 plantvinetable;Overgrown Table
 plantvolcano1;Small Volcanic Geyser
 plantvolcano2;Large Volcanic Geyser
-dirtyfossil1;Fossil
-dirtyfossil4;Fossil
-dirtyfossil5;Fossil
-dirtyfossil6;Fossil
-dirtyfossil8;Fossil
+dirtyfossil1;Fossil (1)
+dirtyfossil4;Fossil (2)
+dirtyfossil5;Fossil (3)
+dirtyfossil6;Fossil (4)
+dirtyfossil8;Fossil (5)
 fossildisplay3;Medium Fossil Display
-humangenerator;Shield Generator
+humangenerator;Shield Generator (1)
+shieldgenerator;Shield Generator (2)
+referencegenerator;Shield Generator (3)
 arcadegameclosed;Closed Mazebound64
 biohazardsign;Biohazard Sign
 birdsnest;Bird's Nest
@@ -5222,7 +5310,8 @@ futurelight;Cheap Light
 gunchest;Gun Chest
 hazardmicroscope;Hazard Microscope
 helpme;Help Me Sign
-invisiblelight;Ship Light
+invisiblelight;Ship Light (1)
+apexshiplight;Ship Light (2)
 ironbed;Sharp Bed
 ironswitch;Sharp Console
 irontoilet;Sharp Toilet
@@ -5271,13 +5360,13 @@ tent1blue;Blue Dome Tent
 tent1red;Red Dome Tent
 tent2;Green Basic Tent
 torch;Torch
-toxicgasprimer;Root
 trophygold;Champion's Trophy
 tungstenchair;Metal Folding Chair
 tvstation;TV Station
 vent;Air Vent
 weaponchest;Weapon Chest
-wflowerpot;White Flower
+wflowerpot;White Flower (1)
+flowerwhite;White Flower (2)
 windchime;Bamboo Wind Chime
 woodchair;Wooden Padded Chair
 wooddoor;Paneled Door
@@ -5336,7 +5425,8 @@ medievalbookcase;Medieval Bookcase
 medievalbookcaseswitch;Medieval Bookcase Switch
 medievalbowl;Medieval Bowl
 medievalcabinet;Medieval Cabinet
-medievalcandle;Candle
+medievalcandle;Candle (1)
+waxcandle;Candle (2)
 medievalcellbed;Medieval Hay Bed
 medievalchair;Medieval Chair
 medievalchandelier;Medieval Chandelier
@@ -5357,7 +5447,8 @@ medievalstock;Medieval Stocks
 medievalstreetlamp;Medieval Street Lamp
 medievalswitchhidden;Grey Hidden Switch
 medievalswitchlever;Switch Lever
-medievalswitchshackle;Wall Shackles
+medievalswitchshackle;Wall Shackles (1)
+wallshackles;Wall Shackles (2)
 medievalsworddisplay;Sword Display
 medievaltable;Medieval Table
 medievaltoilet;Medieval Toilet
@@ -5388,9 +5479,9 @@ targetdummy;Target Dummy
 toxicwastebarrel;Toxic Waste Barrel
 trashbag;Trash Bag
 trashcan;Trash Can
-wallshackles;Wall Shackles
 wallshield;Glitch Shield Display
-wheelbarrow;Wheelbarrow
+wheelbarrow;Wheelbarrow (1)
+fuwheelbarrow;Wheelbarrow (2)
 wickerbasket2;Wide Wicker Basket
 wickerbasket3;Tall Wicker Basket
 wickerbasket4;Handled Wicker Basket
@@ -5419,8 +5510,8 @@ holidaycandles;Festive Candles
 holidaycraftingtable;Toymaker's Table
 holidaypole;Holiday Pole
 holly;Decorative Holly
-lollipop1;Giant Lollipop
-lollipop2;Giant Lollipop
+lollipop1;Giant Lollipop (1)
+lollipop2;Giant Lollipop (2)
 present1;Teal Present
 present2;Red Present
 present3;Blue Present
@@ -5441,8 +5532,8 @@ basictoilet;Basic Toilet
 basictv;Old Television
 bunkerbigpanel;Large Monitor
 bunkercabinet1;Metal Cabinet
-bunkerceilinglight1;Metal Ceiling Lamp
-bunkerceilinglight2;Metal Ceiling Lamp
+bunkerceilinglight1;Metal Ceiling Lamp (1)
+bunkerceilinglight2;Metal Ceiling Lamp (2)
 bunkercomputer;Small Computer
 bunkerconsole1;Command Console
 bunkerconsole4;Wide Console
@@ -5477,9 +5568,9 @@ prisonfence2;Short Chain-link Fence
 prisongirderh;Horizontal Rusted Girder
 prisongraffiti1;'Waz' Graffiti
 prisongraffiti2;"No Escape" Graffiti
-prisongraffiti3;Graffiti
-prisongraffiti4;Graffiti
-prisongraffiti6;Graffiti
+prisongraffiti3;Graffiti (1)
+prisongraffiti4;Graffiti (2)
+prisongraffiti6;Graffiti (3)
 prisongratev;Vertical Metal Grates
 prisonlocker1;Small Prison Locker
 prisonlocker2;Tall Prison Locker
@@ -5544,7 +5635,9 @@ hylotllantern1;Traditional Paper Lantern
 hylotllilyclock;Lily Pad Clock
 hylotllilydeco1;Little Lily Pad
 hylotllilydeco3;Big Lily Pad
-hylotlliquidsensor;Liquid Sensor
+hylotlliquidsensor;Liquid Sensor (1)
+liquidsensor;Liquid Sensor (2)
+elderliquidsensor;Liquid Sensor (3)
 hylotlmovieposter1;Action Movie Poster
 hylotlmovieposter2;Warrior Movie Poster
 hylotlpainting1;Traditional Wave Painting
@@ -5631,28 +5724,29 @@ lunarbaseconsole;Lunar Base Console
 lunarbasecrate;Lunar Base Crate
 lunarbasedoor;Lunar Base Blastdoor
 lunarbaselantern;Lunar Base Lantern
-lunarbaselaser;Mining Laser
 lunarbaselocker;Lunar Base Lockers
 drillmachine;Mining Drill
-miningcrusher;Mining Impact Crusher
-mininghazardsign;Mining Hazard Sign
+miningcrusher;Mining Impact Crusher (1)
+minecrusher;Mining Impact Crusher (2)
+minecrushermachine;Mining Impact Crusher (3)
+mininghazardsign;Mining Hazard Sign (1)
+minehazardsign;Mining Hazard Sign (2)
 miningpowersign;Power Sign
 miningskip;Mining Skip
 miningverticaldoor;Mining Hatch
 penguinposter1;Penguins Only Sign
 redlight;Red Light
 redlightBroken;Broken Red Light
-root10;Long Roots
-root5;Roots
-root6;Long Roots
-root7;Long Roots
-root8;Long Roots
+root10;Long Roots (1)
+root6;Long Roots (2)
+root7;Long Roots (3)
+root8;Long Roots (4)
 secretsign1;Secret Symbol 1
 secretsign2;Secret Symbol 2
 statuslight;Status Light
-strangeweb3;Strange Web
-strangeweb4;Strange Web
-strangeweb5;Strange Web
+strangeweb3;Strange Web (1)
+strangeweb4;Strange Web (2)
+strangeweb5;Strange Web (3)
 tanktrap;Tank Trap
 templepressureplatform;Temple Pressure Platform
 trapchest;Trap Chest
@@ -5678,32 +5772,48 @@ saloontable;Saloon Table
 wagonwheel;Wagon Wheel
 wantedposter;Wanted Poster
 ceilingspike4;Stalactite
-groundspike1;Sharp Spikes
-groundspike2;Sharp Spikes
-thorns1;Thorns
-thorns3;Thorns
-desertceilingspike1;Sharp Spikes
-desertceilingspike2;Sharp Spikes
-desertceilingspike3;Sharp Spikes
-desertceilingspike4;Sharp Spikes
-desertgroundspike1;Sharp Spikes
-desertgroundspike2;Sharp Spikes
-greenceilingspike1;Sharp Spikes
-greenceilingspike2;Sharp Spikes
-greenceilingspike3;Sharp Spikes
-greenceilingspike4;Sharp Spikes
-greengroundspike1;Sharp Spikes
-greengroundspike3;Sharp Spikes
-greengroundspike4;Sharp Spikes
-icestalactite1;Sharp Spikes
-icestalactite2;Sharp Spikes
-icestalactite3;Sharp Spikes
-icestalagmite1;Sharp Spikes
-icestalagmite4;Sharp Spikes
-magmagroundspike1;Sharp Spikes
-magmagroundspike3;Sharp Spikes
-savannahgroundspike3;Sharp Spikes
-savannahgroundspike4;Sharp Spikes
+groundspike1;Sharp Spikes (1)
+groundspike2;Sharp Spikes (2)
+desertceilingspike1;Sharp Spikes (3)
+desertceilingspike2;Sharp Spikes (4)
+desertceilingspike3;Sharp Spikes (5)
+desertceilingspike4;Sharp Spikes (6)
+desertgroundspike1;Sharp Spikes (7)
+desertgroundspike2;Sharp Spikes (8)
+greenceilingspike1;Sharp Spikes (9)
+greenceilingspike2;Sharp Spikes (10)
+greenceilingspike3;Sharp Spikes (11)
+greenceilingspike4;Sharp Spikes (12)
+greengroundspike1;Sharp Spikes (13)
+greengroundspike3;Sharp Spikes (14)
+greengroundspike4;Sharp Spikes (15)
+icestalactite1;Sharp Spikes (16)
+icestalactite2;Sharp Spikes (17)
+icestalactite3;Sharp Spikes (18)
+icestalagmite1;Sharp Spikes (19)
+icestalagmite4;Sharp Spikes (20)
+magmagroundspike1;Sharp Spikes (21)
+magmagroundspike3;Sharp Spikes (22)
+savannahgroundspike3;Sharp Spikes (23)
+savannahgroundspike4;Sharp Spikes (24)
+elderceilingspike1;Sharp Spikes (25)
+elderceilingspike2;Sharp Spikes (26)
+elderceilingspike3;Sharp Spikes (27)
+elderceilingspike4;Sharp Spikes (28)
+elderceilingspike5;Sharp Spikes (29)
+elderceilingspike6;Sharp Spikes (30)
+elderceilingspike7;Sharp Spikes (31)
+elderceilingspike8;Sharp Spikes (32)
+elderfloorspike1;Sharp Spikes (33)
+elderfloorspike2;Sharp Spikes (34)
+elderfloorspike3;Sharp Spikes (35)
+elderfloorspike4;Sharp Spikes (36)
+elderfloorspike5;Sharp Spikes (37)
+elderfloorspike6;Sharp Spikes (38)
+elderfloorspike7;Sharp Spikes (39)
+elderfloorspike8;Sharp Spikes (40)
+thorns1;Thorns (1)
+thorns3;Thorns (2)
 2stopshop;2 Stop Teleshop
 2stopshopclosed;Closed 2 Stop Teleshop
 2stoptele;2 Stop Teleshop Teleporter
@@ -5711,8 +5821,8 @@ bathroomhanddryer;Bathroom Hand Dryer
 bathroomstall;Bathroom Stall
 bench;Bench
 coffeemachine;Coffee Machine
-customsign;Sign
-wiredcustomsign;Sign
+customsign;Sign (1)
+wiredcustomsign;Sign (2)
 fireextinguisher;Fire Extinguisher
 floop;Floop
 frogfurnishing;Frögg Furnishing
@@ -5753,8 +5863,8 @@ roofvent;Roof Vent
 shipyardcaptain;Shipyard Captain
 shipyardwelding;Welding Penguin
 signstore;EASEL
-techlabconsole1;Tech Console Dispenser
-techlabconsole1offline;Tech Console Dispenser
+techlabconsole1;Tech Console Dispenser (1)
+techlabconsole1offline;Tech Console Dispenser (2)
 techlabhologram;Tech Lab Interface
 techlabscientist;Tech Lab Scientist
 techlabscientistshop;Tech Lab Shop
@@ -5774,30 +5884,31 @@ stationbackgroundtjunchorizontaltop;T Junction Horizontal Top Piece Background
 expansionslot;Expansion Slot
 expansionslothorizontal;Horizontal Expansion Slot
 playerstationconsole;Space Station Console
-00back;Protectorate Background
-00bback;Protectorate Background
-01back;Protectorate Background
-02back;Protectorate Background
-02bback;Protectorate Background
-04bback;Protectorate Background
-05back;Protectorate Background
-06back;Protectorate Background
+00back;Protectorate Background (1)
+00bback;Protectorate Background (2)
+01back;Protectorate Background (3)
+02back;Protectorate Background (4)
+02bback;Protectorate Background (5)
+04bback;Protectorate Background (6)
+05back;Protectorate Background (7)
+06back;Protectorate Background (8)
+07bback;Protectorate Background (9)
+09bback;Protectorate Background (10)
+10back;Protectorate Background (11)
+10bback;Protectorate Background (12)
+11back;Protectorate Background (13)
+11bback;Protectorate Background (14)
+13bback;Protectorate Background (15)
+15back;Protectorate Background (16)
+15bback;Protectorate Background (17)
 07back;Protectorate Stage Background
-07bback;Protectorate Background
-09bback;Protectorate Background
-10back;Protectorate Background
-10bback;Protectorate Background
-11back;Protectorate Background
-11bback;Protectorate Background
-13bback;Protectorate Background
-15back;Protectorate Background
-15bback;Protectorate Background
-protectoratebeamaxe;Matter Manipulator
 protectoratebrokendisplay2;Protectorate Broken Display
 protectoratebrokenlight;Broken Fluorescent Light
-protectoratebrokenportrait2;Grand Protector Portrait
+protectoratebrokenportrait2;Grand Protector Portrait (1)
+protectoratebrokenportrait4;Grand Protector Portrait (2)
+protectorateportrait4;Grand Protector Portrait (3)
+protectorateportrait5;Grand Protector Portrait (4)
 protectoratebrokenportrait3;Torn Protectorate Picture Frame
-protectoratebrokenportrait4;Grand Protector Portrait
 protectoratedoor;Protectorate Academy Door
 protectoratedormmirror;Protectorate Bathroom Mirror
 protectoratedormtoilet;Protectorate Dorm Toilet
@@ -5805,98 +5916,93 @@ protectoratedormtoiletroll;Protectorate Toilet Roll Holder.
 protectorateextinguisher;Protectorate Fire Extinguisher
 protectoratefbannertorn1;Torn Protectorate Wall Banner
 protectoratefigures;Protectorate Poptop Toy
-protectorateflower;Protectorate Flower
 protectorategardenbench;Protectorate Garden Bench
 protectorategardentree;Protectorate Garden Bushes
 protectorateguidelines;Protectorate Old Book
 protectorateguitar;Protectorate Red Guitar
 protectoratehalllight;Hall Spotlight
-protectorateincap5;Protectorate Body
-protectorateincap6;Protectorate Body
+protectorateincap5;Protectorate Body (1)
+protectorateincap6;Protectorate Body (2)
 protectoratelavalamp;Protectorate Lava Lamp
 protectoratelobbybin;Protectorate Bin
 protectoratelobbyplant;Protectorate Lobby Plant.
 protectoratelobbyracebanners;Protectorate Race Banners
 protectoratemanipulator;Protectorate Matter Manipulator
-protectorateportrait4;Grand Protector Portrait
-protectorateportrait5;Grand Protector Portrait
 protectorateradio;Protectorate Radio
 protectoraterobe;Protectorate Robe Prop
-protectorateroofdetail01;Protectorate Roof Top Vent
-protectorateroofdetail03;Protectorate Roof Top Vent
-protectorateroofdetail04;Protectorate Roof Top Vent
-protectoraterooftopprop2;Protectorate Roof Top Vent
+protectorateroofdetail01;Protectorate Roof Top Vent (1)
+protectorateroofdetail03;Protectorate Roof Top Vent (2)
+protectorateroofdetail04;Protectorate Roof Top Vent (3)
+protectoraterooftopprop2;Protectorate Roof Top Vent (4)
 protectoraterubble;Impassable Rubble
 protectoratesecuritystation;Protectorate Security Station
-protectoratesmokegen;Smoke
-protectoratestorage1;Status Pod Storage Unit
-protectoratestorage2;Status Pod Storage Unit
+protectoratestorage1;Status Pod Storage Unit (1)
+protectoratestorage2;Status Pod Storage Unit (2)
 protectoratestorage6;Capsule Storage Unit
 protectoratestorageempty;Empty Storage Unit
 protectoratetoolbox;Red Toolbox
 protectoratewastebin;Protectorate Waste Bin
 protectoratewatertank;Protectorate Water Tank
-protectoratewindbanner;Protectorate Wall Banner
-protectoratewindbanner2;Protectorate Wall Banner
-protectoratewindbanner3;Protectorate Wall Banner
+protectoratewindbanner;Protectorate Wall Banner (1)
+protectoratewindbanner2;Protectorate Wall Banner (2)
+protectoratewindbanner3;Protectorate Wall Banner (3)
 protectorategardenwindchimes;Protectorate Garden Wind Chimes
 railbumper;Rail Bumper
 railtramstop;Rail Tram Stop
 apexcaptainschair;Apex Captain's Chair
 apexshipdoor;Apex Ship Door
 apexshiphatch;Apex Ship Hatch
-apexshiplight;Ship Light
-apexshiplocker;Shiplocker
-apexshiplockerTier0;Shiplocker
-avianfuelhatch;FTL Fuel Hatch
+apexshiplocker;Shiplocker (1)
+apexshiplockerTier0;Shiplocker (2)
+avianshiplocker;Shiplocker (3)
+avianshiplockerTier0;Shiplocker (4)
+glitchshiplockerTier0;Shiplocker (5)
+hylotlshiplockerTier0;Shiplocker (6)
+avianfuelhatch;FTL Fuel Hatch (1)
+humanfuelhatch;FTL Fuel Hatch (2)
 avianshipdoor;Avian Ship Door
 avianshiphatch;Avian Ship Hatch
-avianshiplocker;Shiplocker
-avianshiplockerTier0;Shiplocker
-aviantechstationTier0;S.A.I.L
-bigboosterflameavian;Booster Flame
-bigboosterflameglitch;Booster Flame
-boosterflame;Booster Flame
-boosterflameapex2;Booster Flame
-boosterflameapex3;Booster Flame
-boosterflamehuman3;Booster Flame
+aviantechstationTier0;S.A.I.L (1)
+florantechstationTier0;S.A.I.L (2)
+glitchtechstation;S.A.I.L (3)
+glitchtechstationTier0;S.A.I.L (4)
+hylotltechstation;S.A.I.L (5)
+techstation;S.A.I.L (6)
+bigboosterflameavian;Booster Flame (1)
+bigboosterflameglitch;Booster Flame (2)
+boosterflame;Booster Flame (3)
+boosterflameapex2;Booster Flame (4)
+boosterflameapex3;Booster Flame (5)
+boosterflamehuman3;Booster Flame (6)
+smallboosterflameglitch;Booster Flame (7)
 encounterboosterflame;Damaging Booster Flame
-smallboosterflameglitch;Booster Flame
-brokenapexfuelhatch;Broken FTL Fuel Hatch
-brokenavianfuelhatch;Broken FTL Fuel Hatch
-brokenfloranfuelhatch;Broken FTL Fuel Hatch
-brokenhylotlfuelhatch;Broken FTL Fuel Hatch
+brokenapexfuelhatch;Broken FTL Fuel Hatch (1)
+brokenavianfuelhatch;Broken FTL Fuel Hatch (2)
+brokenfloranfuelhatch;Broken FTL Fuel Hatch (3)
+brokenhylotlfuelhatch;Broken FTL Fuel Hatch (4)
 florancaptainschair;Floran Captain's Chair
 floranshipdoor;Floran Ship Door
 floranshiphatch;Floran Ship Hatch
-florantechstationTier0;S.A.I.L
-floranteleporterTier0;Teleporter
+floranteleporterTier0;Teleporter (1)
+glitchteleporter;Teleporter (2)
+glitchteleporterTier0;Teleporter (3)
+humanteleporterTier0;Teleporter (4)
+hylotlteleporter;Teleporter (5)
+hylotlteleporterTier0;Teleporter (6)
+novakidteleporter;Teleporter (7)
+novakidteleporterTier0;Teleporter (8)
+teleporterTier0;Teleporter (9)
 glitchshiphatch;Glitch Ship Hatch
-glitchshiplockerTier0;Shiplocker
-glitchtechstation;S.A.I.L
-glitchtechstationTier0;S.A.I.L
-glitchteleporter;Teleporter
-glitchteleporterTier0;Teleporter
-humanfuelhatch;FTL Fuel Hatch
 humanshiphatch;Human Ship Hatch
-humanshiplocker;Ship Locker
-humanteleporterTier0;Teleporter
+humanshiplocker;Ship Locker (1)
+novakidshiplockerTier0;Ship Locker (2)
 hylotlcaptainschair;Hylotl Captain's Chair
-hylotlshipdoor;Hylotl Ship Door
-hylotlshipdoorBroken;Hylotl Ship Door
-hylotlshiplockerTier0;Shiplocker
-hylotltechstation;S.A.I.L
-hylotlteleporter;Teleporter
-hylotlteleporterTier0;Teleporter
+hylotlshipdoor;Hylotl Ship Door (1)
+hylotlshipdoorBroken;Hylotl Ship Door (2)
 novakidcaptainschair;Novakid Captain's Chair
 novakidshipdoor;Novakid Ship Door
 novakidshipdoorBroken;Broken Ship Door
-novakidshiplockerTier0;Ship Locker
-novakidteleporter;Teleporter
-novakidteleporterTier0;Teleporter
 researchstation;Research Station
-techstation;S.A.I.L
-teleporterTier0;Teleporter
 astrocabinet;Astro Cabinet
 astrochair;Astro Chair
 astroconsole;Astro Console
@@ -5915,7 +6021,8 @@ industriallight;Industrial Light
 industrialstoragelocker;Industrial Storage Locker
 shipgreeble1;Ship Greeble 1
 shipgreeble4;Ship Greeble 4
-solarpanel;Solar Panel
+solarpanel;Solar Panel (1)
+isn_solarpanel;Solar Panel (2)
 spacebarbottom;Space Bar
 spaceslideshow;Space Slideshow
 stationceilingvent;Station Ceiling Vent
@@ -6013,9 +6120,9 @@ flametrap;Avian Flame Trap
 alarm;Alarm
 bigredbutton;Big Red Button
 drain;Drain
-landmine;Military Land Mine
+landmine;Military Land Mine (1)
+poisonmine;Military Land Mine (2)
 lightsensor;Light Sensor
-liquidsensor;Liquid Sensor
 and;AND Switch
 bulb;Bulb
 invisibleand;Invisible AND Switch
@@ -6030,11 +6137,10 @@ movingelevatorlong;Long Elevator
 persistentswitch;Persistent Switch
 secretdoor;Secret Door
 secrettrapdoor;Secret Trapdoor
-shieldgenerator;Shield Generator
 smallfloorbutton;Small Floor Button
-smallwallbutton;Small Wall Button
 invisiblewallswitch;Invisible Wall Switch
-smallwallswitchlit;Small Wall Switch (Light)
+smallwallswitchlit;Small Wall Switch (Light) (1)
+elderwallswitch;Small Wall Switch (Light) (2)
 tinywallbutton;Tiny Wall Button
 tinywallswitch;Tiny Wall Switch
 wreckcrate1;Wrecked Crate
@@ -6048,10 +6154,10 @@ wreckturbine2;Wrecked Turbine
 wrecktv;Wrecked Screen
 wreckvat1;Wrecked Vat
 aex;Augment Extractor
-aerostatsail1;Canvas Sail
-aerostatsail2;Canvas Sail
-aerostatsail3;Canvas Sail
-aerostatsail4;Canvas Sail
+aerostatsail1;Canvas Sail (1)
+aerostatsail2;Canvas Sail (2)
+aerostatsail3;Canvas Sail (3)
+aerostatsail4;Canvas Sail (4)
 avalicushion1;Cushion
 avalicushion2;Pillow
 campdoor;Tent Door
@@ -6103,79 +6209,79 @@ avalilightblock;Light Block
 avalilightpanel;Light Panel
 avalisolidlightblock;Solid Light Block
 avalistriplight;Inset Lighting
-avaligundisplay1;Weapon Rack
-avaligundisplay2;Weapon Rack
-avaliweapondisplay1;Spear Rack
+avaligundisplay1;Weapon Rack (1)
+avaligundisplay2;Weapon Rack (2)
+avaligundisplay3;Weapon Rack (3)
+avaliweapondisplay1;Spear Rack (1)
+avalitier10speardisplay;Spear Rack (2)
+avalitier1speardisplay;Spear Rack (3)
+avalitier2speardisplay;Spear Rack (4)
+avalitier3speardisplay;Spear Rack (5)
+avalitier4speardisplay;Spear Rack (6)
+avalitier8speardisplay;Spear Rack (7)
+avalitier5speardisplay;Spear Rack (8)
+avalitier6speardisplay;Spear Rack (9)
+avalitier7speardisplay;Spear Rack (10)
+avalitier9speardisplay;Spear Rack (11)
 AvaliBowDisplay01_tier1;Weapon Rack - CB1 Lancer
 AvaliBowDisplay01_tier2;Weapon Rack - CB2 Lancer
 AvaliBowDisplay01_tier3;Weapon Rack - CB3 Lancer
 AvaliBowDisplay01_tier4;Weapon Rack - CB4 Lancer
-avalitier10daggerdisplay;Claw Display
-avalitier1daggerdisplay;Claw Display
-avalitier2daggerdisplay;Claw Display
-avalitier3daggerdisplay;Claw Display
-avalitier4daggerdisplay;Claw Display
-avalitier5daggerdisplay;Claw Display
-avalitier6daggerdisplay;Claw Display
-avalitier8daggerdisplay;Claw Display
-avalitier7daggerdisplay;Claw Display
-avalitier9daggerdisplay;Claw Display
-avaligundisplay3;Weapon Rack
+avalitier10daggerdisplay;Claw Display (1)
+avalitier1daggerdisplay;Claw Display (2)
+avalitier2daggerdisplay;Claw Display (3)
+avalitier3daggerdisplay;Claw Display (4)
+avalitier4daggerdisplay;Claw Display (5)
+avalitier5daggerdisplay;Claw Display (6)
+avalitier6daggerdisplay;Claw Display (7)
+avalitier8daggerdisplay;Claw Display (8)
+avalitier7daggerdisplay;Claw Display (9)
+avalitier9daggerdisplay;Claw Display (10)
 avaligundisplay4;Pistol Display
-avalitier10hammerdisplay;Hammer Rack
-avalitier1hammerdisplay;Hammer Rack
-avalitier2hammerdisplay;Hammer Rack
-avalitier3hammerdisplay;Hammer Rack
-avalitier4hammerdisplay;Hammer Rack
-avalitier8hammerdisplay;Hammer Rack
-avalitier5hammerdisplay;Hammer Rack
-avalitier6hammerdisplay;Hammer Rack
-avalitier7hammerdisplay;Hammer Rack
-avalitier9hammerdisplay;Hammer Rack
-avalitier10daggerhanging;Claw Hanging Display
-avalitier1daggerhanging;Claw Hanging Display
-avalitier2daggerhanging;Claw Hanging Display
-avalitier3daggerhanging;Claw Hanging Display
-avalitier4daggerhanging;Claw Hanging Display
-avalitier5daggerhanging;Claw Hanging Display
-avalitier6daggerhanging;Claw Hanging Display
-avalitier8daggerhanging;Claw Hanging Display
-avalitier7daggerhanging;Claw Hanging Display
-avalitier9daggerhanging;Claw Hanging Display
-avalitier1pilumdisplay;Pilum Display
-avalitier2pilumdisplay;Pilum Display
-avalitier3pilumdisplay;Pilum Display
-avalitier10speardisplay;Spear Rack
-avalitier1speardisplay;Spear Rack
-avalitier2speardisplay;Spear Rack
-avalitier3speardisplay;Spear Rack
-avalitier4speardisplay;Spear Rack
-avalitier8speardisplay;Spear Rack
-avalitier5speardisplay;Spear Rack
-avalitier6speardisplay;Spear Rack
-avalitier7speardisplay;Spear Rack
-avalitier9speardisplay;Spear Rack
-avalitier10broadswordhanging;Broadsword Hanging Display
-avalitier10shortswordhanging;Shortsword Hanging Display
-avalitier1broadswordhanging;Broadsword Hanging Display
-avalitier1shortswordhanging;Shortsword Hanging Display
-avalitier2broadswordhanging;Broadsword Hanging Display
-avalitier2shortswordhanging;Shortsword Hanging Display
-avalitier3broadswordhanging;Broadsword Hanging Display
-avalitier3shortswordhanging;Shortsword Hanging Display
-avalitier4broadswordhanging;Broadsword Hanging Display
-avalitier4shortswordhanging;Shortsword Hanging Display
-avalitier8broadswordhanging;Broadsword Hanging Display
-avalitier8shortswordhanging;Shortsword Hanging Display
+avalitier10hammerdisplay;Hammer Rack (1)
+avalitier1hammerdisplay;Hammer Rack (2)
+avalitier2hammerdisplay;Hammer Rack (3)
+avalitier3hammerdisplay;Hammer Rack (4)
+avalitier4hammerdisplay;Hammer Rack (5)
+avalitier8hammerdisplay;Hammer Rack (6)
+avalitier5hammerdisplay;Hammer Rack (7)
+avalitier6hammerdisplay;Hammer Rack (8)
+avalitier7hammerdisplay;Hammer Rack (9)
+avalitier9hammerdisplay;Hammer Rack (10)
+avalitier10daggerhanging;Claw Hanging Display (1)
+avalitier1daggerhanging;Claw Hanging Display (2)
+avalitier2daggerhanging;Claw Hanging Display (3)
+avalitier3daggerhanging;Claw Hanging Display (4)
+avalitier4daggerhanging;Claw Hanging Display (5)
+avalitier5daggerhanging;Claw Hanging Display (6)
+avalitier6daggerhanging;Claw Hanging Display (7)
+avalitier8daggerhanging;Claw Hanging Display (8)
+avalitier7daggerhanging;Claw Hanging Display (9)
+avalitier9daggerhanging;Claw Hanging Display (10)
+avalitier1pilumdisplay;Pilum Display (1)
+avalitier2pilumdisplay;Pilum Display (2)
+avalitier3pilumdisplay;Pilum Display (3)
+avalitier10broadswordhanging;Broadsword Hanging Display (1)
+avalitier1broadswordhanging;Broadsword Hanging Display (2)
+avalitier2broadswordhanging;Broadsword Hanging Display (3)
+avalitier3broadswordhanging;Broadsword Hanging Display (4)
+avalitier4broadswordhanging;Broadsword Hanging Display (5)
+avalitier8broadswordhanging;Broadsword Hanging Display (6)
+avalitier5broadswordhanging;Broadsword Hanging Display (7)
+avalitier6broadswordhanging;Broadsword Hanging Display (8)
+avalitier7broadswordhanging;Broadsword Hanging Display (9)
+avalitier9broadswordhanging;Broadsword Hanging Display (10)
+avalitier10shortswordhanging;Shortsword Hanging Display (1)
+avalitier1shortswordhanging;Shortsword Hanging Display (2)
+avalitier2shortswordhanging;Shortsword Hanging Display (3)
+avalitier3shortswordhanging;Shortsword Hanging Display (4)
+avalitier4shortswordhanging;Shortsword Hanging Display (5)
+avalitier8shortswordhanging;Shortsword Hanging Display (6)
+avalitier5shortswordhanging;Shortsword Hanging Display (7)
+avalitier6shortswordhanging;Shortsword Hanging Display (8)
+avalitier7shortswordhanging;Shortsword Hanging Display (9)
+avalitier9shortswordhanging;Shortsword Hanging Display (10)
 theforgottenhero;The Forgotten Hero
-avalitier5broadswordhanging;Broadsword Hanging Display
-avalitier5shortswordhanging;Shortsword Hanging Display
-avalitier6broadswordhanging;Broadsword Hanging Display
-avalitier6shortswordhanging;Shortsword Hanging Display
-avalitier7broadswordhanging;Broadsword Hanging Display
-avalitier7shortswordhanging;Shortsword Hanging Display
-avalitier9broadswordhanging;Broadsword Hanging Display
-avalitier9shortswordhanging;Shortsword Hanging Display
 avaliribbon1;Avali Ribbon, Trim Style
 avaliribbon2;Avali Ribbon, Tapestry Style
 testribbon;testribbon
@@ -6183,8 +6289,8 @@ avalitable1;Fold-up table
 avalitable2;Avali Desk
 avalitable3;Avali Table
 avalitable4;Avali Dining Table
-avaliterminal1;Avali Terminal
-avaliterminal2;Avali Terminal
+avaliterminal1;Avali Terminal (1)
+avaliterminal2;Avali Terminal (2)
 avaliterminal3;Information Terminal
 normalalveary;Giant Apiary
 normalapiary;Apiary
@@ -6194,7 +6300,6 @@ bluecandle;Blue Candle
 flowercandle;Aromatic Candle
 ghostcandle;Ghostly Candle
 redcandle;Red Candle
-waxcandle;Candle
 honeytable;Honey Cooking Table
 honeyextractor;Honey Extractor
 honeyjarrer;Honey Jarring Machine
@@ -6204,23 +6309,22 @@ scentedalveary;Giant Scented Apiary
 scentedapiary;Scented Apiary
 woodencentrifuge;Wooden Centrifuge
 heckaltar;Heck Altar
-heckbush1;Heck Bush
-heckbush10;Heck Bush
-heckbush2;Heck Bush
-heckbush3;Heck Bush
-heckbush4;Heck Bush
-heckbush5;Heck Bush
-heckbush6;Heck Bush
-heckbush7;Heck Bush
-heckbush8;Heck Bush
-heckbush9;Heck Bush
+heckbush1;Heck Bush (1)
+heckbush10;Heck Bush (2)
+heckbush2;Heck Bush (3)
+heckbush3;Heck Bush (4)
+heckbush4;Heck Bush (5)
+heckbush5;Heck Bush (6)
+heckbush6;Heck Bush (7)
+heckbush7;Heck Bush (8)
+heckbush8;Heck Bush (9)
+heckbush9;Heck Bush (10)
 heckchest;Heck Chest
-hecklight1;Heck Light
-hecklight2;Heck Light
-heckpillar1;Heck Pillar
-heckpillar2;Heck Pillar
+hecklight1;Heck Light (1)
+hecklight2;Heck Light (2)
+heckpillar1;Heck Pillar (1)
+heckpillar2;Heck Pillar (2)
 hecksign;Heck Sign
-castlevaniaice;Ice
 armory;Armorworks
 bothealingstation;Bot Healing Station
 chemlab;Alchemy Table
@@ -6229,7 +6333,8 @@ clothingfabricator;Clothing Fabricator
 designlab;Greenhouse
 chickennest;Chicken Nest
 eggstracowbell;Dinner Bell
-eggincubator;Incubator
+eggincubator;Incubator (1)
+fuincubator;Incubator (2)
 eggstraclock;Wall Clock
 primedegg;Primed Egg
 extraavianaugments;Svetlana's Stall!
@@ -6238,7 +6343,6 @@ extractionlabadv;Extraction Lab MKII
 extraweaponupgradeanvil;Super Weapon Upgrade Anvil
 farmwell;Well
 fissionfurnacenew;Fission Furnace
-fuincubator;Incubator
 fu_alternatorgenerator;Alternator Generator
 fu_growingtray;Growing Tray
 fu_woodensifter;Sifter
@@ -6272,80 +6376,67 @@ c4explosive;C4 Plastic Explosive
 crudebomb;Crude Bomb
 powderkeg;Powder Keg
 aenemaflower;Aenema Flower
-algaeseed;Algae Pod
-wildalgaeseed;Algae Pod
+algaeseed;Algae Pod (1)
+wildalgaeseed;Algae Pod (2)
 aquapodseed;Aquapod Bud
 wildaquapodseed;Aquapod
 arkaentree;Arkaen Bush
-avikancactusseed;Kadavan Cactus Seed
-wildavikancactusseed;Kadavan Cactus Seed
-avikanspiceplantseed;Kadavan Spice Seed
-wildavikanspiceplantseed;Kadavan Spice Seed
-kirifruitseed;Sporing Kiri Fruit
-nakatiseed;Nakati Ovoid
-piruseed;Piru Colony
-wildkirifruitseed;Sporing Kiri Fruit
-wildnakatiseed;Nakati Ovoid
-wildpiruseed;Piru Colony
-bambooseed;Micro-Bamboo
-wildbambooseed;Micro-Bamboo
+avikancactusseed;Kadavan Cactus Seed (1)
+wildavikancactusseed;Kadavan Cactus Seed (2)
+avikanspiceplantseed;Kadavan Spice Seed (1)
+wildavikanspiceplantseed;Kadavan Spice Seed (2)
+kirifruitseed;Sporing Kiri Fruit (1)
+wildkirifruitseed;Sporing Kiri Fruit (2)
+nakatiseed;Nakati Ovoid (1)
+wildnakatiseed;Nakati Ovoid (2)
+piruseed;Piru Colony (1)
+wildpiruseed;Piru Colony (2)
+bambooseed;Micro-Bamboo (1)
+wildbambooseed;Micro-Bamboo (2)
 batterystem;Battery Stem
 beetlesproutseed;Beetle Sprout
 bellamorte;Bella Morte
-fubioshroomblue;Glowing Mushroom
-fubioshroomgreen;Glowing Mushroom
-fubioshroompurple;Glowing Mushroom
-fubioshroomred;Glowing Mushroom
-fubioshroomyellow;Glowing Mushroom
-wildfubioshroomblue;Glowing Mushroom
-wildfubioshroomgreen;Glowing Mushroom
-wildfubioshroompurple;Glowing Mushroom
-wildfubioshroomred;Glowing Mushroom
-wildfubioshroomyellow;Glowing Mushroom
-biscornseed;Biscorn Seed
-wildbiscornseed;Biscorn Seed
+biscornseed;Biscorn Seed (1)
+wildbiscornseed;Biscorn Seed (2)
 bladetree;Blade Tree
 blexplantseed;Blex Cactus Bulb
 wildblexplantseed;Blex Cactus Seed
-blisterbushplantseed;Blister Pod
-wildblisterbushplantseed;Blister Pod
-blizzberryseed;Blizzberry Seed
-wildblizzberryseed;Blizzberry Seed
-bloodrootseed;Blood Root Seed
-wildbloodrootseed;Blood Root Seed
-bluemelonseed;Blue Melon Seed
-wildbluemelonseed;Blue Melon Seed
-bolbohnseed;Bolbohn Seed
-wildbolbohnseed;Bolbohn Seed
-brackentreeseed;Bracken Tree Seed
-wildbrackentreeseed;Bracken Tree Seed
-caprioleplantseed;Capriole Seed
-wildcaprioleplantseed;Capriole Seed
-cellpodsplant;Cellpod Seed
-wildcellpodsplant;Cellpod Seed
-cinnamonseed;Cinnamon Seed
-wildcinnamonseed;Cinnamon Seed
-corvexseed;Corvex Sprout
-wildcorvexseed;Corvex Sprout
+blisterbushplantseed;Blister Pod (1)
+wildblisterbushplantseed;Blister Pod (2)
+blizzberryseed;Blizzberry Seed (1)
+wildblizzberryseed;Blizzberry Seed (2)
+bloodrootseed;Blood Root Seed (1)
+wildbloodrootseed;Blood Root Seed (2)
+bluemelonseed;Blue Melon Seed (1)
+wildbluemelonseed;Blue Melon Seed (2)
+bolbohnseed;Bolbohn Seed (1)
+wildbolbohnseed;Bolbohn Seed (2)
+brackentreeseed;Bracken Tree Seed (1)
+wildbrackentreeseed;Bracken Tree Seed (2)
+caprioleplantseed;Capriole Seed (1)
+wildcaprioleplantseed;Capriole Seed (2)
+cellpodsplant;Cellpod Seed (1)
+wildcellpodsplant;Cellpod Seed (2)
+cinnamonseed;Cinnamon Seed (1)
+wildcinnamonseed;Cinnamon Seed (2)
+corvexseed;Corvex Sprout (1)
+wildcorvexseed;Corvex Sprout (2)
 crystallite;Crystallite
-crystalplantseed;Crystal Plant Seed
-darklightflower;Darklight Flower
-wilddarklightflower;Darklight Flower
-deathblossomseed;Deathblossom
-wilddeathblossomseed;Deathblossom
-diodiahybridseed;Diodia Hybrid Seed
-wilddiodiahybridseed;Diodia Hybrid Seed
-dragonsbeardseed;Dragonsbeard
-wilddragonsbeardseed;Dragonsbeard
-dunestalkseed;Dunestalk Seed
-wilddunestalkseed;Dunestalk Seed
+darklightflower;Darklight Flower (1)
+wilddarklightflower;Darklight Flower (2)
+deathblossomseed;Deathblossom (1)
+wilddeathblossomseed;Deathblossom (2)
+diodiahybridseed;Diodia Hybrid Seed (1)
+wilddiodiahybridseed;Diodia Hybrid Seed (2)
+dragonsbeardseed;Dragonsbeard (1)
+wilddragonsbeardseed;Dragonsbeard (2)
+dunestalkseed;Dunestalk Seed (1)
+wilddunestalkseed;Dunestalk Seed (2)
 copperbeakegg;Copperbeak Egg
-energiflowerseed;Energiflower Seed
-wildenergiflowerseed;Energiflower Seed
-erithianalgaeseed;Erithian Algae
-wilderithianalgaeseed;Erithian Algae
-fayshroomseed;Fayshroom Spore
-wildfayshroomseed;Fayshroom Spore
+energiflowerseed;Energiflower Seed (1)
+wildenergiflowerseed;Energiflower Seed (2)
+fayshroomseed;Fayshroom Spore (1)
+wildfayshroomseed;Fayshroom Spore (2)
 fletchweed;Fletchweed
 floralytplantseed;Floralyt Seed
 flowerblack;Black Flower
@@ -6360,155 +6451,147 @@ flowerpink;Pink Flower
 flowerpurple;Purple Flower
 flowerred;Red Flower
 flowerspring;Spring Flower Seeds
-flowerwhite;White Flower
 garikleaf;Garik Leaf
-garpberryseed;Garp Berry Plant
-wildgarpberryseed;Garp Berry Plant
-gazelemonseed;Gazelemon Seed
-wildgazelemonseed;Gazelemon Seed
-gemglowseed;Gemglow Seed
-wildgemglowseed;Gemglow Seed
+garpberryseed;Garp Berry Plant (1)
+wildgarpberryseed;Garp Berry Plant (2)
+gazelemonseed;Gazelemon Seed (1)
+wildgazelemonseed;Gazelemon Seed (2)
+gemglowseed;Gemglow Seed (1)
+wildgemglowseed;Gemglow Seed (2)
 genesiberryseed;Genesiberry Seed
-ghostmushroomseed;Ghost Mushroom
-wildghostmushroomseed;Ghost Mushroom
-ginsengseed;Heartroot Seed
-wildginsengseed;Heartroot Seed
-glarestalkseed;Glarestalk Gib
-wildglarestalkseed;Glarestalk Gib
+ginsengseed;Heartroot Seed (1)
+wildginsengseed;Heartroot Seed (2)
+glarestalkseed;Glarestalk Gib (1)
+wildglarestalkseed;Glarestalk Gib (2)
 goldenglowseed;Goldenglow Seed
-goldenrootseed;Golden Root Seed
-wildgoldenrootseed;Golden Root Seed
-goldenseaspongeplant;Goldensea Sponge
-wildgoldenseaspongeplant;Goldensea Sponge
-goldshroomseed;Gold Shroom Spore
-wildgoldshroomseed;Gold Shroom Spore
-greenleafseed;Greenleaf Seed
-wildgreenleafseed;Greenleaf Seed
-guamseed;Rad Grass Seed
-wildguamseed;Rad Grass Seed
-onionseed;Gurn Onion
+goldenrootseed;Golden Root Seed (1)
+wildgoldenrootseed;Golden Root Seed (2)
+goldenseaspongeplant;Goldensea Sponge (1)
+wildgoldenseaspongeplant;Goldensea Sponge (2)
+goldshroomseed;Gold Shroom Spore (1)
+wildgoldshroomseed;Gold Shroom Spore (2)
+greenleafseed;Greenleaf Seed (1)
+wildgreenleafseed;Greenleaf Seed (2)
+guamseed;Rad Grass Seed (1)
+wildguamseed;Rad Grass Seed (2)
 wildonionseed;Gurn Onion Seed
 haleflowerseed;Haleflower Seed
-hellfireplantseed;Hellfire Plant Seed
-wildhellfireplantseed;Hellfire Plant Seed
+hellfireplantseed;Hellfire Plant Seed (1)
+wildhellfireplantseed;Hellfire Plant Seed (2)
 herrodbush;Herrod Bush
-hopsseed;Hops Seed
-wildhopsseed;Hops Seed
-ighantseed;Ighant Seed
-wildighantseed;Ighant Seed
-ignuschiliseed;Ignus Chili Seed
-wildignuschiliseed;Ignus Chili Seed
+hopsseed;Hops Seed (1)
+wildhopsseed;Hops Seed (2)
+ighantseed;Ighant Seed (1)
+wildighantseed;Ighant Seed (2)
+ignuschiliseed;Ignus Chili Seed (1)
+wildignuschiliseed;Ignus Chili Seed (2)
 ignuschili2seed;Adv. Ignus Chili
-isn_meatplant;Meatvine Bulb
-isn_wildmeatplant;Meatvine Bulb
-itaseed;Ita Flower Seed
-wilditaseed;Ita Flower Seed
-jillyrootseed;Jilly Root Seed
-wildjillyrootseed;Jilly Root Seed
-kamaranpodsplant;Kamaran Pod Seed
-wildkamaranpodsplant;Kamaran Pod Seed
+isn_meatplant;Meatvine Bulb (1)
+isn_wildmeatplant;Meatvine Bulb (2)
+itaseed;Ita Flower Seed (1)
+wilditaseed;Ita Flower Seed (2)
+jillyrootseed;Jilly Root Seed (1)
+wildjillyrootseed;Jilly Root Seed (2)
+kamaranpodsplant;Kamaran Pod Seed (1)
+wildkamaranpodsplant;Kamaran Pod Seed (2)
 kramil;Kramil
-lactariusindigoseed;Lactarius Indigo
-wildlactariusindigoseed;Lactarius Indigo
-lasherplantseed;Lasher Seed
-wildlasherplantseed;Lasher Seed
-leafshellseed;Leafshell Seed
-wildleafshellseed;Leafshell Seed
-littlegoodberryseed;Little Good Berry Seed
-wildlittlegoodberryseed;Little Good Berry Seed
-littlerascalseed;Uri Seed
-wildlittlerascalseed;Uri Seed
-lumivineseed;Lumivine Seed
-wildlumivineseed;Lumivine Seed
-melodistarseed;Melodistar Seed
-wildmelodistarseed;Melodistar Seed
-minkocoapodseed;Minkocoa Seed
-wildminkocoapodseed;Minkocoa Seed
-mintseed;Star Mint Seed
-wildmintseed;Star Mint Seed
-miraclegrassseed;Miracle Grass
-wildmiraclegrassseed;Miracle Grass
-mireurchinseed;Mireurchin Seed
-wildmireurchinseed;Mireurchin Seed
+lactariusindigoseed;Lactarius Indigo (1)
+wildlactariusindigoseed;Lactarius Indigo (2)
+lasherplantseed;Lasher Seed (1)
+wildlasherplantseed;Lasher Seed (2)
+leafshellseed;Leafshell Seed (1)
+wildleafshellseed;Leafshell Seed (2)
+littlegoodberryseed;Little Good Berry Seed (1)
+wildlittlegoodberryseed;Little Good Berry Seed (2)
+littlerascalseed;Uri Seed (1)
+wildlittlerascalseed;Uri Seed (2)
+lumivineseed;Lumivine Seed (1)
+wildlumivineseed;Lumivine Seed (2)
+melodistarseed;Melodistar Seed (1)
+wildmelodistarseed;Melodistar Seed (2)
+minkocoapodseed;Minkocoa Seed (1)
+wildminkocoapodseed;Minkocoa Seed (2)
+mintseed;Star Mint Seed (1)
+wildmintseed;Star Mint Seed (2)
+miraclegrassseed;Miracle Grass (1)
+wildmiraclegrassseed;Miracle Grass (2)
+mireurchinseed;Mireurchin Seed (1)
+wildmireurchinseed;Mireurchin Seed (2)
 mutaviskseed;Mutavisk
 wildmutaviskseed;Wild Mutavisk
-naileryseed;Nailery Seed
-wildnaileryseed;Nailery Seed
-neuropodseed;Neuropod Seed
-wildneuropodseed;Neuropod Seed
-nissseed;Niss Seed
-wildnissseed;Niss Seed
-oonfortaseed;Oonforta Seed
-wildoonfortaseed;Oonforta Seed
-pasakavineseed;Pasaka Vine
-wildpasakavineseed;Pasaka Vine
-pekkitseed;Pekkit
-wildpekkitseed;Pekkit
-petrifiedrootseed;Shadow Root Seed
-wildpetrifiedrootseed;Shadow Root Seed
-pinkloomseed;Pinkloom Seed
-wildpinkloomseed;Pinkloom Seed
-poetree;Poe Tree
-wildpoetree;Poe Tree
-porphisplantseed;Porphis Bulb
-wildporphisplantseed;Porphis Bulb
-quellstem;Quell Stem
-wildquellstem;Quell Stem
-reedseed;Reeds
-wildreedseed;Reeds
-rockrootseed;Rockroot Seed
-wildrockrootseed;Rockroot Seed
-shadowrootseed;Shadowroot Seed
-wildshadowrootseed;Shadowroot Seed
-shinyacornseed;Helkat Tree
-wildshinyacornseed;Helkat Tree
-shockshroomseed;Shock-Shroom
-wildshockshroomseed;Shock-Shroom
-silverleafseed;Silverleaf Seed
-wildsilverleafseed;Silverleaf Seed
+naileryseed;Nailery Seed (1)
+wildnaileryseed;Nailery Seed (2)
+neuropodseed;Neuropod Seed (1)
+wildneuropodseed;Neuropod Seed (2)
+nissseed;Niss Seed (1)
+wildnissseed;Niss Seed (2)
+oonfortaseed;Oonforta Seed (1)
+wildoonfortaseed;Oonforta Seed (2)
+pasakavineseed;Pasaka Vine (1)
+wildpasakavineseed;Pasaka Vine (2)
+petrifiedrootseed;Shadow Root Seed (1)
+wildpetrifiedrootseed;Shadow Root Seed (2)
+pinkloomseed;Pinkloom Seed (1)
+wildpinkloomseed;Pinkloom Seed (2)
+poetree;Poe Tree (1)
+wildpoetree;Poe Tree (2)
+porphisplantseed;Porphis Bulb (1)
+wildporphisplantseed;Porphis Bulb (2)
+quellstem;Quell Stem (1)
+wildquellstem;Quell Stem (2)
+reedseed;Reeds (1)
+wildreedseed;Reeds (2)
+rockrootseed;Rockroot Seed (1)
+wildrockrootseed;Rockroot Seed (2)
+shadowrootseed;Shadowroot Seed (1)
+wildshadowrootseed;Shadowroot Seed (2)
+shinyacornseed;Helkat Tree (1)
+wildshinyacornseed;Helkat Tree (2)
+shockshroomseed;Shock-Shroom (1)
+wildshockshroomseed;Shock-Shroom (2)
+silverleafseed;Silverleaf Seed (1)
+wildsilverleafseed;Silverleaf Seed (2)
 slimeplantseed;Slime Glob Bush
 wildslimeplantseed;Slime Seed
-fusnowberryseed;Snowberry
-wildfusnowberryseed;Snowberry
 fusoulleafseed;Soulleaf Seed
-fuspongeweedseed;Spongeweed Clump
-wildfuspongeweedseed;Spongeweed Clump
+fuspongeweedseed;Spongeweed Clump (1)
+wildfuspongeweedseed;Spongeweed Clump (2)
 springvaultseed;Springvault Seed
 stranglevineseed;Strangler Vine
 wildstranglevineseed;Strangler Vine Seed
-sweetscoopseed;Sweetscoop Seed
-wildsweetscoopseed;Sweetscoop Seed
-talonseedseed;Talon Seed
-wildtalonseedseed;Talon Seed
-tentacleplant;Writhing Vine
-wildtentacleplant;Writhing Vine
+sweetscoopseed;Sweetscoop Seed (1)
+wildsweetscoopseed;Sweetscoop Seed (2)
+talonseedseed;Talon Seed (1)
+wildtalonseedseed;Talon Seed (2)
+tentacleplant;Writhing Vine (1)
+wildtentacleplant;Writhing Vine (2)
 teratomatoseed;Teratomato Seed
 tetherhookseed;Tetherhook Weed
-thornitoxseed;Thornitox Seed
-wildthornitoxseed;Thornitox Seed
-tinselbush;Tinselbush
-wildtinselbush;Tinselbush
+thornitoxseed;Thornitox Seed (1)
+wildthornitoxseed;Thornitox Seed (2)
+tinselbush;Tinselbush (1)
+wildtinselbush;Tinselbush (2)
 tyvokkseed;Tyvokk Dart
 wildtyvokkseed;Tyvokk seed
-vanusflowerseed;Vanus Flower Seed
-wildvanusflowerseed;Vanus Flower Seed
-varanberryseed;Varan Berry Bush
-wildvaranberryseed;Varan Berry Bush
-vashtaplantseed;Vashta
-wildvashtaplantseed;Vashta
-vextongueseed;Vextongue Seed
-wildvextongueseed;Vextongue Seed
+vanusflowerseed;Vanus Flower Seed (1)
+wildvanusflowerseed;Vanus Flower Seed (2)
+varanberryseed;Varan Berry Bush (1)
+wildvaranberryseed;Varan Berry Bush (2)
+vashtaplantseed;Vashta (1)
+wildvashtaplantseed;Vashta (2)
+vextongueseed;Vextongue Seed (1)
+wildvextongueseed;Vextongue Seed (2)
 victorleaf;Victorleaf
 voritseed;Vorit Seed
-whitespine;Whitespine
-wildwhitespine;Whitespine
-wildwretchelseed;Wretchel Seed
-wretchelseed;Wretchel Seed
-wildwubstemseed;Wubstem Seed
-wubstemseed;Wubstem Seed
+whitespine;Whitespine (1)
+wildwhitespine;Whitespine (2)
+wildwretchelseed;Wretchel Seed (1)
+wretchelseed;Wretchel Seed (2)
+wildwubstemseed;Wubstem Seed (1)
+wubstemseed;Wubstem Seed (2)
 xaxseed;Xax Seed
-wildyellowfootseed;Yellowfoot Shroom
-yellowfootseed;Yellowfoot Shroom
+wildyellowfootseed;Yellowfoot Shroom (1)
+yellowfootseed;Yellowfoot Shroom (2)
 zathiseed;Zathi Seed
 fu_watcher;Watcher
 isn_accelgel;Accelerator Gel
@@ -6522,10 +6605,9 @@ isn_glowgel_y;Yellow Glowing Gel
 isn_lowfrictionstrip;Low Friction Strip
 isn_propulsionstrip_l;Propulsion Strip L
 isn_propulsionstrip_r;Propulsion Strip R
-referencegenerator;Shield Generator
 antigravgen;Anti-Grav Generator
-bandittent1;Basic Tent
-bandittent2;Basic Tent
+bandittent1;Basic Tent (1)
+bandittent2;Basic Tent (2)
 boozekit;Booze Kit
 placeablealebottle;Placeable Pale Ale
 placeablebeer;Placeable Wheat Beer
@@ -6547,11 +6629,10 @@ crewsign;crewsign
 fucryogenicbed;Cryogenic Pod
 fugallows;Gallows Pole
 fuhaypilewheelbarrow;Haypile Wheelbarrow
-fuhayrollwheelbarrow;Hayroll Wheelbarrow
-fuhaystackwheelbarrow;Hayroll Wheelbarrow
+fuhayrollwheelbarrow;Hayroll Wheelbarrow (1)
+fuhaystackwheelbarrow;Hayroll Wheelbarrow (2)
 fumerchantcart;Merchant's Cart
 futransportcart;Storage Cart
-fuwheelbarrow;Wheelbarrow
 fuchickenfeeder;Chicken Feeder
 fufarmstorage;Farm Storage
 fufoodstorage;Food Storage
@@ -6565,7 +6646,8 @@ fu_grassbed;Grassy Bed
 fu_craftinfo;Lab Directory
 gravgen;Gravity Generator
 electronmicroscope;Electron Microscope
-labbookcase;Lab Bookcase
+labbookcase;Lab Bookcase (1)
+guidestorage;Lab Bookcase (2)
 labchair;Lab Chair
 labcomputer;Lab Monitor
 labcupboard;Lab Cabinet
@@ -6577,30 +6659,30 @@ labfence;Lab Fence
 labhatchhuge;Huge Lab Hatch
 labhatchplatformhuge;Huge Lab Platform Hatch
 labtable;Lab Table
-labtv1;LED Screen
+labtv1;LED Screen (1)
+screenarray2;LED Screen (2)
+screenarray3;LED Screen (3)
 screenarray1;LED Screens
-screenarray2;LED Screen
-screenarray3;LED Screen
 shiphatch;Ship Hatch
 labvendingmachine;Lab Vending Machine
 medbaybed;Medical Bay
 pongmachine;Pong Machine
-raptorneststorage;Raptor Nest
+raptorneststorage;Raptor Nest (1)
+raptornest;Raptor Nest (2)
+raptornest2;Raptor Nest (3)
 signpub;Pub Sign
 sprinklerroof;Sprinkler (roof)
 sprinklerroofweak;Crappy Sprinkler (roof)
 genecabinet;Food Locker
 genestorage;Gene Storage Chest
-voidstorage;Dimensional Storage
-voidstoragenew;Dimensional Storage
+voidstorage;Dimensional Storage (1)
+voidstoragenew;Dimensional Storage (2)
 fuwallsafe;Wall Storage
 survivaltent;TC-1 Survival Tent
 spacetimeobelisk;Spacetime Obelisk
 timeobelisk;Cosmic Obelisk
 lavarooftrap;Fire Trap
 slimerooftrap;Acid Trap
-waterwalkplatform;Ancient Light Platform
-waterwalkplatform2;Ancient Light Platform
 fu_autoBeamer;Harvester Turret v1
 fu_autoBeamer2;Harvester Turret v2
 fu_autoBeamer3;Harvester Turret v3
@@ -6609,9 +6691,9 @@ network_containerlink;Storage Bridge
 network_grabber;Grabber v1
 network_grabber2;Grabber v2
 network_grabber3;Grabber v3
-network_pump;Iron Pump
+network_pump;Iron Pump (1)
+network_pump_iron;Iron Pump (2)
 network_pump_densium;Densium Pump
-network_pump_iron;Iron Pump
 network_pump_titanium;Titanium Pump
 network_quarry;Iron Quarry
 network_quarry2;Iron Quarry B
@@ -6666,82 +6748,67 @@ microformersulphuricmagma;Volcanic Sulphur Microformer
 microformersupermatterzone;Erchius Microformer
 microformertaiga;Taiga Microformer
 microformerwartfield;Warty Microformer
-poisonmine;Military Land Mine
 carcass1;Carcass
 carcass2;Dinosaur Carcass
-raptornest;Raptor Nest
-raptornest2;Raptor Nest
-atropuschest;Atropus Chest
-fuunderworldchest;Atropus Chest
-fuunderworldchest2;Atropus Chest
-fukluexstatue;Kluex Statue
-fukluexstatue2;Kluex Statue
-fukluexstatue3;Kluex Statue
-fukluexstatue4;Kluex Statue
-fukluexstatue5;Kluex Statue
-fukluexstatue6;Kluex Statue
-badlandsrock1;Large Stone
-badlandsrock2;Large Stone
-badlandsrock3;Large Stone
-badlandsrock4;Large Stone
-fudesertrock1;desert rock
-fudesertrock2;desert rock
-fudesertrock3;desert rock
-fudesertrock4;desert rock
-fudesertrock5;desert rock
-fudesertrock6;desert rock
-fudesertrock7;desert rock
-fusand1;Small dune
-fusand2;Small dune
-fusand3;Small dune
-fusand4;Small dune
-fusand5;Small dune
-crystalcavebush10;Crystalline Bush
-crystalcavebush11;Crystalline Bush
-crystalcavebush12;Crystalline Bush
-crystalcavebush13;Crystalline Bush
-crystalcavebush14;Crystalline Bush
-crystalcavebush15;Crystalline Bush
-crystalcavebush16;Crystalline Bush
-crystalcavebush17;Crystalline Bush
-crystalcavebush5;Crystalline Bush
-crystalcavebush6;Crystalline Bush
-crystalcavebush7;Crystalline Bush
-crystalcavebush8;Crystalline Bush
-crystalcavebush9;Crystalline Bush
-crystallarge1;Crystalline Bush
-crystallarge2;Crystalline Bush
-crystallarge3;Crystalline Bush
-cycpillar1;Strange Monument
-cycpillar2;Strange Monument
-cycpillar3;Strange Monument
-cycpillar4;Strange Monument
-cycpillar5;Strange Monument
-cycpillar6;Strange Monument
+atropuschest;Atropus Chest (1)
+fuunderworldchest;Atropus Chest (2)
+fuunderworldchest2;Atropus Chest (3)
+fukluexstatue;Kluex Statue (1)
+fukluexstatue2;Kluex Statue (2)
+fukluexstatue3;Kluex Statue (3)
+fukluexstatue4;Kluex Statue (4)
+fukluexstatue5;Kluex Statue (5)
+fukluexstatue6;Kluex Statue (6)
+badlandsrock1;Large Stone (1)
+badlandsrock2;Large Stone (2)
+badlandsrock3;Large Stone (3)
+badlandsrock4;Large Stone (4)
+fudesertrock1;desert rock (1)
+fudesertrock2;desert rock (2)
+fudesertrock3;desert rock (3)
+fudesertrock4;desert rock (4)
+fudesertrock5;desert rock (5)
+fudesertrock6;desert rock (6)
+fudesertrock7;desert rock (7)
+fusand1;Small dune (1)
+fusand2;Small dune (2)
+fusand3;Small dune (3)
+fusand4;Small dune (4)
+fusand5;Small dune (5)
+cycpillar1;Strange Monument (1)
+cycpillar2;Strange Monument (2)
+cycpillar3;Strange Monument (3)
+cycpillar4;Strange Monument (4)
+cycpillar5;Strange Monument (5)
+cycpillar6;Strange Monument (6)
+elderthingstatue;Strange Monument (7)
+monolith1;Strange Monument (8)
+monolith2;Strange Monument (9)
+monolith3;Strange Monument (10)
+monolith4;Strange Monument (11)
 cyctorch;Cyclopean Torch Stand
-elderthingstatue;Strange Monument
-knightstatue;Enormous Warrior Statue
-knightstatue2;Enormous Warrior Statue
+knightstatue;Enormous Warrior Statue (1)
+knightstatue2;Enormous Warrior Statue (2)
 megastatue;Enormous Statue
-catacombs1;Catacombs Tomb
-catacombs2;Catacombs Tomb
-catacombs3;Catacombs Tomb
-catacombs4;Catacombs Tomb
-catacombs5;Catacombs Tomb
-catacombs6;Catacombs Tomb
+catacombs1;Catacombs Tomb (1)
+catacombs2;Catacombs Tomb (2)
+catacombs3;Catacombs Tomb (3)
+catacombs4;Catacombs Tomb (4)
+catacombs5;Catacombs Tomb (5)
+catacombs6;Catacombs Tomb (6)
 elderbed;Elder Bed
-elderbookcase;Elder Bookcase
-elderbookcase2;Elder Bookcase
+elderbookcase;Elder Bookcase (1)
+elderbookcase2;Elder Bookcase (2)
 eldercabinet;Elder Cabinet
-eldercarving1;Ancient Carvings
-eldercarving2;Ancient Carvings
-eldercarving3;Ancient Carvings
-eldercarving4;Ancient Carvings
-eldercarving5;Ancient Carvings
-eldercarving6;Ancient Carvings
+eldercarving1;Ancient Carvings (1)
+eldercarving2;Ancient Carvings (2)
+eldercarving3;Ancient Carvings (3)
+eldercarving4;Ancient Carvings (4)
+eldercarving5;Ancient Carvings (5)
+eldercarving6;Ancient Carvings (6)
 elderchair;Elder Chair
-elderchest;Elder Chest
-elderchest2;Elder Chest
+elderchest;Elder Chest (1)
+elderchest2;Elder Chest (2)
 elderhugepainting;He
 elderidol;Altar to Cthulhu
 elderpainting1;F't
@@ -6756,91 +6823,62 @@ elderpainting7;Thing in the Dark
 elderpainting8;Shub-Niggurath
 elderpainting9;Hellscape
 elderpedestal;Elder Pedestal
-elderpillar1;Cyclopean Pillar
-elderpillar2;Cyclopean Pillar
-elderpillar3;Cyclopean Pillar
+elderpillar1;Cyclopean Pillar (1)
+elderpillar2;Cyclopean Pillar (2)
+elderpillar3;Cyclopean Pillar (3)
 elderstatue;Cthulhu Statue
-eldertable;Elder Table
+eldertable;Elder Table (1)
+eldertable5;Elder Table (2)
+eldertable6;Elder Table (3)
 elderthingstatue2;Elder Statue
 mysteriousmachine1;Mysterious Machine
-starspawnstatue;Horrid Statue
-starspawnstatue2;Horrid Statue
-starspawnstatue3;Horrid Statue
+starspawnstatue;Horrid Statue (1)
+starspawnstatue2;Horrid Statue (2)
+starspawnstatue3;Horrid Statue (3)
 strangedevice1;Strange Device
 tentaclestatue;Abhorrent Statue
 bloodycar;Bloodied Transport
 fubody1;ancient human corpse
 fubody2;ancient mangled corpse
 corpsedrainer;Horrifying Device
-elderblood1;Blood
-elderblood10;Blood Spatter
-elderblood2;Blood
-elderblood3;Blood
-elderblood4;Blood
-elderblood5;Blood
-elderblood6;Blood
+elderblood10;Blood Spatter (1)
+elderblood8;Blood Spatter (2)
+elderblood9;Blood Spatter (3)
 elderblood7;Blood Symbol
-elderblood8;Blood Spatter
-elderblood9;Blood Spatter
 elderbloodychunks;Bloody Chunks
-eldercage;Torture Cage
-eldercage2;Torture Cage
-eldercage3;Torture Cage
-eldercage4;Torture Cage
-elderhanging;Odd formation
-elderhanging2;Odd formation
+eldercage;Torture Cage (1)
+eldercage2;Torture Cage (2)
+eldercage3;Torture Cage (3)
+eldercage4;Torture Cage (4)
+elderhanging;Odd formation (1)
+elderhanging2;Odd formation (2)
 elderleggore;Bloody leg
 elderskullgore;Gory Skull
 tortured1;very dead scientist
 tortured2;dead scientist
-cthulurewardstatue;Elder Artifact
 elderoutpostchair1;Padded Metal Chair
 researchnotes;MacReady's Notes
-wagner;Wagner
-wagnerthree;Wagner
-wagnertwo;Wagner
+wagner;Wagner (1)
+wagnerthree;Wagner (2)
+wagnertwo;Wagner (3)
 elderaltar;Elder Altar
-elderbookstand;Ancient Malign Text
-elderbookstand_normal;Ancient Malign Text
-elder1tiledoor;Elder Door
-elder1tiledoorvertical;Elder Door
-elderdoor2;Elder Door
-elderdoor3;Elder Door
-elderslidingdoor;Elder Door
-elderpedestal2;Ancient Pedestal
-elderpillar8;Ancient Pedestal
-eldertable5;Elder Table
-eldertable6;Elder Table
+elderbookstand;Ancient Malign Text (1)
+elderbookstand_normal;Ancient Malign Text (2)
+elder1tiledoor;Elder Door (1)
+elder1tiledoorvertical;Elder Door (2)
+elderdoor2;Elder Door (3)
+elderdoor3;Elder Door (4)
+elderslidingdoor;Elder Door (5)
+elderpedestal2;Ancient Pedestal (1)
+elderpillar8;Ancient Pedestal (2)
 elderscrolldesk;Ancient Elder Scrolls
 elderlightsensor;Strange Glyph
-elderwallswitch;Small Wall Switch (Light)
-elderceilingspike1;Sharp Spikes
-elderceilingspike2;Sharp Spikes
-elderceilingspike3;Sharp Spikes
-elderceilingspike4;Sharp Spikes
-elderceilingspike5;Sharp Spikes
-elderceilingspike6;Sharp Spikes
-elderceilingspike7;Sharp Spikes
-elderceilingspike8;Sharp Spikes
-elderfloorspike1;Sharp Spikes
-elderfloorspike2;Sharp Spikes
-elderfloorspike3;Sharp Spikes
-elderfloorspike4;Sharp Spikes
-elderfloorspike5;Sharp Spikes
-elderfloorspike6;Sharp Spikes
-elderfloorspike7;Sharp Spikes
-elderfloorspike8;Sharp Spikes
-elderurn1;An Ancient Urn
-elderurn2;An Ancient Urn
-elderurn3;An Ancient Urn
-elderurn4;An Ancient Urn
-elderurn5;An Ancient Urn
-elderurn6;An Ancient Urn
-hellfirechest1;Hellfire Chest
-hellfirechest2;Hellfire Chest
-ceilinghive1;Dripping Slime
-ceilinghive2;Dripping Slime
-ceilinghive3;Dripping Slime
+elderurn1;An Ancient Urn (1)
+elderurn2;An Ancient Urn (2)
+elderurn3;An Ancient Urn (3)
+elderurn4;An Ancient Urn (4)
+elderurn5;An Ancient Urn (5)
+elderurn6;An Ancient Urn (6)
 fucombchest;Honeycomb Locker
 fugoldenoakbed;Golden Oak Bed
 fugoldenoakcabinet;Golden Cabinet
@@ -6858,34 +6896,33 @@ fuhoneycrystalchest;Honey Crystal Chest
 fuhoneycrystallamp;Honey Crystal Lamp
 fuhoneycrystaltable;Honey Crystal Table
 hiveblob;Hive Blob
-hiveblob1;Honey Blob
-hiveblob2;Honey Blob
-hiveblob3;Honey Blob
-hiveblob4;Honey Blob
-hiveblob5;Honey Blob
+hiveblob1;Honey Blob (1)
+hiveblob2;Honey Blob (2)
+hiveblob3;Honey Blob (3)
+hiveblob4;Honey Blob (4)
+hiveblob5;Honey Blob (5)
 ff_labchest;Lab Chest
 device1;Ancient Device
 junctionbox;Junction Box
-metallicceiling1;Metal Piping
-metallicceiling2;Metal Piping
+metallicceiling1;Metal Piping (1)
+metallicceiling2;Metal Piping (2)
 metallicceiling3;Reactor
-metallicceiling4;Precursor Artifact
+metallicceiling4;Precursor Artifact (1)
+tech2;Precursor Artifact (2)
 metallicchest;Metallic Chest
 metallicmachine1;Signal Relay
-metallicmachine2;Fusion Conduit
-metallicmachine3;Data Storage
+metallicmachine2;Fusion Conduit (1)
+metallicmachine6;Fusion Conduit (2)
+metallicmachine7;Fusion Conduit (3)
 metallicmachine4;Particle Accelerator
 metallicmachine5;Antenna
-metallicmachine6;Fusion Conduit
-metallicmachine7;Fusion Conduit
-tech2;Precursor Artifact
 tetrapod;Strange Pod
 penumbrachest;Penumbra Chest
-precursormachine;Precursor Machine
-precursoraltar;Precursor Machine
+precursormachine;Precursor Machine (1)
+precursoraltar;Precursor Machine (2)
 precursorbattery1;10000J 5W Battery Unit
-precursorchair;Precursor Chair
-precursorchair2;Precursor Chair
+precursorchair;Precursor Chair (1)
+precursorchair2;Precursor Chair (2)
 precursorchest;Precursor Chest
 precursorconverter;Erchius Converter
 precursorconverter2;Faulty Erchius Converter
@@ -6893,54 +6930,47 @@ precursorcorner;Precursor Support Beam
 precursordoor;Precursor Door
 precursordoor2;Precursor Sliding Door
 precursorlight;Precursor Light
-precursorobelisk;Precursor Obelisk
-precursorobeliskdual;Precursor Obelisk
+precursorobelisk;Precursor Obelisk (1)
+precursorobeliskdual;Precursor Obelisk (2)
 precursoromegagenerator;Precursor Generator
 precursorswitch;Wall Interface
 precursortable;Precursor Table
 precursorterminal;Precursor Computer Terminal
 precursortrap1;Precursor Trap
 protochest;Proto Chest
-ff_stonechest;Stone Chest
-ff_stonechest2;Stone Chest
-rainforestchest;Rainforest Chest
-rainforestchest2;Rainforest Chest
+rainforestchest;Rainforest Chest (1)
+rainforestchest2;Rainforest Chest (2)
 mechruin;Ruined Mech
 populationsign;Ruined Population Sign
 ruinslamppost;Lamp Post
-ruinsvehicle1;Abandoned Vehicle
-ruinsvehicle2;Abandoned Vehicle
-ruinsvehicle2a;Abandoned Vehicle
-ruinsvehicle2b;Abandoned Vehicle
-ruinsvehicle3;Abandoned Vehicle
-ruinsvehicle3a;Abandoned Vehicle
-ruinsvehicle3b;Abandoned Vehicle
-ruinsvehicle3c;Abandoned Vehicle
-ruinsvehicle4;Abandoned Vehicle
-ruinsvehicle5;Abandoned Vehicle
+ruinsvehicle1;Abandoned Vehicle (1)
+ruinsvehicle2;Abandoned Vehicle (2)
+ruinsvehicle2a;Abandoned Vehicle (3)
+ruinsvehicle2b;Abandoned Vehicle (4)
+ruinsvehicle3;Abandoned Vehicle (5)
+ruinsvehicle3a;Abandoned Vehicle (6)
+ruinsvehicle3b;Abandoned Vehicle (7)
+ruinsvehicle3c;Abandoned Vehicle (8)
+ruinsvehicle4;Abandoned Vehicle (9)
+ruinsvehicle5;Abandoned Vehicle (10)
 spiderweb;Spiderweb
 spiderweb2;Spiderweb2
 spiderweb3;Spiderweb3
 spiderweb4;Spiderweb4
 minebelt2;Mining Conveyer Belt
-emptyminecontainer2;Mine container
-minecontainer2;Mine container
+emptyminecontainer2;Mine container (1)
+minecontainer2;Mine container (2)
 cmineduct;C Rock duct
 hmineduct;H Rock duct
-minecrusher;Mining Impact Crusher
-minecrushermachine;Mining Impact Crusher
 mineduct;Rock duct
 smineduct;S Rock duct
 minedoor;Miner's Door
 minefence;Mine Railing
-minehazardsign;Mining Hazard Sign
-fubar1;Bar Table
-fubar2;Bar Table
+fubar1;Bar Table (1)
+fubar2;Bar Table (2)
 fudragonbed;Bone Bed
 fudragonchair;Bone Armchair
 fudragonlamp;Bone Brazier
-fudragontable;Bone Table
-fudragontrophy;Bone Trophy
 fufloranbath;Leafy Bathtub
 fufloranbed;Leafy Bed
 fufloranchair;Leafy Armchair
@@ -6952,15 +6982,16 @@ fujellybath;Jelly Bathtub
 fujellydoor;Jelly Door
 fujellysofa;Jelly Couch
 fuokeaglitchwagon;Glitch Prison Wagon
-fuokeahitecharmchair;Hi-tech Armchair
+fuokeahitecharmchair;Hi-tech Armchair (1)
+fuokeahitechvrchair;Hi-tech Armchair (2)
 fuokeahitechbath;Hi-tech Bathtub
 fuokeahitechbed;Hi-tech Bed
 fuokeahitechbookcase2;Hi-tech Bookcase
 fuokeahitechcounter;Hi-tech Counter
 fuokeahitechcupboard;Hi-tech Cupboard
 fuokeahitechdrawer;Hi-tech Cabinet
-fuokeahitechforcedoor;Force Door
-fuokeahitechforcedoor2;Force Door
+fuokeahitechforcedoor;Force Door (1)
+fuokeahitechforcedoor2;Force Door (2)
 fuokeahitechfridge;Hi-tech Fridge
 fuokeahitechlamp1;Hi-tech Lamp
 fuokeahitechlamp2;Hi-tech Wall Lamp
@@ -6971,33 +7002,31 @@ fuokeahitechstool;Hi-tech Stool
 fuokeahitechtable;Hi-tech Table
 fuokeahitechtoaster;Hi-tech Toaster
 fuokeahitechtoilet;Hi-tech Toilet
-fuokeahitechvrchair;Hi-tech Armchair
-fuokeamagmadoor1;Living Stone Door
-fuokeamagmadoor2;Living Stone Door
+fuokeamagmadoor1;Living Stone Door (1)
+fuokeamagmadoor2;Living Stone Door (2)
 fuokeamagmastatue;Stone Guardian Statue
 mlitcometsofa;Hi-tech Large Couch
 fuokeaclock2;Round Wall Clock
 futv2;Flat Screen TV
 stationbackgroundgreenhouse;Greenhouse background
 stationbackgroundgreenhouselarge;Large Greenhouse background
-stationbackgroundreslarge0;Residential Large background
-stationbackgroundreslarge1;Residential Large background
+stationbackgroundreslarge0;Residential Large background (1)
+stationbackgroundreslarge1;Residential Large background (2)
 stationbackgroundresshaft;Residential Shaft background
 stationbackgroundsolarhall;Solar Hallway Background
-extrateleportradar;Teleporter Radar
-extrateleportradarhome;Teleporter Radar
-extrateleportradarreturn;Teleporter Radar
+extrateleportradar;Teleporter Radar (1)
+extrateleportradarhome;Teleporter Radar (2)
+extrateleportradarreturn;Teleporter Radar (3)
 centrifuge;Lab Centrifuge
 centrifuge2;Gas Centrifuge
 fu_blastfurnace;Blast Furnace
 fu_conduit;Wire Relay
-fieldgen;Field Generator
 fu_liquidcondenser;Liquid Collector
 fu_powersensorlarge;Large Power Sensor
 fu_quantumgenerator;Quantum Reactor
-fu_solararray;Solar Array
+fu_solararray;Solar Array (1)
+fu_solararrayscienceoutpost;Solar Array (2)
 fu_solararrayadv;Solar Tower
-fu_solararrayscienceoutpost;Solar Array
 fu_upgrade;I'm broken. Why U Spawn?
 isn_windarray;Wind Turbine
 isn_arcsmelter;Arc Smelter
@@ -7011,166 +7040,159 @@ isn_battery_t3_fero;8000J 8W Battery Unit
 isn_battery_t4_fero;Ultra Battery Unit
 isn_fissionreactornew;Fission Reactor
 isn_hydroponicstray;Hydroponics Tray
-isn_incinerator;Incinerator
 isn_powdersifter;Powder Sifter
 isn_powersensor;Power Sensor
-isn_radiostation;Ansible Network
-isn_radiostationnew;Ansible Network
-isn_solarpanel;Solar Panel
+isn_radiostation;Ansible Network (1)
+isn_radiostationnew;Ansible Network (2)
 isn_thermalgenerator;Combustion Generator
 quantumextractor;Quantum Extractor
 quantumextractor_roof;Quantum Extractor (roof)
-alienjunglemap;Strange Map
-ancienttemplemap;Strange Map
-avianhydromap;Strange Map
-evernightmap;Strange Map
-forestoffaemap;Strange Map
-grandarenamap;Strange Map
-infiltrationmap;Strange Map
-letheiafacilitymap;Strange Map
-lethialabsmap;Strange Map
-magickaforestmap;Strange Map
-pavillionmap;Strange Map
-penguinhighwaymap;Strange Map
-skytemplemap;Strange Map
-snowcrashmap;Strange Map
-sunsetridersmap;Strange Map
-towerinvinciblemap;Strange Map
-verdantruinsmap;Strange Map
-alienjungleturnin;Turn in the quest!
-ancienttempleturnin;Turn in the quest!
-avianhydroturnin;Turn in the quest!
-evernightturnin;Turn in the quest!
-forestoffaeturnin;Turn in the quest!
-grandarenaturnin;Turn in the quest!
-infiltrationturnin;Turn in the quest!
-letheiafacilityturnin;Turn in the quest!
-letheiafleetturnin;Turn in the quest!
-lethialabsturnin;Turn in the quest!
-magickaforestturnin;Turn in the quest!
-penguinhighwayturnin;Turn in the quest!
-skytempleturnin;Turn in the quest!
-sunsetridersturnin;Turn in the quest!
-towerinvincibleturnin;Turn in the quest!
-verdantruinsturnin;Turn in the quest!
-extrachallengelabs1turnin;Turn in the quest!
-extrachallengelabs2turnin;Turn in the quest!
-extrachallengelabs3turnin;Turn in the quest!
-extrachallengelabs4turnin;Turn in the quest!
+alienjunglemap;Strange Map (1)
+ancienttemplemap;Strange Map (2)
+avianhydromap;Strange Map (3)
+evernightmap;Strange Map (4)
+forestoffaemap;Strange Map (5)
+grandarenamap;Strange Map (6)
+infiltrationmap;Strange Map (7)
+letheiafacilitymap;Strange Map (8)
+lethialabsmap;Strange Map (9)
+magickaforestmap;Strange Map (10)
+pavillionmap;Strange Map (11)
+penguinhighwaymap;Strange Map (12)
+skytemplemap;Strange Map (13)
+snowcrashmap;Strange Map (14)
+sunsetridersmap;Strange Map (15)
+towerinvinciblemap;Strange Map (16)
+verdantruinsmap;Strange Map (17)
+alienjungleturnin;Turn in the quest! (1)
+ancienttempleturnin;Turn in the quest! (2)
+avianhydroturnin;Turn in the quest! (3)
+evernightturnin;Turn in the quest! (4)
+forestoffaeturnin;Turn in the quest! (5)
+grandarenaturnin;Turn in the quest! (6)
+infiltrationturnin;Turn in the quest! (7)
+letheiafacilityturnin;Turn in the quest! (8)
+letheiafleetturnin;Turn in the quest! (9)
+lethialabsturnin;Turn in the quest! (10)
+magickaforestturnin;Turn in the quest! (11)
+penguinhighwayturnin;Turn in the quest! (12)
+skytempleturnin;Turn in the quest! (13)
+sunsetridersturnin;Turn in the quest! (14)
+towerinvincibleturnin;Turn in the quest! (15)
+verdantruinsturnin;Turn in the quest! (16)
+extrachallengelabs1turnin;Turn in the quest! (17)
+extrachallengelabs2turnin;Turn in the quest! (18)
+extrachallengelabs3turnin;Turn in the quest! (19)
+extrachallengelabs4turnin;Turn in the quest! (20)
 zrainbow;Rainbow
 fireflies1;fireflies
 frozencritter1;Frozen creature
 geyser_small;geyser_small
-monolith1;Strange Monument
-monolith2;Strange Monument
-monolith3;Strange Monument
-monolith4;Strange Monument
-mound3;Insect Mound
-mound4;Insect Mound
+mound3;Insect Mound (1)
+mound4;Insect Mound (2)
 plynth1;Monolith
 plynth2;Glowing Monolith
-shimbush1;Shim Bush
-shimbush2;Shim Bush
-shimbush3;Shim Bush
-atropus1;Organic Oddity
-atropus2;Organic Oddity
-atropus3;Organic Oddity
-bioshroomblue;Bioluminescent Shroom
-bioshroomblue1;Bioluminescent Shroom
-bioshroomblue2;Bioluminescent Shroom
-bioshroomblue3;Bioluminescent Shroom
-bioshroomblue4;Bioluminescent Shroom
-bioshroomblue5;Bioluminescent Shroom
-bioshroomblue6;Bioluminescent Shroom
-bioshroomblue7;Bioluminescent Shroom
-ffbioshroom;Bioluminescent Shroom
-ffbioshroom1;Bioluminescent Shroom
-ffbioshroom2;Bioluminescent Shroom
-ffbioshroom3;Bioluminescent Shroom
-bioplant1;Experimental Plant
-bioplant10;Experimental Plant
-bioplant11;Experimental Plant
-bioplant12;Experimental Plant
-bioplant13;Experimental Plant
-bioplant14;Experimental Plant
-bioplant15;Experimental Plant
-bioplant16;Experimental Plant
-bioplant17;Experimental Plant
-bioplant18;Experimental Plant
-bioplant19;Experimental Plant
-bioplant2;Experimental Plant
-bioplant20;Experimental Plant
-bioplant21;Experimental Plant
-bioplant22;Experimental Plant
-bioplant23;Experimental Plant
-bioplant24;Experimental Plant
-bioplant25;Experimental Plant
-bioplant26;Experimental Plant
-bioplant27;Experimental Plant
-bioplant28;Experimental Plant
-bioplant29;Experimental Plant
-bioplant3;Experimental Plant
-bioplant4;Experimental Plant
-bioplant5;Experimental Plant
-bioplant6;Experimental Plant
-bioplant7;Experimental Plant
-bioplant8;Experimental Plant
-bioplant9;Experimental Plant
+shimbush1;Shim Bush (1)
+shimbush2;Shim Bush (2)
+shimbush3;Shim Bush (3)
+atropus1;Organic Oddity (1)
+atropus2;Organic Oddity (2)
+atropus3;Organic Oddity (3)
+bioshroomblue;Bioluminescent Shroom (1)
+bioshroomblue1;Bioluminescent Shroom (2)
+bioshroomblue2;Bioluminescent Shroom (3)
+bioshroomblue3;Bioluminescent Shroom (4)
+bioshroomblue4;Bioluminescent Shroom (5)
+bioshroomblue5;Bioluminescent Shroom (6)
+bioshroomblue6;Bioluminescent Shroom (7)
+bioshroomblue7;Bioluminescent Shroom (8)
+ffbioshroom;Bioluminescent Shroom (9)
+ffbioshroom1;Bioluminescent Shroom (10)
+ffbioshroom2;Bioluminescent Shroom (11)
+ffbioshroom3;Bioluminescent Shroom (12)
+bioplant1;Experimental Plant (1)
+bioplant10;Experimental Plant (2)
+bioplant11;Experimental Plant (3)
+bioplant12;Experimental Plant (4)
+bioplant13;Experimental Plant (5)
+bioplant14;Experimental Plant (6)
+bioplant15;Experimental Plant (7)
+bioplant16;Experimental Plant (8)
+bioplant17;Experimental Plant (9)
+bioplant18;Experimental Plant (10)
+bioplant19;Experimental Plant (11)
+bioplant2;Experimental Plant (12)
+bioplant20;Experimental Plant (13)
+bioplant21;Experimental Plant (14)
+bioplant22;Experimental Plant (15)
+bioplant23;Experimental Plant (16)
+bioplant24;Experimental Plant (17)
+bioplant25;Experimental Plant (18)
+bioplant26;Experimental Plant (19)
+bioplant27;Experimental Plant (20)
+bioplant28;Experimental Plant (21)
+bioplant29;Experimental Plant (22)
+bioplant3;Experimental Plant (23)
+bioplant4;Experimental Plant (24)
+bioplant5;Experimental Plant (25)
+bioplant6;Experimental Plant (26)
+bioplant7;Experimental Plant (27)
+bioplant8;Experimental Plant (28)
+bioplant9;Experimental Plant (29)
 anemone1;Bloodstone Anemone
-bloodstoneplant1;bloodstone flower
-bloodstoneplant2;bloodstone flower
-bloodstoneplant3;bloodstone flower
-bloodstoneplant4;bloodstone flower
-bloodstoneplant5;bloodstone flower
+bloodstoneplant1;bloodstone flower (1)
+bloodstoneplant2;bloodstone flower (2)
+bloodstoneplant3;bloodstone flower (3)
+bloodstoneplant4;bloodstone flower (4)
+bloodstoneplant5;bloodstone flower (5)
 heartroot;heartroot
-flesh1;Fleshy Plant
-flesh2;Fleshy Plant
-flesh3;Fleshy Plant
-flesh4;Fleshy Plant
-flesh5;Fleshy Plant
-flesh6;Fleshy Plant
-iceball_rock;Volcanic Rock
+flesh1;Fleshy Plant (1)
+flesh2;Fleshy Plant (2)
+flesh3;Fleshy Plant (3)
+flesh4;Fleshy Plant (4)
+flesh5;Fleshy Plant (5)
+flesh6;Fleshy Plant (6)
 icestalk;Ice Stalk
-blobbush1;Pustule Growth
-blobbush2;Pustule Growth
-blobbush3;Pustule Growth
-rotbulb1;Rot Bulb
-rotbulb2;Rot Bulb
-rotbulb3;Rot Bulb
-shadecoral1;Shade Coral
-shadecoral2;Shade Coral
-shadecoral3;Shade Coral
-shadecoral4;Shade Coral
-shadowgrass1;Shadow Grass
-shadowgrass2;Shadow Grass
-shadowgrass3;Shadow Grass
-shadowgrass4;Shadow Grass
-tonguebush1;Lisperbush
-tonguebush2;Lisperbush
-rockbare1;A Rock
-rockbare2;A Rock
-rockbare3;Pustule Growth
-rockbare4;A Rock
-rockbare5;A Rock
-rockbare6;A Rock
-rockbare7;A Rock
-rockbare8;A Rock
-rockmossy1;A Rock
-rockmossy2;A Rock
-rockmossy3;Pustule Growth
-rockmossy4;A Rock
-rockmossy5;A Rock
-rockmossy6;A Rock
-rockmossy7;A Rock
-rockmossy8;A Rock
-rockstony1;A Rock
-rockstony2;A Rock
-rockstony3;Pustule Growth
-rockstony4;A Rock
-rockstony5;A Rock
-rockstony6;A Rock
-rockstony7;A Rock
-rockstony8;A Rock
+blobbush1;Pustule Growth (1)
+blobbush2;Pustule Growth (2)
+blobbush3;Pustule Growth (3)
+rockbare3;Pustule Growth (4)
+rockmossy3;Pustule Growth (5)
+rockstony3;Pustule Growth (6)
+rotbulb1;Rot Bulb (1)
+rotbulb2;Rot Bulb (2)
+rotbulb3;Rot Bulb (3)
+shadecoral1;Shade Coral (1)
+shadecoral2;Shade Coral (2)
+shadecoral3;Shade Coral (3)
+shadecoral4;Shade Coral (4)
+shadowgrass1;Shadow Grass (1)
+shadowgrass2;Shadow Grass (2)
+shadowgrass3;Shadow Grass (3)
+shadowgrass4;Shadow Grass (4)
+tonguebush1;Lisperbush (1)
+tonguebush2;Lisperbush (2)
+rockbare1;A Rock (1)
+rockbare2;A Rock (2)
+rockbare4;A Rock (3)
+rockbare5;A Rock (4)
+rockbare6;A Rock (5)
+rockbare7;A Rock (6)
+rockbare8;A Rock (7)
+rockmossy1;A Rock (8)
+rockmossy2;A Rock (9)
+rockmossy4;A Rock (10)
+rockmossy5;A Rock (11)
+rockmossy6;A Rock (12)
+rockmossy7;A Rock (13)
+rockmossy8;A Rock (14)
+rockstony1;A Rock (15)
+rockstony2;A Rock (16)
+rockstony4;A Rock (17)
+rockstony5;A Rock (18)
+rockstony6;A Rock (19)
+rockstony7;A Rock (20)
+rockstony8;A Rock (21)
 alienstick;Fasha Stalk
 balliss;Balliss Plant
 bladeplant1;bladeplant
@@ -7180,18 +7202,19 @@ bonebud;Bonestalk
 brainspud;Neuro Flower
 braintentacle;Neuro Tentacle
 bulbroot;Bulb Root
-cactusy1;cactus
-cactusy2;cactus
+cactusy1;cactus (1)
+cactusy2;cactus (2)
 dasha;Dasha Flower
 deadtree;Dasha Root
-ferny1;fern
+ferny1;fern (1)
+toxicfern1;fern (2)
 flameleaf;Flameleaf Flower
-flower2a;Trapper Leaf
-flower2b;Trapper Leaf
-goldspiral1;Goldribbon
-goldspiral2;Goldribbon
-goldspiral3;Goldribbon
-goldspiral4;Goldribbon
+flower2a;Trapper Leaf (1)
+flower2b;Trapper Leaf (2)
+goldspiral1;Goldribbon (1)
+goldspiral2;Goldribbon (2)
+goldspiral3;Goldribbon (3)
+goldspiral4;Goldribbon (4)
 icebloom;Freezeflower
 iceplant2;Frost Leaf
 icespikeff;Ice spike
@@ -7199,66 +7222,50 @@ jungleplant_ff1;Nik Flower
 orangebush;bush
 parshflower;Parsh Flower
 pinkbloom;Gale Lily
-purpleflower1;flower
-purpleflower2;flower
-purpleflower3;flower
-purpleflower4;flower
-purpleleaf1;Tesh
-purpleleaf2;Tesh
-purpleleaf3;Tesh
+purpleflower1;flower (1)
+purpleflower2;flower (2)
+purpleflower3;flower (3)
+purpleflower4;flower (4)
+toxicflower1;flower (5)
+toxicflower2;flower (6)
+toxicflower3;flower (7)
+toxicflower4;flower (8)
+purpleleaf1;Tesh (1)
+purpleleaf2;Tesh (2)
+purpleleaf3;Tesh (3)
 redcap;Redcap Shroom
-redcap2;red cap
-redcap3;red cap
+redcap2;red cap (1)
+redcap3;red cap (2)
 scumbloom;Lashleaf
-shrubby1;shrub
-shrubby2;shrub
-shrubby3;shrub
-smalltree1;sapling
-smalltree2;sapling
-smalltree3;sapling
-snowbloom1;snowbloom
-snowbloom2;snowbloom
+shrubby1;shrub (1)
+shrubby2;shrub (2)
+shrubby3;shrub (3)
+smalltree1;sapling (1)
+smalltree2;sapling (2)
+smalltree3;sapling (3)
+snowbloom1;snowbloom (1)
+snowbloom2;snowbloom (2)
 snowbloom3;Snowbloom
 snowbush1;Sprice Bush
 snowtree1;tree
-spearleaf;Spearleaf
-spearleaf2;Spearleaf
-spearleaf3;Spearleaf
-toxicfern1;fern
-toxicflower1;flower
-toxicflower2;flower
-toxicflower3;flower
-toxicflower4;flower
-toxicsprout1;sprout
-toxicsprout2;sprout
-toxicsprout3;sprout
-toxicsprout4;sprout
-voltcorn;Volt Corn
-voltcorn2;Volt Corn
+spearleaf;Spearleaf (1)
+spearleaf2;Spearleaf (2)
+spearleaf3;Spearleaf (3)
+toxicsprout1;sprout (1)
+toxicsprout2;sprout (2)
+toxicsprout3;sprout (3)
+toxicsprout4;sprout (4)
+voltcorn;Volt Corn (1)
+voltcorn2;Volt Corn (2)
 waterpod;Waterpod
-weed1;weed
-weed2;weed
-weed3;weed
-whitebulb;White Potato
-whitebulb2;White Potato
-whitebulb3;White Potato
+weed1;weed (1)
+weed2;weed (2)
+weed3;weed (3)
+whitebulb;White Potato (1)
+whitebulb2;White Potato (2)
+whitebulb3;White Potato (3)
 yellowtail;Yellowtail
-volcanicrockseed;Volcanic Rock
-volcanicrockseed2;Volcanic Rock
-volcanicrockseed3;Volcanic Rock
-volcanicrockseed4;Volcanic Rock
-volcanicrockseed5;Volcanic Rock
-volcanicrockseed6;Volcanic Rock
-volcanicrockseed7;Volcanic Rock
-volcanicrockseed8;Volcanic Rock
-volcanicrock2seed;Volcanic Rock
-volcanicrock2seed2;Volcanic Rock
-volcanicrock2seed3;Volcanic Rock
-volcanicrock2seed4;Volcanic Rock
-volcanicrock2seed5;Volcanic Rock
-volcanicrock2seed6;Volcanic Rock
 deeponegame;Humped By a Deep One
-guidestorage;Lab Bookcase
 moonlitcomet;Vinalisj
 smartbox_halver;Stack Halver
 smartbox_singular;Single-Slot Storage
@@ -7315,13 +7322,13 @@ fufrozendoor;Heavy Tungsten Door
 fuhomedoor;House Door
 fujaildoor;Pressure Door
 fuwitchdoor;Witch Door
-ff_biolight1;Bio Light
-ff_biolight2;Bio Light
-ff_biolight3;Bio Light
-ff_biolight4;Bio-Light
-ff_biolight5;Bio-Light
-ff_blisterlight1;Blisterpod Light
-ff_blisterlight2;Blisterpod Light
+ff_biolight1;Bio Light (1)
+ff_biolight2;Bio Light (2)
+ff_biolight3;Bio Light (3)
+ff_biolight4;Bio-Light (1)
+ff_biolight5;Bio-Light (2)
+ff_blisterlight1;Blisterpod Light (1)
+ff_blisterlight2;Blisterpod Light (2)
 ff_blisterlight3;Blisterpod Ceiling Light
 ff_lavalamp1;Lava Ceiling Lamp
 ff_lavalight1;Magma Light
@@ -7331,22 +7338,16 @@ magmacabinet;Magma Cabinet
 magmachair;Magma Chair
 magmasofa;Magma Sofa
 magmatable;Magma Table
-fuunderworldbed;Flesh Bed
-fuunderworldcandles;Black Candles
-fuunderworldcandles2;Black Candles
-fuunderworldchair;Flesh Chair
+fuunderworldcandles;Black Candles (1)
+fuunderworldcandles2;Black Candles (2)
 fuunderworldchair2;Tongue Chair
 fuunderworldcounter;Flesh Counter
-fuunderworlddoor;Flesh Door
-fuunderworlddoor2;Flesh Door
-fuunderworldeyestatue1;Flesh Monument
-fuunderworldeyestatue2;Flesh Monument
-fuunderworldeyestatue3;Flesh Monument
-fuunderworldfountain;Flesh Fountain
-fuunderworldfountain2;Flesh Fountain
+fuunderworldeyestatue1;Flesh Monument (1)
+fuunderworldeyestatue2;Flesh Monument (2)
+fuunderworldeyestatue3;Flesh Monument (3)
+fuunderworldfountain;Flesh Fountain (1)
+fuunderworldfountain2;Flesh Fountain (2)
 fuunderworldlamp;Flesh Lamp
-fuunderworldtable1;Flesh Table
-fuunderworldtable2;Flesh Table
 fuunderworldtable3;Tongue Table
 fuunderworldtable4;Tendon Table
 techbush1;Rusted Console
@@ -7371,7 +7372,6 @@ swtjc_wp_advancedxor_nolatch;Advanced XOR Gate (2 Inputs, No Latch)
 swtjc_wp_advancedswitch;Advanced Wall Switch
 swtjc_wp_advancedswitch_nolatch;Advanced Wall Switch (No Latch)
 swtjc_wp_advancedswitch_noninteractive;Advanced Wall Switch (Non-Interactive)
-elderliquidsensor;Liquid Sensor
 swtjc_wp_brokenemitter;Broken Signal Emitter
 swtjc_wp_emitter;Signal Emitter
 extrajumppad;Extra Jump Pad
@@ -7385,14 +7385,15 @@ fu_rocketturret;Rocket Turret
 fu_teslaturret;Tesla Turret
 fu_vashtaturret;Vashta Turret
 gravzoneelder;Elder Sigil
-gravzone;Force Zone
-gravzoneattractstrong;Force Zone
-gravzoneattractweak;Force Zone
-gravzonerepel;Force Zone
-gravzonerepelweak;Force Zone
+gravzone;Force Zone (1)
+gravzoneattractstrong;Force Zone (2)
+gravzoneattractweak;Force Zone (3)
+gravzonerepel;Force Zone (4)
+gravzonerepelweak;Force Zone (5)
 swtjc_wp_advancedlightsensor;Advanced Light Sensor
 swtjc_wp_advancedliquidsensor;Advanced Liquid Sensor
-relay;Relay
+relay;Relay (1)
+swtjc_wp_relay;Relay (2)
 swtjc_wp_actransformer;AC Transformer
 swtjc_wp_and3i;AND Gate (3 Inputs)
 swtjc_wp_countdowndelay;Countdown Delay Timer
@@ -7416,8 +7417,8 @@ swtjc_wp_nor;NOR Gate
 swtjc_wp_nor3i;NOR Gate (3 Inputs)
 swtjc_wp_nxor;NXOR Gate
 swtjc_wp_nxor3i;NXOR Gate (3 inputs)
-swtjc_wp_nxor3i12h;NXOR Gate (3 Inputs, 1-Hot)
-swtjc_wp_nxor3i1h;NXOR Gate (3 Inputs, 1-Hot)
+swtjc_wp_nxor3i12h;NXOR Gate (3 Inputs, 1-Hot) (1)
+swtjc_wp_nxor3i1h;NXOR Gate (3 Inputs, 1-Hot) (2)
 swtjc_wp_nxor3i2h;NXOR Gate (3 Inputs, 2-Hot)
 swtjc_wp_or3i;OR Gate (3 Inputs)
 swtjc_wp_pulser;Pulse Transmitter
@@ -7428,57 +7429,56 @@ swtjc_wp_pulsetimer3s;3-Second Pulse Transmitter
 swtjc_wp_pulsetimer4s;4-Second Pulse Transmitter
 swtjc_wp_pulsetimer5s;5-Second Pulse Transmitter
 swtjc_wp_pulsetimerqs;Quarter-Second Pulse Transmitter
-swtjc_wp_relay;Relay
 swtjc_wp_xor3i;XOR Gate (3 Inputs)
 swtjc_wp_xor3i12h;XOR Gate (3 Inputs, 1-2-Hot)
 swtjc_wp_xor3i1h;XOR Gate (3 Inputs, 1-Hot)
 swtjc_wp_xor3i2h;XOR Gate (3 Inputs, 2-Hot)
-swtjc_wp_compacthand;Compact AND Gate
-swtjc_wp_compacthdlatch;Compact Data Latch
-swtjc_wp_compacthnand;Compact NAND Gate
-swtjc_wp_compacthnor;Compact NOR Gate
-swtjc_wp_compacthnot;Compact NOT Gate
-swtjc_wp_compacthnxor;Compact NXOR Gate
-swtjc_wp_compacthor;Compact OR Gate
-swtjc_wp_compacthrelay;Compact Relay
-swtjc_wp_compacthxor;Compact XOR Gate
-swtjc_wp_compactvand;Compact AND Gate
-swtjc_wp_compactvdlatch;Compact Data Latch
-swtjc_wp_compactvnand;Compact NAND Gate
-swtjc_wp_compactvnor;Compact NOR Gate
-swtjc_wp_compactvnot;Compact NOT Gate
-swtjc_wp_compactvnxor;Compact NXOR Gate
-swtjc_wp_compactvor;Compact OR Gate
-swtjc_wp_compactvrelay;Compact Relay
-swtjc_wp_compactvxor;Compact XOR Gate
+swtjc_wp_compacthand;Compact AND Gate (1)
+swtjc_wp_compactvand;Compact AND Gate (2)
+swtjc_wp_compacthdlatch;Compact Data Latch (1)
+swtjc_wp_compactvdlatch;Compact Data Latch (2)
+swtjc_wp_compacthnand;Compact NAND Gate (1)
+swtjc_wp_compactvnand;Compact NAND Gate (2)
+swtjc_wp_compacthnor;Compact NOR Gate (1)
+swtjc_wp_compactvnor;Compact NOR Gate (2)
+swtjc_wp_compacthnot;Compact NOT Gate (1)
+swtjc_wp_compactvnot;Compact NOT Gate (2)
+swtjc_wp_compacthnxor;Compact NXOR Gate (1)
+swtjc_wp_compactvnxor;Compact NXOR Gate (2)
+swtjc_wp_compacthor;Compact OR Gate (1)
+swtjc_wp_compactvor;Compact OR Gate (2)
+swtjc_wp_compacthrelay;Compact Relay (1)
+swtjc_wp_compactvrelay;Compact Relay (2)
+swtjc_wp_compacthxor;Compact XOR Gate (1)
+swtjc_wp_compactvxor;Compact XOR Gate (2)
 fu_gated;Black Box Logic Gate
 swtjc_wp_persistentswitchinteractive;Persistent Switch (Interactive)
 swtjc_wp_persistentswitchinteractive_withnot;Persistent Switch (Interactive with NOT Gate)
 swtjc_wp_persistentswitch_withnot;Persistent Switch (with NOT Gate)
-swtjc_wp_compacthpersistentswitch;Compact Persistent Switch
-swtjc_wp_compacthpersistentswitchinteractive;Compact Persistent Switch (Interactive)
-swtjc_wp_compactvpersistentswitch;Compact Persistent Switch
-swtjc_wp_compactvpersistentswitchinteractive;Compact Persistent Switch (Interactive)
+swtjc_wp_compacthpersistentswitch;Compact Persistent Switch (1)
+swtjc_wp_compactvpersistentswitch;Compact Persistent Switch (2)
+swtjc_wp_compacthpersistentswitchinteractive;Compact Persistent Switch (Interactive) (1)
+swtjc_wp_compactvpersistentswitchinteractive;Compact Persistent Switch (Interactive) (2)
 pumpinfu;Liquid Pump
 pumpinfuelder;Elder Pump
 pumpoutfu;Output Pump
 pumpoutfuelder;Output Elder
 pumpoutpressurefu;Pressure Pump
 pumpoutpressurefuelder;Pressure Elder
-swtjc_wp_sequencer2bith;2-Bit Sequencer
-swtjc_wp_sequencer2bithinputs;2-Bit Sequencer (With Inputs)
-swtjc_wp_sequencer2bitv;2-Bit Sequencer
-swtjc_wp_sequencer2bitvinputs;2-Bit Sequencer (With Inputs)
-swtjc_wp_sequencer3bith;3-Bit Sequencer
-swtjc_wp_sequencer3bithinputs;3-Bit Sequencer (With Inputs)
-swtjc_wp_sequencer3bitv;3-Bit Sequencer
-swtjc_wp_sequencer3bitvinputs;3-Bit Sequencer (With Inputs)
-swtjc_wp_sequencer4bith;4-Bit Sequencer
-swtjc_wp_sequencer4bithinputs;4-Bit Sequencer (With Inputs)
-swtjc_wp_sequencer4bitv;4-Bit Sequencer
-swtjc_wp_sequencer4bitvinputs;4-Bit Sequencer (With Inputs)
-swtjc_wp_brokencompacthwallswitch;Broken (Input Only) Compact Wall Switch
-swtjc_wp_brokencompactvwallswitch;Broken (Input Only) Compact Wall Switch
+swtjc_wp_sequencer2bith;2-Bit Sequencer (1)
+swtjc_wp_sequencer2bitv;2-Bit Sequencer (2)
+swtjc_wp_sequencer2bithinputs;2-Bit Sequencer (With Inputs) (1)
+swtjc_wp_sequencer2bitvinputs;2-Bit Sequencer (With Inputs) (2)
+swtjc_wp_sequencer3bith;3-Bit Sequencer (1)
+swtjc_wp_sequencer3bitv;3-Bit Sequencer (2)
+swtjc_wp_sequencer3bithinputs;3-Bit Sequencer (With Inputs) (1)
+swtjc_wp_sequencer3bitvinputs;3-Bit Sequencer (With Inputs) (2)
+swtjc_wp_sequencer4bith;4-Bit Sequencer (1)
+swtjc_wp_sequencer4bitv;4-Bit Sequencer (2)
+swtjc_wp_sequencer4bithinputs;4-Bit Sequencer (With Inputs) (1)
+swtjc_wp_sequencer4bitvinputs;4-Bit Sequencer (With Inputs) (2)
+swtjc_wp_brokencompacthwallswitch;Broken (Input Only) Compact Wall Switch (1)
+swtjc_wp_brokencompactvwallswitch;Broken (Input Only) Compact Wall Switch (2)
 swtjc_wp_brokenwallswitch;Broken (Input Only) Wall Switch
-swtjc_wp_compacthwallswitch;Compact Wall Switch
-swtjc_wp_compactvwallswitch;Compact Wall Switch
+swtjc_wp_compacthwallswitch;Compact Wall Switch (1)
+swtjc_wp_compactvwallswitch;Compact Wall Switch (2)
