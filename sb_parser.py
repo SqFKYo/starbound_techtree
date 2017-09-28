@@ -27,12 +27,8 @@ import json
 import networkx as nx
 import wx
 
-# Not yet used
 BIOME_FOLDER_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\biomes'
 BIOME_FOLDER_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\biomes'
-INTERESTING_DROPS = ['ff_resin', 'silk']
-
-# Currently in use
 CENTRIFUGE_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\centrifuge_recipes.config'
 # Note: Comments have been removed from the drop data files to facilitate json loading
 DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\treasure\cropharvest.treasurepools.patch'
@@ -64,7 +60,7 @@ class SbParser(object):
                         try:
                             material_friendly = self.friendly_names[material]
                         except KeyError:
-                            material_friendly =  material
+                            material_friendly = material
                         for result, rarity_list in end_results.items():
                             rarity = rarity_list[0]
                             material_print = '{0} (Cent.) ({1})'.format(material_friendly, rarity)
@@ -94,23 +90,23 @@ class SbParser(object):
                             friendly_harvest = harvest_name
                         self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
         with open(DROP_DATA_FU, 'r') as f:
-           data = json.load(f)
-           for group in data:
-               skippables = ['plantfibre']
-               harvest_name = group['path'].split('Harvest')[0].strip('/')
-               skippables.append(harvest_name)
-               skippables.append(f'{harvest_name}seed')
-               result_pool = group['value'][0][1]['pool']
-               for pool in result_pool:
-                   if pool['item'] not in skippables:
-                       try:
-                           friendly_harvest = self.friendly_names[harvest_name]
-                       except KeyError:
-                           friendly_harvest = harvest_name
-                       try:
-                           self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
-                       except TypeError:
-                           self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'][0])
+            data = json.load(f)
+            for group in data:
+                skippables = ['plantfibre']
+                harvest_name = group['path'].split('Harvest')[0].strip('/')
+                skippables.append(harvest_name)
+                skippables.append(f'{harvest_name}seed')
+                result_pool = group['value'][0][1]['pool']
+                for pool in result_pool:
+                    if pool['item'] not in skippables:
+                        try:
+                            friendly_harvest = self.friendly_names[harvest_name]
+                        except KeyError:
+                            friendly_harvest = harvest_name
+                        try:
+                            self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'])
+                        except TypeError:
+                            self.recipes.add_edge(f'{friendly_harvest} (Harv.)', pool['item'][0])
 
     def parse_extraction_data(self):
         with open(EXTRACTION_DATA, 'r') as f:
@@ -182,8 +178,8 @@ class SbParserGUI(wx.Frame):
         self.Bind(event=wx.EVT_COMBOBOX, handler=self._update_tree, source=self.selector_wx)
 
         sizer = wx.GridBagSizer(0, 0)
-        sizer.Add(self.selector_wx, pos=(0,0), flag=wx.EXPAND)
-        sizer.Add(self.tree_wx, pos=(1,0), flag=wx.EXPAND)
+        sizer.Add(self.selector_wx, pos=(0, 0), flag=wx.EXPAND)
+        sizer.Add(self.tree_wx, pos=(1, 0), flag=wx.EXPAND)
 
         sizer.AddGrowableCol(idx=0)
         sizer.AddGrowableRow(idx=1)
@@ -313,5 +309,5 @@ def main():
 
 
 if __name__ == '__main__':
-    #dump_friendly_names(FRIENDLY_NAMES)
+    # dump_friendly_names(FRIENDLY_NAMES)
     main()
