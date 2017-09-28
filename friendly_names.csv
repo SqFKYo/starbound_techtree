@@ -1834,7 +1834,8 @@ slopedrustypanel;Rusty Panel
 slopedscrappanel;Scrap Panel
 slush;Slush
 smoothmetal;Smooth Metal
-snow;Snow
+snow;Snow (1)
+snowdark;Snow (2)
 spidersilkblock;Spider Silk
 stomachblock;Stomach Lining (1)
 fustomachblock;Stomach Lining (2)
@@ -1903,7 +1904,7 @@ giganticsnowball;Gigantic Snowball
 largesnowball;Large Snowball
 mediumsnowball;Medium Snowball
 snowflakeshuriken;Snowflake Shuriken
-tarball;Tarball
+tarball;tar ball
 thorngrenade;Thorn Grenade
 throwingaxe;Throwing Axe
 throwingblock;Throwing Block
@@ -7482,3 +7483,92 @@ swtjc_wp_brokencompactvwallswitch;Broken (Input Only) Compact Wall Switch (2)
 swtjc_wp_brokenwallswitch;Broken (Input Only) Wall Switch
 swtjc_wp_compacthwallswitch;Compact Wall Switch (1)
 swtjc_wp_compactvwallswitch;Compact Wall Switch (2)
+alien;Alien
+arctic;Arctic (1)
+arcticdark;Arctic (2)
+barren;Barren (1)
+barren3;Barren (2)
+desert;Desert
+earth;earth
+forest;Forest
+garden;Garden
+jungle;Jungle
+magma;Magma (1)
+magmadark;Magma (2)
+midnight;midnight
+ocean;Tropical Ocean
+oceanmission;Ocean Mission
+savannah;Savannah
+scorched;Scorched Wasteland
+scorchedcity;Scorched City
+tentacle;Tentacle
+toxic;Toxic
+tundra;Tundra (1)
+tundradark;Tundra (2)
+volcanic;Volcanic
+volcanicterraform;Volcanic (Terraformed)
+giantflowers;Giantflowers
+oasis;Oasis
+swamp;swamp
+undergroundbrains;undergroundbrains
+undergroundtentacles;undergroundtentacles
+puscorelayer;Pus Core
+aethersea;Aether Sea
+arboreal;Primeval Forest (1)
+arboreal2;Primeval Forest (2)
+arborealdark;Dark Primeval Forest
+atropus;Atropus
+atropusdark;Dark Atropus
+chromatic;chromatic
+desertwastes;Red Wastes (1)
+desertwastesdark;Red Wastes (2)
+eden;Eden
+extraalienjungle;Alien Jungle
+extraalpinemission;extraalpinemission
+extraoceanfloormission;extraoceanfloormission
+extraskymission;extraskymission
+extraswampmission;extraswampmission
+frozenvolcanic;Frozen Volcanic
+fugasgiant;Gas Giant (1)
+fugasgiant2;Gas Giant (2)
+fugasgiant3;Gas Giant (3)
+fugasgiant4;Gas Giant (4)
+fugasgiant5;Gas Giant (5)
+icecloudswastesurface;Frozen Wastes Ice Clouds
+icemoon;Frozen Moon
+icewaste;Frozen Wastes (1)
+icewastedark;Frozen Wastes (2)
+shoggothbiome;Frozen Wastes (3)
+infernus;Infernus (1)
+infernusdark;Infernus (2)
+lightless;Lightless Sphere
+moon_desert;Moon (1)
+moon_volcanic;Moon (2)
+mountainous;Mountainous (1)
+mountainous2;Mountainous (2)
+mountainous3;Mountainous (3)
+mountainous4;Mountainous (4)
+nitrogensea;Nitrogen Ocean
+nitrogenseafloor;Nitrogen Sea
+penumbra;Penumbra
+protoworld;Proto-World (1)
+protoworlddark;Proto-World (2)
+strangesea;Strange Sea
+tabularasa;Tabula Rasa
+thickjungle;Rainforest
+tidewater;Rocky Tidewater
+urbanwasteland;Wasteland (1)
+urbanwasteland2;Wasteland (2)
+estuary;Estuary (1)
+estuarydark;Estuary (2)
+estuaryaether;Aether Estuary
+fieldofbamboo;Bamboo Forest
+fieldofbanana;Banana Forest
+fieldofbracken;Bracken Field
+fieldofcarrots;Carrot Crop
+fieldofcorn;Cornfield
+fieldofgrape;Vineyard
+fieldofpotato;Potato Field
+fieldoftomato;Tomato Garden
+fieldofwheat;Wheat Field
+atropusunderground;Atropus depths

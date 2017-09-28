@@ -48,6 +48,14 @@ class SbParser(object):
 
     def parse_biome_data(self):
         # ToDo read biome data to determine where to get raw ingredients biomes\**\.biome and patch files
+        """
+        "mainBlock" : "redsand2",
+        "subBlocks" : [ "retexredsandstone", "redslate2" ],
+        "name" : "desertwastesdark",
+        "friendlyName" : "Red Wastes",
+
+        :return:
+        """
         pass
 
     def parse_centrifuge_data(self):
@@ -225,7 +233,9 @@ def dump_friendly_names(dump_file):
     for item_file in chain(iglob('{0}/items/**/*.*'.format(SB_PATH), recursive=True),
                            iglob('{0}/items/**/*.*'.format(FU_PATH), recursive=True),
                            iglob('{0}/objects/**/*.*'.format(SB_PATH), recursive=True),
-                           iglob('{0}/objects/**/*.*'.format(FU_PATH), recursive=True)):
+                           iglob('{0}/objects/**/*.*'.format(FU_PATH), recursive=True),
+                           iglob('{0}/biomes/**/*.*'.format(SB_PATH), recursive=True),
+                           iglob('{0}/biomes/**/*.*'.format(FU_PATH), recursive=True)):
         if any([to_skip in item_file for to_skip in skippables]):
             continue
         with open(item_file, 'r') as f:
@@ -240,16 +250,28 @@ def dump_friendly_names(dump_file):
             except (json.decoder.JSONDecodeError, UnicodeDecodeError):
                 with open(item_file, 'r') as f2:
                     read_file = f2.readlines()
-                    friendly_line = next(line for line in read_file if 'shortdescription' in line)
+                    try:
+                        friendly_line = next(line for line in read_file if 'shortdescription' in line)
+                    except StopIteration:
+                        # .biome file
+                        friendly_line = next(line for line in read_file if 'friendlyName' in line)
                     friendly_name = friendly_line.split(':')[1].strip().strip('",')
                     try:
+                        # .item files
                         unfriendly_line = next(line for line in read_file if 'itemName' in line)
                     except StopIteration:
-                        unfriendly_line = next(line for line in read_file if 'objectName' in line)
+                        try:
+                            # .object files
+                            unfriendly_line = next(line for line in read_file if 'objectName' in line)
+                        except StopIteration:
+                            # .biome files
+                            unfriendly_line = next(line for line in read_file if 'name' in line)
                     unfriendly_name = unfriendly_line.split(':')[1].strip().strip('",')
                     friendly_names[unfriendly_name] = filter_description(friendly_name)
             except KeyError:
-                print('KeyError at {0}'.format(item_file))
+                print(f'KeyError at {item_file}')
+            except StopIteration:
+                print(f'StopIteration at {item_file}')
 
     # If multiple unfriendly names point to the same friendly name, we need to distinguish them!
     unfriendly_names = defaultdict(list)
