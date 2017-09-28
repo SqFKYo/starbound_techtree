@@ -56,7 +56,25 @@ class SbParser(object):
 
         :return:
         """
-        pass
+        for biome_file in chain(iglob('{0}/biomes/**/*.*'.format(SB_PATH), recursive=True),
+                                iglob('{0}/biomes/**/*.*'.format(FU_PATH), recursive=True)):
+            with open(biome_file, 'r') as f:
+                read_file = f.readlines()
+                try:
+                    name_line = read_file[1]
+                    main_line = next(line for line in read_file if 'mainBlock' in line)
+                    sub_line = next(line for line in read_file if 'subBlocks' in line)
+                    filtered_name = name_line.split(':')[1].strip().strip('",')
+                    try:
+                        friendly_name = self.friendly_names[filtered_name]
+                    except KeyError:
+                        friendly_name = filtered_name
+                    filtered_main = main_line.split(':')[1].strip().strip('",')
+                    # ToDo sub_line
+
+                    self.recipes.add_edge(f'{filtered_name} (biome)', filtered_main)
+                except StopIteration:
+                    print(f'No block data found in {biome_file}')
 
     def parse_centrifuge_data(self):
         with open(CENTRIFUGE_DATA, 'r') as f:
