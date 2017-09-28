@@ -47,7 +47,6 @@ class SbParser(object):
         self.unfriendly_names = {}
 
     def parse_biome_data(self):
-        # ToDo read biome data to determine where to get raw ingredients biomes\**\.biome and patch files
         """
         "mainBlock" : "redsand2",
         "subBlocks" : [ "retexredsandstone", "redslate2" ],
@@ -70,7 +69,7 @@ class SbParser(object):
                     except KeyError:
                         friendly_name = filtered_name
                     filtered_main = main_line.split(':')[1].strip().strip('",')
-                    # ToDo sub_line
+                    # ToDo sub_line regex problem!
 
                     self.recipes.add_edge(f'{filtered_name} (biome)', filtered_main)
                 except StopIteration:
