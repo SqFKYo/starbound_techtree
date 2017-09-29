@@ -25,6 +25,7 @@ from glob import iglob
 from itertools import chain
 import json
 import networkx as nx
+import re
 import wx
 
 BIOME_FOLDER_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\biomes'
@@ -68,12 +69,18 @@ class SbParser(object):
                         friendly_name = self.friendly_names[filtered_name]
                     except KeyError:
                         friendly_name = filtered_name
+                    # Main block
                     filtered_main = main_line.split(':')[1].strip().strip('",')
-                    # ToDo sub_line regex problem!
-
-                    self.recipes.add_edge(f'{filtered_name} (biome)', filtered_main)
+                    self.recipes.add_edge(f'{friendly_name} (biome)', filtered_main)
+                    # Sub blocks
+                    sub_match = re.search(r'".+"', sub_line.split(':')[1])
+                    sub_match_processed = sub_match.group().replace('"', '')
+                    sub_list = [sub.strip() for sub in sub_match_processed.split(',')]
+                    for sub in sub_list:
+                        self.recipes.add_edge(f'{friendly_name} (biome)', sub.strip('"'))
                 except StopIteration:
-                    print(f'No block data found in {biome_file}')
+                    # No names found in biome file
+                    pass
 
     def parse_centrifuge_data(self):
         with open(CENTRIFUGE_DATA, 'r') as f:
