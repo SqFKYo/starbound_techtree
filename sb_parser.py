@@ -79,7 +79,7 @@ class SbParser(object):
                     for sub in sub_list:
                         self.recipes.add_edge(f'{friendly_name} (biome)', sub.strip('"'))
                 except StopIteration:
-                    # No names found in biome file
+                    # No block definitions found in biome file
                     pass
 
     def parse_centrifuge_data(self):
