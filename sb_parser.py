@@ -48,14 +48,7 @@ class SbParser(object):
         self.unfriendly_names = {}
 
     def parse_biome_data(self):
-        """
-        "mainBlock" : "redsand2",
-        "subBlocks" : [ "retexredsandstone", "redslate2" ],
-        "name" : "desertwastesdark",
-        "friendlyName" : "Red Wastes",
-
-        :return:
-        """
+        """Parses the mainBlock and subBlocks data found in the biome files."""
         for biome_file in chain(iglob('{0}/biomes/**/*.*'.format(SB_PATH), recursive=True),
                                 iglob('{0}/biomes/**/*.*'.format(FU_PATH), recursive=True)):
             with open(biome_file, 'r') as f:
