@@ -62,6 +62,9 @@ class SbParser(object):
                     name_line = read_file[1]
                     main_line = next(line for line in read_file if 'mainBlock' in line)
                     sub_line = next(line for line in read_file if 'subBlocks' in line)
+                    if '"op"' in main_line or '"op"' in sub_line:
+                        # Skipping patch operations lines when matching
+                        continue
                     filtered_name = name_line.split(':')[1].strip().strip('",')
                     try:
                         friendly_name = self.friendly_names[filtered_name]
@@ -361,6 +364,7 @@ def read_recipe(recipe_file):
 
 def main():
     parser = SbParser()
+    # parser.read_and_dump_recipes()
     # parser.read_and_dump_recipes()
 
     parser.read_friendly_names()
