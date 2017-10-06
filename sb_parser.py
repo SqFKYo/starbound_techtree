@@ -192,6 +192,9 @@ class SbParserGUI(wx.Frame):
     def _initialize(self):
         filtered_choices = []
         for name in nx.nodes(self.parser.recipes):
+            # Only take recipe results, not the materials
+            if not self.parser.recipes.predecessors(name):
+                continue
             try:
                 filtered_choices.append(self.parser.friendly_names[name])
             except KeyError:
