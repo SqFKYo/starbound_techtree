@@ -50,7 +50,7 @@ class SbParser(object):
 
     def parse_atmosphere_data(self):
         # ToDo parse Atmospheric Condenser recipes
-        pass
+        print('atmosphere data not read!')
 
     def parse_biome_data(self):
         """Parses the mainBlock and subBlocks data found in the biome files."""
@@ -157,7 +157,7 @@ class SbParser(object):
 
     def parse_liquid_data(self):
         # ToDo parse Liquid Collector recipes
-        pass
+        print('liquid data not read!')
 
     def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
@@ -192,6 +192,8 @@ class SbParser(object):
         self.parse_xeno_data()
         self.parse_harvest_data()
         self.parse_biome_data()
+        self.parse_liquid_data()
+        self.parse_atmosphere_data()
         nx.write_gpickle(self.recipes, recipe_file)
 
     def read_friendly_names(self):
@@ -364,10 +366,9 @@ def read_recipe(recipe_file):
 
 def main():
     parser = SbParser()
-    # parser.read_and_dump_recipes()
-    # parser.read_and_dump_recipes()
-
     parser.read_friendly_names()
+
+    # parser.read_and_dump_recipes()
     parser.read_recipes()
 
     app = wx.App()
