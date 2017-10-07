@@ -28,18 +28,18 @@ import networkx as nx
 import re
 import wx
 
-BIOME_FOLDER_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\biomes'
+BIOME_FOLDER_FU = r'C:\Games\Steam\steamapps\common\Starbound\FrackinUniverse\biomes'
 BIOME_FOLDER_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\biomes'
-CENTRIFUGE_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\centrifuge_recipes.config'
+CENTRIFUGE_DATA = r'C:\Games\Steam\steamapps\common\Starbound\FrackinUniverse\objects\generic\centrifuge_recipes.config'
 # Note: Comments have been removed from the drop data files to facilitate json loading
-DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\treasure\cropharvest.treasurepools.patch'
+DROP_DATA_FU = r'C:\Games\Steam\steamapps\common\Starbound\FrackinUniverse\treasure\cropharvest.treasurepools.patch'
 DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treasure\cropharvest.treasurepools'
-EXTRACTION_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\extractionlab_recipes.config'
+EXTRACTION_DATA = r'C:\Games\Steam\steamapps\common\Starbound\FrackinUniverse\objects\generic\extractionlab_recipes.config'
 FRIENDLY_NAMES = 'friendly_names.csv'
-FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
+FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\FrackinUniverse'
 RECIPES = 'recipes.yaml'
 SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
-XENO_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\xenostation_recipes.config'
+XENO_DATA = r'C:\Games\Steam\steamapps\common\Starbound\FrackinUniverse\objects\generic\xenostation_recipes.config'
 
 
 class SbParser(object):
