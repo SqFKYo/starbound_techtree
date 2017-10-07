@@ -37,7 +37,7 @@ DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treas
 EXTRACTION_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\extractionlab_recipes.config'
 FRIENDLY_NAMES = 'friendly_names.csv'
 FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
-RECIPES = 'recipes.pickle'
+RECIPES = 'recipes.edgelist'
 SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 XENO_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\xenostation_recipes.config'
 
@@ -380,7 +380,7 @@ def main():
     parser.read_friendly_names()
 
     parser.read_and_dump_recipes()
-    parser.read_recipes()
+    #parser.read_recipes()
 
     app = wx.App()
     SbParserGUI(None, title="Rick's brain on Starbound", parser=parser)
@@ -388,5 +388,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # dump_friendly_names(FRIENDLY_NAMES)
-    main()
+    dump_friendly_names(FRIENDLY_NAMES)
+    # main()
