@@ -160,8 +160,25 @@ class SbParser(object):
         print('liquid data not read!')
 
     def parse_materials(self):
-        # ToDo parse material drops for biomes
-        print('material data not read!')
+        """
+        Reads the .material files to change the found materialName nodes in the recipes into found itemDrop names.
+
+        This is done to facilitate easier searching for extractable blocks.
+        """
+        for material_file in chain(iglob('{0}/tiles/materials/**/*.material'.format(SB_PATH), recursive=True),
+                                   iglob('{0}/tiles/materials/**/*.material'.format(FU_PATH), recursive=True)):
+            with open(material_file, 'r') as f:
+                try:
+                    loaded_file = json.load(f)
+                    old_label = loaded_file['materialName']
+                    new_label = loaded_file['itemDrop']
+                    if old_label != new_label:
+                        self.recipes = nx.relabel_nodes(self.recipes, mapping={old_label: new_label})
+                except json.decoder.JSONDecodeError:
+                    print(f'JSONDecodeError at {material_file}!')
+                except KeyError:
+                    print(f'KeyError at {material_file}!')
+
 
     def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
