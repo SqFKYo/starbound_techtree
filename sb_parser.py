@@ -159,6 +159,10 @@ class SbParser(object):
         # ToDo parse Liquid Collector recipes
         print('liquid data not read!')
 
+    def parse_materials(self):
+        # ToDo parse material drops for biomes
+        print('material data not read!')
+
     def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
         for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True):
@@ -186,12 +190,15 @@ class SbParser(object):
 
     def read_and_dump_recipes(self, recipe_file=RECIPES):
         """Reads recipes and then pickles the graph to a file"""
+        self.parse_biome_data()
+        self.parse_materials()
+
         self.parse_recipes()
         self.parse_centrifuge_data()
         self.parse_extraction_data()
         self.parse_xeno_data()
         self.parse_harvest_data()
-        self.parse_biome_data()
+
         self.parse_liquid_data()
         self.parse_atmosphere_data()
         nx.write_gpickle(self.recipes, recipe_file)
@@ -358,9 +365,13 @@ def filter_description(description):
 def read_recipe(recipe_file):
     """Reads recipe json file and returns inputs and the output as tuple of generator exp and string"""
     with open(recipe_file, 'r') as f:
-        loaded_file = json.load(f)
-        output = loaded_file['output']['item']
-        inputs = (x['item'] for x in loaded_file['input'])
+        try:
+            loaded_file = json.load(f)
+            output = loaded_file['output']['item']
+            inputs = (x['item'] for x in loaded_file['input'])
+        except json.decoder.JSONDecodeError:
+            print(f"Couldn't read {recipe_file}")
+            inputs, output = ([None], 'None')
     return inputs, output
 
 
@@ -368,7 +379,7 @@ def main():
     parser = SbParser()
     parser.read_friendly_names()
 
-    # parser.read_and_dump_recipes()
+    parser.read_and_dump_recipes()
     parser.read_recipes()
 
     app = wx.App()
