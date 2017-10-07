@@ -37,7 +37,7 @@ DROP_DATA_SB = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets\treas
 EXTRACTION_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\extractionlab_recipes.config'
 FRIENDLY_NAMES = 'friendly_names.csv'
 FU_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU'
-RECIPES = 'recipes.edgelist'
+RECIPES = 'recipes.yaml'
 SB_PATH = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_Assets'
 XENO_DATA = r'C:\Games\Steam\steamapps\common\Starbound\Unpacked_FU\objects\generic\xenostation_recipes.config'
 
@@ -201,7 +201,7 @@ class SbParser(object):
 
         self.parse_liquid_data()
         self.parse_atmosphere_data()
-        nx.write_gpickle(self.recipes, recipe_file)
+        nx.write_yaml(self.recipes, recipe_file)
 
     def read_friendly_names(self):
         """Reads the more friendly names used within the game from the previously created file."""
@@ -215,7 +215,7 @@ class SbParser(object):
 
     def read_recipes(self, recipe_file=RECIPES):
         """Reads recipe from previously saved pickle file."""
-        self.recipes = nx.read_gpickle(recipe_file)
+        self.recipes = nx.read_yaml(recipe_file)
 
 
 class SbParserGUI(wx.Frame):
@@ -379,8 +379,8 @@ def main():
     parser = SbParser()
     parser.read_friendly_names()
 
-    parser.read_and_dump_recipes()
-    #parser.read_recipes()
+    # parser.read_and_dump_recipes()
+    parser.read_recipes()
 
     app = wx.App()
     SbParserGUI(None, title="Rick's brain on Starbound", parser=parser)
@@ -388,5 +388,5 @@ def main():
 
 
 if __name__ == '__main__':
-    dump_friendly_names(FRIENDLY_NAMES)
-    # main()
+    # dump_friendly_names(FRIENDLY_NAMES)
+    main()
