@@ -422,4 +422,7 @@ def main():
 
 if __name__ == '__main__':
     # dump_friendly_names(FRIENDLY_NAMES)
+
+    # Changing the cwd to the script folder
+    os.chdir(os.path.dirname(os.path.realpath(__file__)))
     main()
