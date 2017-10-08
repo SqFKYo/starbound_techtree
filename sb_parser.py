@@ -25,6 +25,7 @@ from glob import iglob
 from itertools import chain
 import json
 import networkx as nx
+import os
 import re
 import wx
 
@@ -46,7 +47,19 @@ class SbParser(object):
     def __init__(self):
         self.friendly_names = {}
         self.recipes = nx.DiGraph()
+        self.skippable_recipes = set()
         self.unfriendly_names = {}
+
+    def determine_skippable_recipes(self):
+        """If recipes are overwritten in FU, do not read them from standard SB"""
+        # ToDo skippable recipes
+        sb_recipes = set(os.path.basename(path)
+                         for path
+                         in iglob('{0}/recipes/**/*.recipe'.format(SB_PATH), recursive=True))
+        fu_recipes = set(os.path.basename(path)
+                         for path
+                         in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True))
+        self.skippable_recipes = sb_recipes.intersection(fu_recipes)
 
     def parse_atmosphere_data(self):
         # ToDo parse Atmospheric Condenser recipes
@@ -179,7 +192,6 @@ class SbParser(object):
                 except KeyError:
                     print(f'KeyError at {material_file}!')
 
-
     def parse_recipes(self):
         """Parses all the recipes into NetworkX DiGraph object."""
         for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(FU_PATH), recursive=True):
@@ -187,6 +199,9 @@ class SbParser(object):
             for material in materials:
                 self.recipes.add_edge(material, result)
         for recipe_file in iglob('{0}/recipes/**/*.recipe'.format(SB_PATH), recursive=True):
+            if os.path.basename(recipe_file) in self.skippable_recipes:
+                # Skipping recipe overwritten by FU
+                continue
             materials, result = read_recipe(recipe_file)
             for material in materials:
                 self.recipes.add_edge(material, result)
@@ -210,6 +225,7 @@ class SbParser(object):
         self.parse_biome_data()
         self.parse_materials()
 
+        self.determine_skippable_recipes()
         self.parse_recipes()
         self.parse_centrifuge_data()
         self.parse_extraction_data()
